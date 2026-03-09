@@ -1,33 +1,30 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const modelValue = defineModel({ type: Object, required: true });
 
 const unidades = ref([
-  'CAPS',
-  'Conselho Tutelar',
-  'CRAS',
-  'CREAS',
-  'Delegacia',
-  'Delegacia da Mulher',
-  'Poder Judiciário'
+  "CAPS",
+  "Conselho Tutelar",
+  "CRAS",
+  "CREAS",
+  "Delegacia",
+  "Delegacia da Mulher",
+  "Poder Judiciário",
 ]);
 
-defineEmits(['next']);
+defineEmits(["next"]);
 </script>
 
 <template>
   <div class="flex flex-col gap-6">
-
     <h3 class="text-lg font-semibold text-surface-700">
       Dados Gerais da Notificação
     </h3>
 
     <!-- SEÇÃO 1 -->
     <Fieldset legend="Dados do Registro">
-
       <div class="grid grid-cols-12 gap-4">
-
         <!-- servidor -->
         <div class="col-span-12 md:col-span-3">
           <FloatLabel variant="on">
@@ -67,16 +64,12 @@ defineEmits(['next']);
             showClear
           />
         </div>
-
       </div>
-
     </Fieldset>
 
     <!-- SEÇÃO 2 -->
     <Fieldset legend="Local da Ocorrência">
-
       <div class="grid grid-cols-12 gap-4">
-
         <!-- logradouro -->
         <div class="col-span-12 md:col-span-6">
           <FloatLabel variant="on">
@@ -104,7 +97,11 @@ defineEmits(['next']);
         <!-- complemento -->
         <div class="col-span-12 md:col-span-6">
           <FloatLabel variant="on">
-            <InputText id="complemento" v-model="modelValue.complemento" fluid />
+            <InputText
+              id="complemento"
+              v-model="modelValue.complemento"
+              fluid
+            />
             <label for="complemento">Complemento e/ou Referência</label>
           </FloatLabel>
         </div>
@@ -116,20 +113,21 @@ defineEmits(['next']);
             <label for="distrito">Distrito</label>
           </FloatLabel>
         </div>
-
       </div>
-
     </Fieldset>
 
     <Fieldset legend="Observações">
-        <div class="col-span-12 md:col-span-12">
-          <FloatLabel variant="on">
-            <Textarea id="observacoes" v-model="modelValue.observacoes" fluid />
-            <label for="observacoes">Campo para observações ou breve relato no caso de violência contra Crianças e Adolescentes (de acordo com a Lei da Escuta Protegida nº 13.431/17)
-            </label>
-          </FloatLabel>
-        </div>
-    </Fieldset >
+      <div class="col-span-12 md:col-span-12">
+        <FloatLabel variant="on">
+          <Textarea id="observacoes" v-model="modelValue.observacoes" fluid />
+          <label for="observacoes"
+            >Campo para observações ou breve relato no caso de violência contra
+            Crianças e Adolescentes (de acordo com a Lei da Escuta Protegida nº
+            13.431/17)
+          </label>
+        </FloatLabel>
+      </div>
+    </Fieldset>
 
     <div class="flex pt-4 justify-end">
       <Button
@@ -139,6 +137,5 @@ defineEmits(['next']);
         @click="$emit('next')"
       />
     </div>
-
   </div>
 </template>

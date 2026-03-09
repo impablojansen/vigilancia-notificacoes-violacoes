@@ -1,27 +1,30 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import DadosGerais from './components/form/DadosGerais.vue'
-import VioladoForm from './components/form/VioladoForm.vue'
+import { ref } from "vue";
+import DadosGerais from "./components/form/DadosGerais.vue";
+import VioladoForm from "./components/form/VioladoForm.vue";
+import ViolacaoForm from "./components/form/ViolacaoForm.vue";
 
 // Estado centralizado: Adicione aqui as chaves conforme for criando os componentes
 const formData = ref({
   // Dados Gerais
-  servidor: '',
+  servidor: "",
   data: null,
-  orgao: '',
+  orgao: "",
   unidade_notificadora: null,
 
   // Sujeito Violado
-  nome: '',
-  nome_social: '',
+  nome: "",
+  nome_social: "",
   data_nasc: null,
-  cpf: '',
+  cpf: "",
   is_migrante: false,
-  nacionalidade: '',
-  naturalidade: '',
+  nacionalidade: "",
+  naturalidade: "",
   raca: null,
-  ciclo_vida: null
-})
+  ciclo_vida: null,
+
+  violacoes: [],
+});
 </script>
 
 <template>
@@ -41,10 +44,21 @@ const formData = ref({
         </StepPanel>
 
         <StepPanel v-slot="{ activateCallback }" value="2">
-          <VioladoForm v-model="formData" @next="activateCallback('3')" @back="activateCallback('1')" />
+          <VioladoForm
+            v-model="formData"
+            @next="activateCallback('3')"
+            @back="activateCallback('1')"
+          />
         </StepPanel>
 
-        </StepPanels>
+        <StepPanel v-slot="{ activateCallback }" value="3">
+          <ViolacaoForm
+            v-model="formData"
+            @next="activateCallback('4')"
+            @back="activateCallback('2')"
+          />
+        </StepPanel>
+      </StepPanels>
     </Stepper>
   </div>
 </template>
