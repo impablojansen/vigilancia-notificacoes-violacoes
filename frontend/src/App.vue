@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const nome = ref('')
+const nome = ref<string>('')
 const nasc = ref<Date | null>(null)
 </script>
 
