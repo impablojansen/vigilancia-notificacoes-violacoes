@@ -52,4 +52,4 @@ export const VIOLACOES = [
       { label: "Exploração Sexual", value: "vs_exploracao" },
     ],
   },
-];
+] as const;

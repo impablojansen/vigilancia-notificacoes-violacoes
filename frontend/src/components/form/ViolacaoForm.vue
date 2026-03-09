@@ -1,15 +1,37 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
-import { VIOLACOES } from "@/constants/violacoes"
+import { VIOLACOES } from "@/constants/violacoes";
 
-const modelValue = defineModel({ type: Object, required: true });
+type ViolacaoRegistro = {
+  tipo: string;
+};
 
-const novaViolacao = ref(null);
+type ViolacaoItem = {
+  label: string;
+  value: string;
+};
 
+type ViolacaoGrupo = {
+  label: string;
+  simple?: boolean;
+  items: ViolacaoItem[];
+};
+
+const modelValue = defineModel<{
+  violacoes: ViolacaoRegistro[],
+  motivo_violencia?: string,
+  lesao_autoprovocada?: string,
+  meio_agressao?: string,
+  multipla_ocorrencia?: string
+}>({ required: true });
+
+const novaViolacao = ref<string | null>(null);
+
+/* MAPA PARA RESOLVER LABELS */
 const mapaViolacoes = computed(() => {
-  const map = new Map();
+  const map = new Map<string, string>();
 
-  VIOLACOES.forEach((grupo) => {
+  (VIOLACOES as ViolacaoGrupo[]).forEach((grupo) => {
     grupo.items.forEach((item) => {
       if (grupo.simple) {
         map.set(item.value, item.label);
@@ -22,15 +44,19 @@ const mapaViolacoes = computed(() => {
   return map;
 });
 
+/* REMOVE OPÇÕES JÁ UTILIZADAS */
 const opcoesDisponiveis = computed(() => {
   const usadas = modelValue.value.violacoes.map((v) => v.tipo);
 
-  return VIOLACOES.map((grupo) => ({
-    label: grupo.label,
-    items: grupo.items.filter((item) => !usadas.includes(item.value)),
-  })).filter((grupo) => grupo.items.length > 0);
+  return (VIOLACOES as ViolacaoGrupo[])
+    .map((grupo) => ({
+      label: grupo.label,
+      items: grupo.items.filter((item) => !usadas.includes(item.value)),
+    }))
+    .filter((grupo) => grupo.items.length > 0);
 });
 
+/* ADICIONAR */
 function adicionarViolacao() {
   if (!novaViolacao.value) return;
 
@@ -41,19 +67,12 @@ function adicionarViolacao() {
   novaViolacao.value = null;
 }
 
+/* REMOVER */
 function removerViolacao(index: number) {
   modelValue.value.violacoes.splice(index, 1);
 }
 
 const semOpcoes = computed(() => opcoesDisponiveis.value.length === 0);
-
-function obterLabel(tipo: string) {
-  for (const grupo of gruposViolacao) {
-    const encontrado = grupo.items.find(i => i.value === tipo)
-    if (encontrado) return `${grupo.label} - ${encontrado.label}`
-  }
-  return tipo
-}
 
 const emit = defineEmits(["next", "back"]);
 </script>
