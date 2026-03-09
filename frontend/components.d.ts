@@ -30,7 +30,6 @@ declare module 'vue' {
     StepPanel: typeof import('primevue/steppanel')['default']
     StepPanels: typeof import('primevue/steppanels')['default']
     Stepper: typeof import('primevue/stepper')['default']
-    SujeitoViolado: typeof import('./src/components/form/SujeitoViolado.vue')['default']
     Textarea: typeof import('primevue/textarea')['default']
     ViolacaoForm: typeof import('./src/components/form/ViolacaoForm.vue')['default']
     VioladoForm: typeof import('./src/components/form/VioladoForm.vue')['default']

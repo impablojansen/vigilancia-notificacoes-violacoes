@@ -6,17 +6,6 @@ type ViolacaoRegistro = {
   tipo: string;
 };
 
-type ViolacaoItem = {
-  label: string;
-  value: string;
-};
-
-type ViolacaoGrupo = {
-  label: string;
-  simple?: boolean;
-  items: ViolacaoItem[];
-};
-
 const modelValue = defineModel<{
   violacoes: ViolacaoRegistro[],
   motivo_violencia?: string,
@@ -31,12 +20,9 @@ const novaViolacao = ref<string | null>(null);
 const mapaViolacoes = computed(() => {
   const map = new Map<string, string>();
 
-const mapaViolacoes = computed(() => {
-  const map = new Map<string, string>();
-
   VIOLACOES.forEach((grupo) => {
     grupo.items.forEach((item) => {
-      if (grupo.simple) {
+      if ("simple" in grupo && grupo.simple) {
         map.set(item.value, item.label);
       } else {
         map.set(item.value, `${grupo.label} - ${item.label}`);
@@ -51,7 +37,7 @@ const mapaViolacoes = computed(() => {
 const opcoesDisponiveis = computed(() => {
   const usadas = modelValue.value.violacoes.map((v) => v.tipo);
 
-  return (VIOLACOES as ViolacaoGrupo[])
+  return VIOLACOES
     .map((grupo) => ({
       label: grupo.label,
       items: grupo.items.filter((item) => !usadas.includes(item.value)),
