@@ -31,7 +31,10 @@ const novaViolacao = ref<string | null>(null);
 const mapaViolacoes = computed(() => {
   const map = new Map<string, string>();
 
-  (VIOLACOES as ViolacaoGrupo[]).forEach((grupo) => {
+const mapaViolacoes = computed(() => {
+  const map = new Map<string, string>();
+
+  VIOLACOES.forEach((grupo) => {
     grupo.items.forEach((item) => {
       if (grupo.simple) {
         map.set(item.value, item.label);
