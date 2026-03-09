@@ -1,0 +1,23 @@
+services:
+    db:
+        image: postgres:17-alpine
+        environment:
+            - POSTGRES_DB=vigilancia
+            - POSTGRES_USER=admin
+            - POSTGRES_PASSWORD=password
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+
+    backend:
+        build:
+            context: ./backend
+            dockerfile: ../docker/backend.Dockerfile
+        volumes:
+            - ./backend:/app
+        ports:
+            - "8000:8000"
+        depends_on:
+            - db
+
+volumes:
+    postgres_data:
