@@ -5,6 +5,8 @@ import { createPinia } from 'pinia'
 import PrimeVue from 'primevue/config'
 import Aura from '@primeuix/themes/aura'
 
+import { primevuePtBR } from './locales/primevue-ptbr'
+
 
 import App from './App.vue'
 import router from './router'
@@ -17,7 +19,8 @@ app.use(PrimeVue, {
     options: {
       darkModeSelector: '.my-app-dark'
     }
-  }
+  },
+  locale: primevuePtBR
 })
 app.use(createPinia())
 app.use(router)

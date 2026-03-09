@@ -1,44 +1,50 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import DadosGerais from './components/form/DadosGerais.vue'
+import VioladoForm from './components/form/VioladoForm.vue'
 
-const nome = ref<string>('')
-const nasc = ref<Date | null>(null)
+// Estado centralizado: Adicione aqui as chaves conforme for criando os componentes
+const formData = ref({
+  // Dados Gerais
+  servidor: '',
+  data: null,
+  orgao: '',
+  unidade_notificadora: null,
+
+  // Sujeito Violado
+  nome: '',
+  nome_social: '',
+  data_nasc: null,
+  cpf: '',
+  is_migrante: false,
+  nacionalidade: '',
+  naturalidade: '',
+  raca: null,
+  ciclo_vida: null
+})
 </script>
 
 <template>
-    <div class="card flex justify-center">
-        <Stepper value="1" class="w-full md:w-30rem">
-            <StepList>
-                <Step value="1">Identificação</Step>
-                <Step value="2">Violação</Step>
-                <Step value="3">Encaminhamento</Step>
-            </StepList>
+  <div class="card flex justify-center p-4">
+    <Stepper value="1" class="w-full max-w-7xl">
+      <StepList>
+        <Step value="1">Dados Gerais</Step>
+        <Step value="2">Violado</Step>
+        <Step value="3">Violação</Step>
+        <Step value="4">Violador</Step>
+        <Step value="5">Acompanhamento</Step>
+      </StepList>
 
-            <StepPanels>
-                <StepPanel v-slot="{ activateCallback }" value="1">
-                    <div class="flex flex-col gap-4">
-                        <h3 class="text-lg">Dados do Notificado</h3>
+      <StepPanels>
+        <StepPanel v-slot="{ activateCallback }" value="1">
+          <DadosGerais v-model="formData" @next="activateCallback('2')" />
+        </StepPanel>
 
-                        <FloatLabel variant="on">
-                            <InputText id="nome" v-model="nome" fluid />
-                            <label for="nome">Nome Completo</label>
-                        </FloatLabel>
+        <StepPanel v-slot="{ activateCallback }" value="2">
+          <VioladoForm v-model="formData" @next="activateCallback('3')" @back="activateCallback('1')" />
+        </StepPanel>
 
-                        <div class="flex gap-2">
-                            <DatePicker v-model="nasc" placeholder="Data de Nascimento" fluid />
-                        </div>
-                    </div>
-
-                    <div class="flex pt-6 justify-end">
-                        <Button
-                            label="Próximo"
-                            icon="pi pi-arrow-right"
-                            iconPos="right"
-                            @click="activateCallback('2')"
-                        />
-                    </div>
-                </StepPanel>
-            </StepPanels>
-        </Stepper>
-    </div>
+        </StepPanels>
+    </Stepper>
+  </div>
 </template>

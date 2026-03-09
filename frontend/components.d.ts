@@ -12,15 +12,24 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Button: typeof import('primevue/button')['default']
+    Checkbox: typeof import('primevue/checkbox')['default']
+    DadosGerais: typeof import('./src/components/form/DadosGerais.vue')['default']
     DatePicker: typeof import('primevue/datepicker')['default']
     FloatLabel: typeof import('primevue/floatlabel')['default']
+    InputMask: typeof import('primevue/inputmask')['default']
     InputText: typeof import('primevue/inputtext')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Select: typeof import('primevue/select')['default']
+    StatusAcompanhamento: typeof import('./src/components/form/StatusAcompanhamento.vue')['default']
     Step: typeof import('primevue/step')['default']
     StepList: typeof import('primevue/steplist')['default']
     StepPanel: typeof import('primevue/steppanel')['default']
     StepPanels: typeof import('primevue/steppanels')['default']
     Stepper: typeof import('primevue/stepper')['default']
+    SujeitoViolado: typeof import('./src/components/form/SujeitoViolado.vue')['default']
+    ViolacaoForm: typeof import('./src/components/form/ViolacaoForm.vue')['default']
+    VioladoForm: typeof import('./src/components/form/VioladoForm.vue')['default']
+    VioladorForm: typeof import('./src/components/form/VioladorForm.vue')['default']
   }
 }
