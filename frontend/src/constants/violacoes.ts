@@ -25,6 +25,7 @@ export const VIOLACOES = [
   },
   {
     label: "Medida Socioeducativa em Meio Aberto",
+    simple: false,
     items: [
       { label: "Liberdade Assistida (L.A)", value: "mse_la" },
       { label: "Prestação de Serviços à Comunidade (P.S.C)", value: "mse_psc" },
@@ -32,6 +33,7 @@ export const VIOLACOES = [
   },
   {
     label: "Pessoa em Situação de Rua",
+    simple: false,
     items: [
       { label: "Residente", value: "psr_residente" },
       { label: "Imigrante", value: "psr_imigrante" },
@@ -39,6 +41,7 @@ export const VIOLACOES = [
   },
   {
     label: "Violência Doméstica",
+    simple: false,
     items: [
       { label: "Física", value: "vd_fisica" },
       { label: "Psicológica", value: "vd_psicologica" },
@@ -47,6 +50,7 @@ export const VIOLACOES = [
   },
   {
     label: "Violência Sexual",
+    simple: false,
     items: [
       { label: "Abuso", value: "vs_abuso" },
       { label: "Exploração Sexual", value: "vs_exploracao" },

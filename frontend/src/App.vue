@@ -3,6 +3,8 @@ import { ref } from "vue";
 import DadosGerais from "./components/form/DadosGerais.vue";
 import VioladoForm from "./components/form/VioladoForm.vue";
 import ViolacaoForm from "./components/form/ViolacaoForm.vue";
+import VioladorForm from "./components/form/VioladorForm.vue";
+import AcompanhamentoForm from "./components/form/AcompanhamentoForm.vue";
 
 // Estado centralizado: Adicione aqui as chaves conforme for criando os componentes
 const formData = ref({
@@ -23,7 +25,11 @@ const formData = ref({
   raca: null,
   ciclo_vida: null,
 
+  // Violações
   violacoes: [],
+
+  // Violador
+  violadores: [],
 });
 </script>
 
@@ -56,6 +62,22 @@ const formData = ref({
             v-model="formData"
             @next="activateCallback('4')"
             @back="activateCallback('2')"
+          />
+        </StepPanel>
+
+        <StepPanel v-slot="{ activateCallback }" value="4">
+          <VioladorForm
+            v-model="formData"
+            @next="activateCallback('5')"
+            @back="activateCallback('3')"
+          />
+        </StepPanel>
+
+        <StepPanel v-slot="{ activateCallback }" value="5">
+          <AcompanhamentoForm
+            v-model="formData"
+            @next="activateCallback('1')"
+            @back="activateCallback('4')"
           />
         </StepPanel>
       </StepPanels>

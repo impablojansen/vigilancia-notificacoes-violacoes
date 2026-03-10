@@ -1,0 +1,17 @@
+export const SERVICOS: string[] = [
+  "Serviço de Proteção Social Especial para Pessoas com Deficiência e suas famílias",
+  "Serviço de Proteção Social Especial para Pessoas com Deficiência",
+  "Serviço de Proteção e Atendimento Integral à Família - PAIF",
+  "Serviço de Acolhimento (Casa de Passagem)",
+  "Serviço de Proteção e Atendimento Especializado à Famílias e Indivíduos - PAEFI",
+  "Serviço de Acolhimento (Acolhimento Institucional)",
+  "Serviço Especializado em Abordagem Social",
+  "Serviço Especializado para Pessoas em Situação de Rua",
+  "Serviço de Proteção Social à Adolescentes em Cumprimento de Medida Socioeducativa de Liberdade Assistida (L.A) e de Prestação de Serviços à Comunidade (P.S.C)",
+  "Serviço de Convivência e Fortalecimento de Vínculos - 0 a 6 anos",
+  "Serviço de Convivência e Fortalecimento de Vínculos - 7 a 12 anos",
+  "Serviço de Convivência e Fortalecimento de Vínculos - 13 a 17 anos",
+  "Serviço de Convivência e Fortalecimento de Vínculos - 18 a 29 anos",
+  "Serviço de Convivência e Fortalecimento de Vínculos - 30 a 59 anos",
+  "Serviço de Convivência e Fortalecimento de Vínculos - Idoso",
+];
