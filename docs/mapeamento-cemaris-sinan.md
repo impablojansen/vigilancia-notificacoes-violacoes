@@ -60,7 +60,7 @@ Os campos foram classificados em quatro grupos:
 | local_coleta | sim | parcialmente | predominantemente CEMARIS | rede socioassistencial e outros órgãos |
 | local_ocorrencia | não estruturado igual | sim | predominantemente SINAN | campo relevante para análise |
 | municipio_notificacao | sim | sim | núcleo comum | territorialização |
-| municipio_ocorrencia | parcialmente | sim | núcleo comum | territorialização |
+| municipio_residencia | parcialmente | sim | núcleo comum | territorialização |
 | endereco_ocorrencia | parcialmente | sim | núcleo comum | importante para análise local |
 | bairro_ocorrencia | parcialmente | sim | núcleo comum | importante para dashboards |
 | zona_ocorrencia | não claro | sim | predominantemente SINAN | urbana/rural/periurbana |
@@ -71,13 +71,13 @@ Os campos foram classificados em quatro grupos:
 |---|---|---|---|---|
 | nome | sim | sim | núcleo comum | essencial |
 | nome_social | sim | sim | núcleo comum | importante |
-| nome_mae | sim | não claramente destacado no recorte lido | predominantemente CEMARIS | manter no modelo municipal |
+| nome_mae | sim | sim | núcleo comum | importante |
 | data_nascimento | sim | sim | núcleo comum | essencial |
 | idade | derivável | derivável | municipal estratégico | pode ser derivada |
 | sexo | sim | sim | núcleo comum | essencial |
 | estado_civil / situacao_conjugal | sim | sim | núcleo comum | importante |
 | raca_cor_etnia | sim | sim | núcleo comum | essencial para análises |
-| ocupacao | não claramente estruturado no CEMARIS | sim | predominantemente SINAN | manter no modelo municipal |
+| ocupacao | sim | sim | predominantemente SINAN | importante |
 | escolaridade / grau_instrucao | sim | sim | núcleo comum | importante |
 | ciclo_vida | sim | sim | núcleo comum | melhor derivar e/ou classificar |
 
@@ -100,6 +100,7 @@ Os campos foram classificados em quatro grupos:
 | cep | sim | sim | núcleo comum | importante |
 | logradouro | sim | sim | núcleo comum | importante |
 | numero | sim | sim | núcleo comum | importante |
+| distrito | não claramente | sim | predominantemente SINAN | territorialização |
 | bairro | sim | sim | núcleo comum | importante |
 | municipio_residencia | sim | sim | núcleo comum | territorialização |
 | uf_residencia | parcialmente | sim | núcleo comum | territorialização |
@@ -132,13 +133,13 @@ Os campos foram classificados em quatro grupos:
 | Campo municipal | CEMARIS | SINAN | Classificação | Observação |
 |---|---|---|---|---|
 | violacoes[] | sim | sim | núcleo comum | múltiplas violações por notificação |
-| motivacao_violencia | parcialmente | sim | núcleo comum | padronizar catálogo |
-| ocorreu_outras_vezes | não evidente no recorte do CEMARIS | sim | predominantemente SINAN | manter no núcleo |
+| motivacao_violencia | não | sim | predominantemente SINAN | padronizar catálogo |
+| ocorreu_outras_vezes | não | sim | predominantemente SINAN | manter no núcleo |
 | lesao_autoprovocada | não evidenciado | sim | predominantemente SINAN | manter bloco de saúde/condicional |
-| meio_agressao | parcialmente | sim | núcleo comum | relevante para análise |
+| meio_agressao | não | sim | predominantemente SINAN | relevante para análise |
 | local_ocorrencia_tipificado | não | sim | predominantemente SINAN | útil para dashboard |
 | violencia_relacionada_ao_trabalho | não | sim | predominantemente SINAN | bloco condicional |
-| cat | não | sim | predominantemente SINAN | bloco condicional |
+| cat (acidente de trabalho) | não | sim | predominantemente SINAN | bloco condicional |
 
 ### 8. Violência sexual
 
@@ -157,8 +158,7 @@ Os campos foram classificados em quatro grupos:
 | raca_etnia_violador | sim | não central | predominantemente CEMARIS | manter no modelo |
 | idade/ciclo_vida_violador | sim | sim | núcleo comum | importante |
 | parentesco_vinculo | sim | sim | núcleo comum | essencial |
-| suspeita_uso_alcool | sim | sim | núcleo comum | importante |
-| relacao_institucional | parcialmente | sim | núcleo comum | importante |
+| suspeita_uso_alcool | não | sim | predominantemente SINAN | importante |
 
 ### 10. Encaminhamento e acompanhamento
 
