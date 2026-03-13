@@ -60,7 +60,7 @@ Os campos foram classificados em quatro grupos:
 | local_coleta | sim | parcialmente | predominantemente CEMARIS | rede socioassistencial e outros órgãos |
 | local_ocorrencia | não estruturado igual | sim | predominantemente SINAN | campo relevante para análise |
 | municipio_notificacao | sim | sim | núcleo comum | territorialização |
-| municipio_residencia | parcialmente | sim | núcleo comum | territorialização |
+| municipio_ocorrencia | parcialmente | sim | núcleo comum | territorialização |
 | endereco_ocorrencia | parcialmente | sim | núcleo comum | importante para análise local |
 | bairro_ocorrencia | parcialmente | sim | núcleo comum | importante para dashboards |
 | zona_ocorrencia | não claro | sim | predominantemente SINAN | urbana/rural/periurbana |
@@ -77,7 +77,7 @@ Os campos foram classificados em quatro grupos:
 | sexo | sim | sim | núcleo comum | essencial |
 | estado_civil / situacao_conjugal | sim | sim | núcleo comum | importante |
 | raca_cor_etnia | sim | sim | núcleo comum | essencial para análises |
-| ocupacao | sim | sim | predominantemente SINAN | importante |
+| ocupacao | sim | sim | núcleo comum | importante |
 | escolaridade / grau_instrucao | sim | sim | núcleo comum | importante |
 | ciclo_vida | sim | sim | núcleo comum | melhor derivar e/ou classificar |
 
@@ -116,16 +116,15 @@ Os campos foram classificados em quatro grupos:
 | migrante | sim | parcialmente | núcleo comum | importante |
 | nacionalidade | sim | parcialmente | núcleo comum | importante |
 | naturalidade | sim | parcialmente | núcleo comum | importante |
-| orientacao_sexual | indireto via segmento/violação | sim | predominantemente SINAN | manter no núcleo |
+| segmento_lgbtqiapn | sim | sim, mas com outra nomenclatura | predominantemente SINAN | manter no núcleo; no SINAN aparece como identidade de genero, e no CEMARIS aparece de forma correlata, por meio de segmento LGBTQIAPN+ |
 | identidade_genero | sim | sim | núcleo comum | importante |
-| segmento_lgbtqiapn | sim | não como campo equivalente | predominantemente CEMARIS | manter opcional |
-| gestante | sim | não evidente no recorte lido | predominantemente CEMARIS | pode ser útil para ambos |
+| gestante | não | sim | predominantemente SINAN | estratégico |
 | pcd / deficiencia_transtorno | sim | sim | núcleo comum | essencial |
 | tipo_deficiencia | sim | sim | núcleo comum | importante |
 | transtorno_mental/comportamento | não estruturado igual | sim | predominantemente SINAN | bloco condicional |
 | grupo_populacional / povos tradicionais / GPTEs | sim | não | predominantemente CEMARIS | importante para assistência |
 | recebe_bpc | sim | não | predominantemente CEMARIS | assistência |
-| participa_transferencia_renda | sim | não | predominantly CEMARIS | assistência |
+| participa_transferencia_renda | sim | não | predominantemente CEMARIS | assistência |
 | medida_socioeducativa_meio_aberto | sim | não | predominantemente CEMARIS | assistência |
 
 ### 7. Violência / violação
