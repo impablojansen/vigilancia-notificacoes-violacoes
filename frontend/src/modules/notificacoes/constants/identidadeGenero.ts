@@ -1,0 +1,15 @@
+export const IDENTIDADE_GENERO_OPTIONS = [
+  { label: "Agênero", value: "AGENERO" },
+  { label: "Bigênero", value: "BIGENERO" },
+  { label: "Gênero-fluido", value: "GENERO_FLUIDO" },
+  { label: "Gênero não-binário", value: "GENERO_NAO_BINARIO" },
+  { label: "Gênero neutro", value: "GENERO_NEUTRO" },
+  { label: "Homem cisgênero", value: "HOMEM_CISGENERO" },
+  { label: "Homem transexual", value: "HOMEM_TRANSEXUAL" },
+  { label: "Homem transgênero", value: "HOMEM_TRANSGENERO" },
+  { label: "Mulher cisgênero", value: "MULHER_CISGENERO" },
+  { label: "Mulher transexual", value: "MULHER_TRANSEXUAL" },
+  { label: "Mulher transgênero", value: "MULHER_TRANSGENERO" },
+  { label: "Poligênero", value: "POLIGENERO" },
+  { label: "Sem informação", value: "SEM_INFORMACAO" },
+] as const;

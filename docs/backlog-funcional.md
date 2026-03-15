@@ -1,7 +1,7 @@
 # Backlog Funcional
 
 ## Fase 1 - MVP funcional
-- [ ] finalizar frontend do formulário
+- [x] finalizar frontend do formulário
 - [ ] revisar consistência dos nomes dos campos entre front e backend
 - [ ] finalizar serializers aninhados
 - [ ] criar endpoint de criação de notificação

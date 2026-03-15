@@ -1,0 +1,15 @@
+export const GRAU_INSTRUCAO_OPTIONS = [
+  { label: "Sem instrução", value: "SEM_INSTRUCAO" },
+  { label: "Não alfabetizado", value: "NAO_ALFABETIZADO" },
+  { label: "Alfabetizado", value: "ALFABETIZADO" },
+  { label: "Fundamental - Incompleto", value: "FUNDAMENTAL_INCOMPLETO" },
+  { label: "Fundamental - Completo", value: "FUNDAMENTAL_COMPLETO" },
+  { label: "Médio - Incompleto", value: "MEDIO_INCOMPLETO" },
+  { label: "Médio - Completo", value: "MEDIO_COMPLETO" },
+  { label: "Superior - Incompleto", value: "SUPERIOR_INCOMPLETO" },
+  { label: "Superior - Completo", value: "SUPERIOR_COMPLETO" },
+  { label: "Pós graduação", value: "POS_GRADUACAO" },
+  { label: "Mestrado", value: "MESTRADO" },
+  { label: "Doutorado", value: "DOUTORADO" },
+  { label: "Sem informação", value: "SEM_INFORMACAO" },
+] as const;
