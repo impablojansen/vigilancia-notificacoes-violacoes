@@ -5,4 +5,4 @@ export const RACA_COR_ETNIA_OPTIONS = [
   { label: "Indígena", value: "INDIGENA" },
   { label: "Amarelo", value: "AMARELO" },
   { label: "Sem informação", value: "SEM_INFORMACAO" },
-] as const;
+];

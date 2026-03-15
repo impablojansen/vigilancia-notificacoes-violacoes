@@ -17,4 +17,4 @@ export const PARENTESCO_VIOLADOR_OPTIONS = [
   { label: "Estado - Órgão Público", value: "ESTADO_ORGAO_PUBLICO" },
   { label: "Outro", value: "OUTRO" },
   { label: "Sem informação", value: "SEM_INFORMACAO" },
-] as const;
+];

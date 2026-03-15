@@ -10,13 +10,13 @@ const GESTANTE_OPTIONS = [
   { label: "Sim", value: "SIM" },
   { label: "Não", value: "NAO" },
   { label: "Sem informação", value: "SEM_INFORMACAO" },
-] as const;
+];
 
 const SIM_NAO_SEM_INFO_OPTIONS = [
   { label: "Sim", value: "SIM" },
   { label: "Não", value: "NAO" },
   { label: "Sem informação", value: "SEM_INFORMACAO" },
-] as const;
+];
 
 watch(
   () => modelValue.value.is_migrante,

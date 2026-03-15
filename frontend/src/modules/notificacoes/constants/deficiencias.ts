@@ -5,7 +5,7 @@ export const TIPO_DEFICIENCIA_OPTIONS = [
   { label: "Visual", value: "VISUAL" },
   { label: "Auditiva", value: "AUDITIVA" },
   { label: "Intelectual", value: "INTELECTUAL" },
-] as const;
+];
 
 export const DEFICIENCIAS_POR_TIPO: Record<
   string,

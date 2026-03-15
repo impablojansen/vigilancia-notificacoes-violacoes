@@ -10,4 +10,4 @@ export const MEIO_AGRESSAO_OPTIONS = [
   { label: "Objeto contundente", value: "OBJETO_CONTUNDENTE" },
   { label: "Objeto perfurocortante", value: "OBJETO_PERFUROCORTANTE" },
   { label: "Substância / Objeto quente", value: "SUBSTANCIA_OBJETO_QUENTE" },
-] as const;
+];

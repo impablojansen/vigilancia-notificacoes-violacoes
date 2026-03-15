@@ -5,9 +5,9 @@ export const CICLO_VIDA_OPTIONS = [
   { label: "18 a 29 anos", value: "FAIXA_18_29" },
   { label: "30 a 59 anos", value: "FAIXA_30_59" },
   { label: "60 anos ou mais", value: "FAIXA_60_OU_MAIS" },
-] as const;
+];
 
 export const CICLO_VIDA_COM_SEM_INFO_OPTIONS = [
   ...CICLO_VIDA_OPTIONS,
   { label: "Sem informação", value: "SEM_INFORMACAO" },
-] as const;
+];

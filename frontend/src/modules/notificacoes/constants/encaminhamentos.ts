@@ -14,4 +14,4 @@ export const ENCAMINHAMENTOS_OPTIONS = [
     value: "JUSTICA_INFANCIA_JUVENTUDE",
   },
   { label: "Outros", value: "OUTROS" },
-] as const;
+];

@@ -19,4 +19,4 @@ export const GPTES_OPTIONS = [
   { label: "Pessoas em situação de rua", value: "PESSOAS_SITUACAO_RUA" },
   { label: "Povos de Terreiro", value: "POVOS_TERREIRO" },
   { label: "Quilombolas", value: "QUILOMBOLAS" },
-] as const;
+];

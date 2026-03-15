@@ -11,11 +11,9 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AcompanhamentoForm: typeof import('./src/components/form/AcompanhamentoForm.vue')['default']
     Button: typeof import('primevue/button')['default']
     Checkbox: typeof import('primevue/checkbox')['default']
     Column: typeof import('primevue/column')['default']
-    DadosGerais: typeof import('./src/components/form/DadosGerais.vue')['default']
     DataTable: typeof import('primevue/datatable')['default']
     DatePicker: typeof import('primevue/datepicker')['default']
     Fieldset: typeof import('primevue/fieldset')['default']
@@ -33,8 +31,5 @@ declare module 'vue' {
     StepPanels: typeof import('primevue/steppanels')['default']
     Stepper: typeof import('primevue/stepper')['default']
     Textarea: typeof import('primevue/textarea')['default']
-    ViolacaoForm: typeof import('./src/components/form/ViolacaoForm.vue')['default']
-    VioladoForm: typeof import('./src/components/form/VioladoForm.vue')['default']
-    VioladorForm: typeof import('./src/components/form/VioladorForm.vue')['default']
   }
 }

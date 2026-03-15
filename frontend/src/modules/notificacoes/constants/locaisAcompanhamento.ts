@@ -11,4 +11,4 @@ export const LOCAIS_ACOMPANHAMENTO_OPTIONS = [
   },
   { label: "Outra Unidade para oferta do SCFV", value: "OUTRA_UNIDADE_SCFV" },
   { label: "Unidade de Acolhimento", value: "UNIDADE_ACOLHIMENTO" },
-] as const;
+];

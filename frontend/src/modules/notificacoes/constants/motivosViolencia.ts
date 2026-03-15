@@ -12,4 +12,4 @@ export const MOTIVO_VIOLENCIA_OPTIONS = [
   { label: "Xenofobia", value: "XENOFOBIA" },
   { label: "Outros", value: "OUTROS" },
   { label: "Ignorado", value: "IGNORADO" },
-] as const;
+];

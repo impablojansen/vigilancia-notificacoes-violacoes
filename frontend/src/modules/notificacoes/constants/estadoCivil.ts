@@ -6,4 +6,4 @@ export const ESTADO_CIVIL_OPTIONS = [
   { label: "União Estável", value: "UNIAO_ESTAVEL" },
   { label: "Viúvo(a)", value: "VIUVO" },
   { label: "Sem informação", value: "SEM_INFORMACAO" },
-] as const;
+];

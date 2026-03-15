@@ -12,4 +12,4 @@ export const IDENTIDADE_GENERO_OPTIONS = [
   { label: "Mulher transgênero", value: "MULHER_TRANSGENERO" },
   { label: "Poligênero", value: "POLIGENERO" },
   { label: "Sem informação", value: "SEM_INFORMACAO" },
-] as const;
+];

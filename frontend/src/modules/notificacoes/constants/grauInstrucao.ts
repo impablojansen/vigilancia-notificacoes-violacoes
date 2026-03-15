@@ -12,4 +12,4 @@ export const GRAU_INSTRUCAO_OPTIONS = [
   { label: "Mestrado", value: "MESTRADO" },
   { label: "Doutorado", value: "DOUTORADO" },
   { label: "Sem informação", value: "SEM_INFORMACAO" },
-] as const;
+];
