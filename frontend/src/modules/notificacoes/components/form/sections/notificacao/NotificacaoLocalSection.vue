@@ -19,11 +19,13 @@ const locaisColeta = ref([
 
 const locaisOcorrencia = ref([
   "Residência",
-  "Via pública",
+  "Habitação coletiva",
   "Escola",
-  "Unidade de saúde",
-  "Instituição de acolhimento",
-  "Órgão público",
+  "Local de prática esportiva",
+  "Bar ou similar",
+  "Via pública",
+  "Comércio/serviços",
+  "Indústrias/construção",
   "Outro",
 ]);
 
