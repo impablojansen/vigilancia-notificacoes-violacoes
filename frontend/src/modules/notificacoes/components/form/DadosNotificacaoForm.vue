@@ -3,6 +3,7 @@ import FormActions from "@/shared/components/form/FormActions.vue";
 import NotificacaoRegistroSection from "@/modules/notificacoes/components/form/sections/notificacao/NotificacaoRegistroSection.vue";
 import NotificacaoLocalSection from "@/modules/notificacoes/components/form/sections/notificacao/NotificacaoLocalSection.vue";
 import NotificacaoObservacoesSection from "@/modules/notificacoes/components/form/sections/notificacao/NotificacaoObservacoesSection.vue";
+import NotificacaoSaudeSection from "./sections/notificacao/NotificacaoSaudeSection.vue";
 
 const modelValue = defineModel({ type: Object, required: true });
 
@@ -16,6 +17,7 @@ defineEmits(["next"]);
     </h3>
 
     <NotificacaoRegistroSection v-model="modelValue" />
+    <NotificacaoSaudeSection v-model="modelValue" />
     <NotificacaoLocalSection v-model="modelValue" />
     <NotificacaoObservacoesSection v-model="modelValue" />
 

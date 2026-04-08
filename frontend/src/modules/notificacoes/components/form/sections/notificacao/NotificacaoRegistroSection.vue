@@ -18,17 +18,32 @@ const orgaos = ref([
 ]);
 
 const unidades = ref([
-  "CAPS",
+  "Centro de Convivência",
+  "Centro Especializado de Atendimento à Mulher/Casa da Mulher",
+  "Centro de Referência e Atendimento à Mulher (Saúde)",
+  "Centro POP",
+  "Conselho Municipal de Assistência Social",
+  "Conselho Municipal dos Direitos da Mulher",
+  "Conselho Municipal dos Direitos do Idoso",
   "Conselho Tutelar",
   "CRAS",
   "CREAS",
+  "DECECA",
   "Delegacia",
   "Delegacia da Mulher",
+  "Disque 100",
+  "Fórum",
+  "Ministério Público",
+  "Núcleo de Diversidade Sexual",
   "Poder Judiciário",
-  "UBS",
-  "Hospital",
-  "Escola",
-  "Outro",
+  "PSE - Proteção Social Especial",
+  "Rede Municipal de Educação",
+  "Secretaria de Assistência Social",
+  "Secretaria de Saúde",
+  "Unidade de Acolhimento Institucional - Lar Esperança",
+  "Unidade de Saúde",
+  "Unidade de Saúde Indígena",
+  "Outros"
 ]);
 </script>
 
