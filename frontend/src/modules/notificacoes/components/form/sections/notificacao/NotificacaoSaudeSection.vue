@@ -10,7 +10,7 @@ const modelValue = defineModel({ type: Object, required: true });
 <template>
     <FormSection legend="Campo exclusivo para Unidades de Saúde">
         <FormGrid>
-            <div class="col-span-12 md:col-span-4">
+            <div class="col-span-12 md:col-span-8">
                 <FloatLabel variant="on">
                     <InputText id="responsavel_preenchimento" v-model="modelValue.responsavel_preenchimento" fluid />
                     <label for="responsavel_preenchimento">
@@ -28,7 +28,7 @@ const modelValue = defineModel({ type: Object, required: true });
                 </FloatLabel>
             </div>
 
-            <div class="col-span-12 md:col-span-4">
+            <div class="col-span-12 md:col-span-8">
                 <FloatLabel variant="on">
                     <InputText id="responsavel_preenchimento" v-model="modelValue.responsavel_preenchimento" fluid />
                     <label for="responsavel_preenchimento">

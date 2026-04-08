@@ -83,24 +83,14 @@ const unidades = ref([
           <InputText
             id="hora_ocorrencia"
             v-model="modelValue.hora_ocorrencia"
-            placeholder="HH:MM"
+            placeholder="HH:MM (00:00 - 23:59 horas)"
             fluid
           />
           <label for="hora_ocorrencia">Hora da ocorrência</label>
         </FloatLabel>
       </div>
 
-      <div class="col-span-12 md:col-span-4">
-        <Select
-          v-model="modelValue.orgao_notificante"
-          :options="orgaos"
-          placeholder="Órgão notificante"
-          showClear
-          fluid
-        />
-      </div>
-
-      <div class="col-span-12 md:col-span-4">
+      <div class="col-span-12 md:col-span-6">
         <Select
           v-model="modelValue.unidade_notificadora"
           :options="unidades"
@@ -111,7 +101,7 @@ const unidades = ref([
         />
       </div>
 
-      <div class="col-span-12 md:col-span-4">
+      <div class="col-span-12 md:col-span-6">
         <FloatLabel variant="on">
           <InputText
             id="responsavel_preenchimento"

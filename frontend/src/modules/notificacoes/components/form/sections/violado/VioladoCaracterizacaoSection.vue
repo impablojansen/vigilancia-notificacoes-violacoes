@@ -3,7 +3,6 @@ import FormSection from "@/shared/components/form/FormSection.vue";
 import FormGrid from "@/shared/components/form/FormGrid.vue";
 
 import { SEXO_OPTIONS } from "@/modules/notificacoes/constants/sexo";
-import { CICLO_VIDA_OPTIONS } from "@/modules/notificacoes/constants/cicloVida";
 import { RACA_COR_ETNIA_OPTIONS } from "@/modules/notificacoes/constants/racaCorEtnia";
 import { ESTADO_CIVIL_OPTIONS } from "@/modules/notificacoes/constants/estadoCivil";
 import { GRAU_INSTRUCAO_OPTIONS } from "@/modules/notificacoes/constants/grauInstrucao";
@@ -23,18 +22,6 @@ const modelValue = defineModel({ type: Object, required: true });
           optionLabel="label"
           optionValue="value"
           placeholder="Sexo"
-          showClear
-          fluid
-        />
-      </div>
-
-      <div class="col-span-12 md:col-span-3">
-        <Select
-          v-model="modelValue.ciclo_vida"
-          :options="CICLO_VIDA_OPTIONS"
-          optionLabel="label"
-          optionValue="value"
-          placeholder="Ciclo de Vida"
           showClear
           fluid
         />
@@ -64,7 +51,7 @@ const modelValue = defineModel({ type: Object, required: true });
         />
       </div>
 
-      <div class="col-span-12 md:col-span-4">
+      <div class="col-span-12 md:col-span-3">
         <Select
           v-model="modelValue.grau_instrucao"
           :options="GRAU_INSTRUCAO_OPTIONS"
@@ -76,7 +63,7 @@ const modelValue = defineModel({ type: Object, required: true });
         />
       </div>
 
-      <div class="col-span-12 md:col-span-4">
+      <div class="col-span-12 md:col-span-3">
         <FloatLabel variant="on">
           <InputText id="ocupacao" v-model="modelValue.ocupacao" fluid />
           <label for="ocupacao">Ocupação</label>

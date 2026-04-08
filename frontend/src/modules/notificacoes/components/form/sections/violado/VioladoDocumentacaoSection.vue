@@ -6,7 +6,7 @@ const modelValue = defineModel({ type: Object, required: true });
 </script>
 
 <template>
-  <FormSection legend="Documentação">
+  <FormSection legend="Documentação e Contato">
     <FormGrid>
       <div class="col-span-12 md:col-span-3">
         <InputMask

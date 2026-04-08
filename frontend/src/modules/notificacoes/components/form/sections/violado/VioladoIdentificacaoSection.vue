@@ -8,21 +8,14 @@ const modelValue = defineModel({ type: Object, required: true });
 <template>
   <FormSection legend="Identificação">
     <FormGrid>
-      <div class="col-span-12 md:col-span-3">
+      <div class="col-span-12 md:col-span-8">
         <FloatLabel variant="on">
           <InputText id="nome" v-model="modelValue.nome" fluid />
           <label for="nome">Nome Completo</label>
         </FloatLabel>
       </div>
 
-      <div class="col-span-12 md:col-span-3">
-        <FloatLabel variant="on">
-          <InputText id="nome_social" v-model="modelValue.nome_social" fluid />
-          <label for="nome_social">Nome Social</label>
-        </FloatLabel>
-      </div>
-
-      <div class="col-span-12 md:col-span-3">
+      <div class="col-span-12 md:col-span-4">
         <DatePicker
           v-model="modelValue.data_nascimento"
           placeholder="Data de Nascimento"
@@ -33,7 +26,16 @@ const modelValue = defineModel({ type: Object, required: true });
         />
       </div>
 
-      <div class="col-span-12 md:col-span-3">
+      <div class="col-span-12 md:col-span-6">
+        <FloatLabel variant="on">
+          <InputText id="nome_social" v-model="modelValue.nome_social" fluid />
+          <label for="nome_social">Nome Social</label>
+        </FloatLabel>
+      </div>
+
+
+
+      <div class="col-span-12 md:col-span-6">
         <FloatLabel variant="on">
           <InputText id="nome_mae" v-model="modelValue.nome_mae" fluid />
           <label for="nome_mae">Nome da Mãe</label>
