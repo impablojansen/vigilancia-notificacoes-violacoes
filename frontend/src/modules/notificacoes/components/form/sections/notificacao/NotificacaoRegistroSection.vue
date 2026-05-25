@@ -50,7 +50,7 @@ const unidades = ref([
 <template>
   <FormSection legend="Identificação do Registro">
     <FormGrid>
-      <div class="col-span-12 md:col-span-4">
+      <div class="col-span-12 md:col-span-3">
         <FloatLabel variant="on">
           <DatePicker
             id="data_notificacao"
@@ -64,7 +64,7 @@ const unidades = ref([
         </FloatLabel>
       </div>
 
-      <div class="col-span-12 md:col-span-4">
+      <div class="col-span-12 md:col-span-3">
         <FloatLabel variant="on">
           <DatePicker
             id="data_ocorrencia"
@@ -78,7 +78,7 @@ const unidades = ref([
         </FloatLabel>
       </div>
 
-      <div class="col-span-12 md:col-span-4">
+      <div class="col-span-12 md:col-span-3">
         <FloatLabel variant="on">
           <InputText
             id="hora_ocorrencia"
@@ -90,7 +90,7 @@ const unidades = ref([
         </FloatLabel>
       </div>
 
-      <div class="col-span-12 md:col-span-6">
+      <div class="col-span-12 md:col-span-3">
         <Select
           v-model="modelValue.unidade_notificadora"
           :options="unidades"
@@ -101,18 +101,6 @@ const unidades = ref([
         />
       </div>
 
-      <div class="col-span-12 md:col-span-6">
-        <FloatLabel variant="on">
-          <InputText
-            id="responsavel_preenchimento"
-            v-model="modelValue.responsavel_preenchimento"
-            fluid
-          />
-          <label for="responsavel_preenchimento">
-            Responsável pelo preenchimento
-          </label>
-        </FloatLabel>
-      </div>
     </FormGrid>
   </FormSection>
 </template>

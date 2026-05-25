@@ -15,7 +15,7 @@ const modelValue = defineModel<{
 </script>
 
 <template>
-  <FormSection legend="Qualificação da Violência/Violação">
+  <FormSection legend="Em caso de violência, responda os campos abaixo">
     <FormGrid>
       <div class="col-span-12 md:col-span-7">
         <Select

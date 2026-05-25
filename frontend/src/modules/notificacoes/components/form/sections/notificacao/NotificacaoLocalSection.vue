@@ -22,7 +22,7 @@ const zonas = ref(["Urbana", "Rural", "Periurbana"]);
 </script>
 
 <template>
-  <FormSection legend="Local da Ocorrência e Coleta">
+  <FormSection legend="Local da Ocorrência">
     <FormGrid>
 
       <div class="col-span-12 md:col-span-4">

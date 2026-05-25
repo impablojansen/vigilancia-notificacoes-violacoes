@@ -8,6 +8,7 @@ export const VIOLACOES = [
       { label: "Assédio Moral", value: "assedio_moral" },
       { label: "Cárcere Privado", value: "carcere_privado" },
       { label: "Exploração Patrimonial", value: "exploracao_patrimonial" },
+      { label: "Intervenção Legal", value: "intervencao_legal" },
       {
         label: "Uso de Álcool e Outras Drogas (Risco Pessoal e Social)",
         value: "risco_alcool_drogas",
@@ -19,7 +20,7 @@ export const VIOLACOES = [
       { label: "Tráfico de Seres Humanos", value: "trafico_humano" },
       {
         label: "Violação por Identidade de Gênero / Orientação Sexual",
-        value: "violation_genero_orientacao",
+        value: "violacao_genero_orientacao_sexual",
       },
     ],
   },
@@ -52,7 +53,9 @@ export const VIOLACOES = [
     label: "Violência Sexual",
     simple: false,
     items: [
-      { label: "Abuso", value: "vs_abuso" },
+      { label: "Assédio Sexual", value: "vs_assedio" },
+      { label: "Estupro", value: "vs_estupro" },
+      { label: "Pornografia Infantil", value: "vs_pornografia_infantil" },
       { label: "Exploração Sexual", value: "vs_exploracao" },
     ],
   },

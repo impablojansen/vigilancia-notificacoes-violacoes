@@ -11,5 +11,5 @@ export const MOTIVO_VIOLENCIA_OPTIONS = [
   { label: "Situação de rua", value: "SITUACAO_DE_RUA" },
   { label: "Xenofobia", value: "XENOFOBIA" },
   { label: "Outros", value: "OUTROS" },
-  { label: "Ignorado", value: "IGNORADO" },
+  { label: "Sem informação", value: "SEM_INFORMACAO" },
 ];

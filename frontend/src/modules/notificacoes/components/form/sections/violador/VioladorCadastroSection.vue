@@ -19,7 +19,21 @@ const novoViolador = ref({
   suspeita_uso_alcool: null,
 });
 
+const podeAdicionarViolador = computed(() => {
+  return Boolean(
+    novoViolador.value.sexo &&
+      novoViolador.value.raca_etnia &&
+      novoViolador.value.parentesco &&
+      novoViolador.value.ciclo_vida &&
+      novoViolador.value.suspeita_uso_alcool
+  );
+});
+
 function adicionarViolador() {
+  if (!podeAdicionarViolador.value) {
+    return;
+  }
+
   modelValue.value.violadores.push({ ...novoViolador.value });
 
   novoViolador.value = {
@@ -114,6 +128,7 @@ const mapaCicloVida = computed(() => criarMapa(CICLO_VIDA_COM_SEM_INFO_OPTIONS))
         <Button
           label="Adicionar violador"
           icon="pi pi-plus"
+          :disabled="!podeAdicionarViolador"
           @click="adicionarViolador"
         />
       </div>

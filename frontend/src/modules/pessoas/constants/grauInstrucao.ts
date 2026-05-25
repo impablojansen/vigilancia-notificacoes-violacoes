@@ -1,0 +1,16 @@
+export const GRAU_INSTRUCAO_OPTIONS = [
+  { label: "Não alfabetizado(a)", value: "NAO_ALFABETIZADO" },
+  { label: "1ª a 4ª série incompleta do E. Fundamental", value: "FUNDAMENTAL_INCOMPLETO_1" },
+  { label: "2ª a 4ª série completa do E. Fundamental", value: "FUNDAMENTAL_COMPLETO_1" },
+  { label: "5ª a 8ª série incompleta do E. Fundamental", value: "FUNDAMENTAL_INCOMPLETO_2" },
+  { label: "Ensino Fundamental Completo", value: "FUNDAMENTAL_COMPLETO_2" },
+  { label: "Ensino Médio Incompleto", value: "MEDIO_INCOMPLETO" },
+  { label: "Ensino Médio Completo", value: "MEDIO_COMPLETO" },
+  { label: "Ensino Superior Incompleto", value: "SUPERIOR_INCOMPLETO" },
+  { label: "Ensino Superior Completo", value: "SUPERIOR_COMPLETO" },
+  { label: "Pós graduação (Especialização)", value: "POS_GRADUACAO" },
+  { label: "Mestrado", value: "MESTRADO" },
+  { label: "Doutorado", value: "DOUTORADO" },
+  { label: "Não se aplica", value: "NAO_APLICA" },
+  { label: "Sem informação", value: "SEM_INFORMACAO" },
+];

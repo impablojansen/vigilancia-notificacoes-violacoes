@@ -17,9 +17,7 @@ defineEmits(["next"]);
     </h3>
 
     <NotificacaoRegistroSection v-model="modelValue" />
-    <NotificacaoSaudeSection v-model="modelValue" />
     <NotificacaoLocalSection v-model="modelValue" />
-    <NotificacaoObservacoesSection v-model="modelValue" />
 
     <FormActions @next="$emit('next')" />
   </div>

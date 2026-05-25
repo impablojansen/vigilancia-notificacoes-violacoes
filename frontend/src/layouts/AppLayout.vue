@@ -9,8 +9,21 @@ const navItems = [
     to: "/notificacoes/nova",
     icon: "pi pi-plus-circle",
   },
-  { label: "Notificações", to: "/notificacoes", icon: "pi pi-file-edit" },
-  { label: "Dashboard", to: "/dashboard", icon: "pi pi-chart-bar" },
+  {
+    label: "Pessoas",
+    to: "/pessoas",
+    icon: "pi pi-user",
+  },
+  {
+    label: "Notificações",
+    to: "/notificacoes",
+    icon: "pi pi-file-edit",
+  },
+  {
+    label: "Dashboard",
+    to: "/dashboard",
+    icon: "pi pi-chart-bar",
+  },
 ];
 
 function closeMobileMenu() {

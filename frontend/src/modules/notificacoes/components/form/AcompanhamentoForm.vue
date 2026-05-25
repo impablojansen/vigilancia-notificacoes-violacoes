@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import FormActions from "@/shared/components/form/FormActions.vue";
-import AcompanhamentoStatusSection from "@/modules/notificacoes/components/form/sections/acompanhamento/AcompanhamentoStatusSection.vue";
-import AcompanhamentoSituacaoSection from "@/modules/notificacoes/components/form/sections/acompanhamento/AcompanhamentoSituacaoSection.vue";
+import AcompanhamentoAssistenciaSection from "@/modules/notificacoes/components/form/sections/acompanhamento/AcompanhamentoAssistenciaSection.vue";
+import AcompanhamentoSaudeSection from "@/modules/notificacoes/components/form/sections/acompanhamento/AcompanhamentoSaudeSection.vue";
 import AcompanhamentoEncaminhamentosSection from "@/modules/notificacoes/components/form/sections/acompanhamento/AcompanhamentoEncaminhamentosSection.vue";
 import AcompanhamentoObservacoesSection from "@/modules/notificacoes/components/form/sections/acompanhamento/AcompanhamentoObservacoesSection.vue";
 
@@ -16,9 +16,9 @@ defineEmits(["next", "back"]);
       Dados do Acompanhamento
     </h3>
 
-    <AcompanhamentoStatusSection v-model="modelValue" />
     <AcompanhamentoEncaminhamentosSection v-model="modelValue" />
-    <AcompanhamentoSituacaoSection v-model="modelValue" />
+    <AcompanhamentoAssistenciaSection v-model="modelValue" />
+    <AcompanhamentoSaudeSection v-model="modelValue" />
     <AcompanhamentoObservacoesSection v-model="modelValue" />
 
     <FormActions showBack @back="$emit('back')" @next="$emit('next')" />

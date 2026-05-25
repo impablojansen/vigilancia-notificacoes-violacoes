@@ -1,67 +1,103 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory, type RouteRecordRaw } from "vue-router";
 
 import AppLayout from "@/layouts/AppLayout.vue";
 import AuthLayout from "@/layouts/AuthLayout.vue";
 
 import LoginView from "@/modules/auth/views/LoginView.vue";
 import NotificacaoCreateView from "@/modules/notificacoes/views/NotificacaoCreateView.vue";
+import PessoasListView from "@/modules/pessoas/views/PessoasListView.vue";
+import PessoaFormView from "@/modules/pessoas/components/form/PessoaForm.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
+
+function emConstrucao(titulo: string, descricao: string) {
+  return {
+    template: `
+      <div class="rounded-2xl border bg-white p-6">
+        <h2 class="mb-2 text-xl font-semibold">${titulo}</h2>
+        <p class="text-surface-600">${descricao}</p>
+      </div>
+    `,
+  };
+}
+
+const routes: RouteRecordRaw[] = [
+  {
+    path: "/login",
+    component: AuthLayout,
+    children: [
+      {
+        path: "",
+        name: "login",
+        component: LoginView,
+      },
+    ],
+  },
+  {
+    path: "/",
+    component: AppLayout,
+    children: [
+      {
+        path: "",
+        redirect: { name: "notificacao-create" },
+      },
+      {
+        path: "notificacoes",
+        children: [
+          {
+            path: "",
+            name: "notificacao-list",
+            component: emConstrucao(
+              "Notificações",
+              "Tela de listagem em construção."
+            ),
+          },
+          {
+            path: "nova",
+            name: "notificacao-create",
+            component: NotificacaoCreateView,
+          },
+        ],
+      },
+      {
+        path: "pessoas",
+        children: [
+          {
+            path: "",
+            name: "pessoas-list",
+            component: PessoasListView,
+          },
+          {
+            path: "nova",
+            name: "pessoas-create",
+            component: PessoaFormView,            
+          },
+          {
+            path: ":id/editar",
+            name: "pessoas-edit",
+            component: PessoasListView,
+          },
+        ],
+      },
+      {
+        path: "dashboard",
+        name: "dashboard",
+        component: emConstrucao(
+          "Dashboard",
+          "Dashboard em construção."
+        ),
+      },
+    ],
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "not-found",
+    component: NotFoundView,
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes: [
-    {
-      path: "/",
-      redirect: "/notificacoes/nova",
-    },
-    {
-      path: "/login",
-      component: AuthLayout,
-      children: [
-        {
-          path: "",
-          name: "login",
-          component: LoginView,
-        },
-      ],
-    },
-    {
-      path: "/",
-      component: AppLayout,
-      children: [
-        {
-          path: "notificacoes/nova",
-          name: "notificacao-create",
-          component: NotificacaoCreateView,
-        },
-        {
-          path: "notificacoes",
-          name: "notificacao-list",
-          component: {
-            template: `<div class="rounded-2xl border bg-white p-6">
-                              <h2 class="text-xl font-semibold mb-2">Notificações</h2>
-                              <p class="text-surface-600">Tela de listagem em construção.</p>
-                              </div>`,
-          },
-        },
-        {
-          path: "dashboard",
-          name: "dashboard",
-          component: {
-            template: `<div class="rounded-2xl border bg-white p-6">
-                              <h2 class="text-xl font-semibold mb-2">Dashboard</h2>
-                              <p class="text-surface-600">Dashboard em construção.</p>
-                              </div>`,
-          },
-        },
-      ],
-    },
-    {
-      path: "/:pathMatch(.*)*",
-      name: "not-found",
-      component: NotFoundView,
-    },
-  ],
+  routes,
 });
 
 export default router;
