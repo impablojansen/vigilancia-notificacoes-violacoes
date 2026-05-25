@@ -6,7 +6,7 @@ import { SEXO_OPTIONS } from "@/modules/notificacoes/constants/sexo";
 import { RACA_COR_ETNIA_OPTIONS } from "@/modules/notificacoes/constants/racaCorEtnia";
 import { ESTADO_CIVIL_OPTIONS } from "@/modules/notificacoes/constants/estadoCivil";
 import { GRAU_INSTRUCAO_OPTIONS } from "@/modules/notificacoes/constants/grauInstrucao";
-import { SEGMENTO_LGBT_OPTIONS } from "@/modules/notificacoes/constants/segmentoLgbt";
+import { ORIENTACAO_SEXUAL_OPTIONS } from "@/modules/notificacoes/constants/orientacaoSexual";
 import { IDENTIDADE_GENERO_OPTIONS } from "@/modules/notificacoes/constants/identidadeGenero";
 
 const modelValue = defineModel({ type: Object, required: true });
@@ -64,25 +64,6 @@ const modelValue = defineModel({ type: Object, required: true });
       </div>
 
       <div class="col-span-12 md:col-span-3">
-        <FloatLabel variant="on">
-          <InputText id="ocupacao" v-model="modelValue.ocupacao" fluid />
-          <label for="ocupacao">Ocupação</label>
-        </FloatLabel>
-      </div>
-
-      <div class="col-span-12 md:col-span-4">
-        <Select
-          v-model="modelValue.segmento_lgbtqiapn"
-          :options="SEGMENTO_LGBT_OPTIONS"
-          optionLabel="label"
-          optionValue="value"
-          placeholder="Segmento LGBTQIAPN+"
-          showClear
-          fluid
-        />
-      </div>
-
-      <div class="col-span-12 md:col-span-6">
         <Select
           v-model="modelValue.identidade_genero"
           :options="IDENTIDADE_GENERO_OPTIONS"
@@ -92,6 +73,25 @@ const modelValue = defineModel({ type: Object, required: true });
           showClear
           fluid
         />
+      </div>
+
+      <div class="col-span-12 md:col-span-3">
+        <Select
+          v-model="modelValue.segmento_lgbtqiapn"
+          :options="ORIENTACAO_SEXUAL_OPTIONS"
+          optionLabel="label"
+          optionValue="value"
+          placeholder="Orientação Sexual"
+          showClear
+          fluid
+        />
+      </div>
+
+      <div class="col-span-12 md:col-span-3">
+        <FloatLabel variant="on">
+          <InputText id="ocupacao" v-model="modelValue.ocupacao" fluid />
+          <label for="ocupacao">Ocupação</label>
+        </FloatLabel>
       </div>
     </FormGrid>
   </FormSection>

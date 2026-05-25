@@ -11,6 +11,6 @@ export const GRAU_INSTRUCAO_OPTIONS = [
   { label: "Pós graduação (Especialização)", value: "POS_GRADUACAO" },
   { label: "Mestrado", value: "MESTRADO" },
   { label: "Doutorado", value: "DOUTORADO" },
-  { label: "Ignorado", value: "IGNORADO" },
+  { label: "Não se aplica", value: "NAO_APLICA" },
   { label: "Sem informação", value: "SEM_INFORMACAO" },
 ];
