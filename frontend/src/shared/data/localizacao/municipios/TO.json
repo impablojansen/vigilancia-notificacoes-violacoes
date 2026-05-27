@@ -1,0 +1,558 @@
+[
+  {
+    "label": "ABREULANDIA",
+    "value": "1700251"
+  },
+  {
+    "label": "AGUIARNOPOLIS",
+    "value": "1700301"
+  },
+  {
+    "label": "ALIANCA DO TOCANTINS",
+    "value": "1700350"
+  },
+  {
+    "label": "ALMAS",
+    "value": "1700400"
+  },
+  {
+    "label": "ALVORADA",
+    "value": "1700707"
+  },
+  {
+    "label": "ANANAS",
+    "value": "1701002"
+  },
+  {
+    "label": "ANGICO",
+    "value": "1701051"
+  },
+  {
+    "label": "APARECIDA DO RIO NEGRO",
+    "value": "1701101"
+  },
+  {
+    "label": "ARAGOMINAS",
+    "value": "1701309"
+  },
+  {
+    "label": "ARAGUACEMA",
+    "value": "1701903"
+  },
+  {
+    "label": "ARAGUACU",
+    "value": "1702000"
+  },
+  {
+    "label": "ARAGUAINA",
+    "value": "1702109"
+  },
+  {
+    "label": "ARAGUANA",
+    "value": "1702158"
+  },
+  {
+    "label": "ARAGUATINS",
+    "value": "1702208"
+  },
+  {
+    "label": "ARAPOEMA",
+    "value": "1702307"
+  },
+  {
+    "label": "ARRAIAS",
+    "value": "1702406"
+  },
+  {
+    "label": "AUGUSTINOPOLIS",
+    "value": "1702554"
+  },
+  {
+    "label": "AURORA DO TOCANTINS",
+    "value": "1702703"
+  },
+  {
+    "label": "AXIXA DO TOCANTINS",
+    "value": "1702901"
+  },
+  {
+    "label": "BABACULANDIA",
+    "value": "1703008"
+  },
+  {
+    "label": "BANDEIRANTES DO TOCANTINS",
+    "value": "1703057"
+  },
+  {
+    "label": "BARRA DO OURO",
+    "value": "1703073"
+  },
+  {
+    "label": "BARROLANDIA",
+    "value": "1703107"
+  },
+  {
+    "label": "BERNARDO SAYAO",
+    "value": "1703206"
+  },
+  {
+    "label": "BOM JESUS DO TOCANTINS",
+    "value": "1703305"
+  },
+  {
+    "label": "BRASILANDIA DO TOCANTINS",
+    "value": "1703602"
+  },
+  {
+    "label": "BREJINHO DE NAZARE",
+    "value": "1703701"
+  },
+  {
+    "label": "BURITI DO TOCANTINS",
+    "value": "1703800"
+  },
+  {
+    "label": "CACHOEIRINHA",
+    "value": "1703826"
+  },
+  {
+    "label": "CAMPOS LINDOS",
+    "value": "1703842"
+  },
+  {
+    "label": "CARIRI DO TOCANTINS",
+    "value": "1703867"
+  },
+  {
+    "label": "CARMOLANDIA",
+    "value": "1703883"
+  },
+  {
+    "label": "CARRASCO BONITO",
+    "value": "1703891"
+  },
+  {
+    "label": "CASEARA",
+    "value": "1703909"
+  },
+  {
+    "label": "CENTENARIO",
+    "value": "1704105"
+  },
+  {
+    "label": "CHAPADA DA NATIVIDADE",
+    "value": "1705102"
+  },
+  {
+    "label": "CHAPADA DE AREIA",
+    "value": "1704600"
+  },
+  {
+    "label": "COLINAS DO TOCANTINS",
+    "value": "1705508"
+  },
+  {
+    "label": "COLMEIA",
+    "value": "1716703"
+  },
+  {
+    "label": "COMBINADO",
+    "value": "1705557"
+  },
+  {
+    "label": "CONCEICAO DO TOCANTINS",
+    "value": "1705607"
+  },
+  {
+    "label": "COUTO MAGALHAES",
+    "value": "1706001"
+  },
+  {
+    "label": "CRISTALANDIA",
+    "value": "1706100"
+  },
+  {
+    "label": "CRIXAS DO TOCANTINS",
+    "value": "1706258"
+  },
+  {
+    "label": "DARCINOPOLIS",
+    "value": "1706506"
+  },
+  {
+    "label": "DIANOPOLIS",
+    "value": "1707009"
+  },
+  {
+    "label": "DIVINOPOLIS DO TOCANTINS",
+    "value": "1707108"
+  },
+  {
+    "label": "DOIS IRMAOS DO TOCANTINS",
+    "value": "1707207"
+  },
+  {
+    "label": "DUERE",
+    "value": "1707306"
+  },
+  {
+    "label": "ESPERANTINA",
+    "value": "1707405"
+  },
+  {
+    "label": "FATIMA",
+    "value": "1707553"
+  },
+  {
+    "label": "FIGUEIROPOLIS",
+    "value": "1707652"
+  },
+  {
+    "label": "FILADELFIA",
+    "value": "1707702"
+  },
+  {
+    "label": "FORMOSO DO ARAGUAIA",
+    "value": "1708205"
+  },
+  {
+    "label": "FORTALEZA DO TABOCAO",
+    "value": "1708254"
+  },
+  {
+    "label": "GOIANORTE",
+    "value": "1708304"
+  },
+  {
+    "label": "GOIATINS",
+    "value": "1709005"
+  },
+  {
+    "label": "GUARAI",
+    "value": "1709302"
+  },
+  {
+    "label": "GURUPI",
+    "value": "1709500"
+  },
+  {
+    "label": "IPUEIRAS",
+    "value": "1709807"
+  },
+  {
+    "label": "ITACAJA",
+    "value": "1710508"
+  },
+  {
+    "label": "ITAGUATINS",
+    "value": "1710706"
+  },
+  {
+    "label": "ITAPIRATINS",
+    "value": "1710904"
+  },
+  {
+    "label": "ITAPORA DO TOCANTINS",
+    "value": "1711100"
+  },
+  {
+    "label": "JAU DO TOCANTINS",
+    "value": "1711506"
+  },
+  {
+    "label": "JUARINA",
+    "value": "1711803"
+  },
+  {
+    "label": "LAGOA DA CONFUSAO",
+    "value": "1711902"
+  },
+  {
+    "label": "LAGOA DO TOCANTINS",
+    "value": "1711951"
+  },
+  {
+    "label": "LAJEADO",
+    "value": "1712009"
+  },
+  {
+    "label": "LAVANDEIRA",
+    "value": "1712157"
+  },
+  {
+    "label": "LIZARDA",
+    "value": "1712405"
+  },
+  {
+    "label": "LUZINOPOLIS",
+    "value": "1712454"
+  },
+  {
+    "label": "MARIANOPOLIS DO TOCANTINS",
+    "value": "1712504"
+  },
+  {
+    "label": "MATEIROS",
+    "value": "1712702"
+  },
+  {
+    "label": "MAURILANDIA DO TOCANTINS",
+    "value": "1712801"
+  },
+  {
+    "label": "MIRACEMA DO TOCANTINS",
+    "value": "1713205"
+  },
+  {
+    "label": "MIRANORTE",
+    "value": "1713304"
+  },
+  {
+    "label": "MONTE DO CARMO",
+    "value": "1713601"
+  },
+  {
+    "label": "MONTE SANTO DO TOCANTINS",
+    "value": "1713700"
+  },
+  {
+    "label": "MURICILANDIA",
+    "value": "1713957"
+  },
+  {
+    "label": "NATIVIDADE",
+    "value": "1714203"
+  },
+  {
+    "label": "NAZARE",
+    "value": "1714302"
+  },
+  {
+    "label": "NOVA OLINDA",
+    "value": "1714880"
+  },
+  {
+    "label": "NOVA ROSALANDIA",
+    "value": "1715002"
+  },
+  {
+    "label": "NOVO ACORDO",
+    "value": "1715101"
+  },
+  {
+    "label": "NOVO ALEGRE",
+    "value": "1715150"
+  },
+  {
+    "label": "NOVO JARDIM",
+    "value": "1715259"
+  },
+  {
+    "label": "OLIVEIRA DE FATIMA",
+    "value": "1715507"
+  },
+  {
+    "label": "PALMAS",
+    "value": "1721000"
+  },
+  {
+    "label": "PALMEIRANTE",
+    "value": "1715705"
+  },
+  {
+    "label": "PALMEIRAS DO TOCANTINS",
+    "value": "1713809"
+  },
+  {
+    "label": "PALMEIROPOLIS",
+    "value": "1715754"
+  },
+  {
+    "label": "PARAISO DO TOCANTINS",
+    "value": "1716109"
+  },
+  {
+    "label": "PARANA",
+    "value": "1716208"
+  },
+  {
+    "label": "PAU D'ARCO",
+    "value": "1716307"
+  },
+  {
+    "label": "PEDRO AFONSO",
+    "value": "1716505"
+  },
+  {
+    "label": "PEIXE",
+    "value": "1716604"
+  },
+  {
+    "label": "PEQUIZEIRO",
+    "value": "1716653"
+  },
+  {
+    "label": "PINDORAMA DO TOCANTINS",
+    "value": "1717008"
+  },
+  {
+    "label": "PIRAQUE",
+    "value": "1717206"
+  },
+  {
+    "label": "PIUM",
+    "value": "1717503"
+  },
+  {
+    "label": "PONTE ALTA DO BOM JESUS",
+    "value": "1717800"
+  },
+  {
+    "label": "PONTE ALTA DO TOCANTINS",
+    "value": "1717909"
+  },
+  {
+    "label": "PORTO ALEGRE DO TOCANTINS",
+    "value": "1718006"
+  },
+  {
+    "label": "PORTO NACIONAL",
+    "value": "1718204"
+  },
+  {
+    "label": "PRAIA NORTE",
+    "value": "1718303"
+  },
+  {
+    "label": "PRESIDENTE KENNEDY",
+    "value": "1718402"
+  },
+  {
+    "label": "PUGMIL",
+    "value": "1718451"
+  },
+  {
+    "label": "RECURSOLANDIA",
+    "value": "1718501"
+  },
+  {
+    "label": "RIACHINHO",
+    "value": "1718550"
+  },
+  {
+    "label": "RIO DA CONCEICAO",
+    "value": "1718659"
+  },
+  {
+    "label": "RIO DOS BOIS",
+    "value": "1718709"
+  },
+  {
+    "label": "RIO SONO",
+    "value": "1718758"
+  },
+  {
+    "label": "SAMPAIO",
+    "value": "1718808"
+  },
+  {
+    "label": "SANDOLANDIA",
+    "value": "1718840"
+  },
+  {
+    "label": "SANTA FE DO ARAGUAIA",
+    "value": "1718865"
+  },
+  {
+    "label": "SANTA MARIA DO TOCANTINS",
+    "value": "1718881"
+  },
+  {
+    "label": "SANTA RITA DO TOCANTINS",
+    "value": "1718899"
+  },
+  {
+    "label": "SANTA ROSA DO TOCANTINS",
+    "value": "1718907"
+  },
+  {
+    "label": "SANTA TEREZA DO TOCANTINS",
+    "value": "1719004"
+  },
+  {
+    "label": "SANTA TEREZINHA DO TOCANTINS",
+    "value": "1720002"
+  },
+  {
+    "label": "SAO BENTO DO TOCANTINS",
+    "value": "1720101"
+  },
+  {
+    "label": "SAO FELIX DO TOCANTINS",
+    "value": "1720150"
+  },
+  {
+    "label": "SAO MIGUEL DO TOCANTINS",
+    "value": "1720200"
+  },
+  {
+    "label": "SAO SALVADOR DO TOCANTINS",
+    "value": "1720259"
+  },
+  {
+    "label": "SAO SEBASTIAO DO TOCANTINS",
+    "value": "1720309"
+  },
+  {
+    "label": "SAO VALERIO",
+    "value": "1720499"
+  },
+  {
+    "label": "SILVANOPOLIS",
+    "value": "1720655"
+  },
+  {
+    "label": "SITIO NOVO DO TOCANTINS",
+    "value": "1720804"
+  },
+  {
+    "label": "SUCUPIRA",
+    "value": "1720853"
+  },
+  {
+    "label": "TAGUATINGA",
+    "value": "1720903"
+  },
+  {
+    "label": "TAIPAS DO TOCANTINS",
+    "value": "1720937"
+  },
+  {
+    "label": "TALISMA",
+    "value": "1720978"
+  },
+  {
+    "label": "TOCANTINIA",
+    "value": "1721109"
+  },
+  {
+    "label": "TOCANTINOPOLIS",
+    "value": "1721208"
+  },
+  {
+    "label": "TUPIRAMA",
+    "value": "1721257"
+  },
+  {
+    "label": "TUPIRATINS",
+    "value": "1721307"
+  },
+  {
+    "label": "WANDERLANDIA",
+    "value": "1722081"
+  },
+  {
+    "label": "XAMBIOA",
+    "value": "1722107"
+  }
+]

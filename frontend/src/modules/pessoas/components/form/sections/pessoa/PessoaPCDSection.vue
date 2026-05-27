@@ -159,12 +159,15 @@ function labelSubtipo(grupo: string | null, subtipo: string | null) {
 <template>
   <FormSection legend="Deficiência / Transtorno">
     <FormGrid>
-      <div class="col-span-12 md:col-span-6">
+      <div class="col-span-12 md:col-span-12">
         <label class="block mb-2">
-          Possui deficiência, transtorno ou outra condição relevante?
+          Indique abaixo se a pessoa possui alguma deficiência, transtorno ou outra condição relevante?
+          <br> Em caso afirmativo, é necessário clicar em <strong>"Adicionar condição"</strong>
+          e selecionar o tipo de deficiência, transtorno ou outra condição específica.<br>
+          É possível adicionar mais de uma deficiência ou transtorno.
         </label>
         <Select v-model="modelValue.possui_condicao_deficiencia_transtorno" :options="statusCondicaoOptions"
-          optionLabel="label" optionValue="value" placeholder="Selecione" showClear fluid />
+          optionLabel="label" optionValue="value" placeholder="Selecione" fluid />
       </div>
 
       <div v-if="modelValue.possui_condicao_deficiencia_transtorno === 'SIM'" class="col-span-12">

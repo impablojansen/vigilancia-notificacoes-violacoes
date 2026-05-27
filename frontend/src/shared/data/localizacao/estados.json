@@ -1,0 +1,137 @@
+﻿[
+  {
+    "label": "ACRE",
+    "value": "AC",
+    "codigo_uf": 12
+  },
+  {
+    "label": "ALAGOAS",
+    "value": "AL",
+    "codigo_uf": 27
+  },
+  {
+    "label": "AMAPA",
+    "value": "AP",
+    "codigo_uf": 16
+  },
+  {
+    "label": "AMAZONAS",
+    "value": "AM",
+    "codigo_uf": 13
+  },
+  {
+    "label": "BAHIA",
+    "value": "BA",
+    "codigo_uf": 29
+  },
+  {
+    "label": "CEARA",
+    "value": "CE",
+    "codigo_uf": 23
+  },
+  {
+    "label": "DISTRITO FEDERAL",
+    "value": "DF",
+    "codigo_uf": 53
+  },
+  {
+    "label": "ESPIRITO SANTO",
+    "value": "ES",
+    "codigo_uf": 32
+  },
+  {
+    "label": "GOIAS",
+    "value": "GO",
+    "codigo_uf": 52
+  },
+  {
+    "label": "MARANHAO",
+    "value": "MA",
+    "codigo_uf": 21
+  },
+  {
+    "label": "MATO GROSSO",
+    "value": "MT",
+    "codigo_uf": 51
+  },
+  {
+    "label": "MATO GROSSO DO SUL",
+    "value": "MS",
+    "codigo_uf": 50
+  },
+  {
+    "label": "MINAS GERAIS",
+    "value": "MG",
+    "codigo_uf": 31
+  },
+  {
+    "label": "PARA",
+    "value": "PA",
+    "codigo_uf": 15
+  },
+  {
+    "label": "PARAIBA",
+    "value": "PB",
+    "codigo_uf": 25
+  },
+  {
+    "label": "PARANA",
+    "value": "PR",
+    "codigo_uf": 41
+  },
+  {
+    "label": "PERNAMBUCO",
+    "value": "PE",
+    "codigo_uf": 26
+  },
+  {
+    "label": "PIAUI",
+    "value": "PI",
+    "codigo_uf": 22
+  },
+  {
+    "label": "RIO DE JANEIRO",
+    "value": "RJ",
+    "codigo_uf": 33
+  },
+  {
+    "label": "RIO GRANDE DO NORTE",
+    "value": "RN",
+    "codigo_uf": 24
+  },
+  {
+    "label": "RIO GRANDE DO SUL",
+    "value": "RS",
+    "codigo_uf": 43
+  },
+  {
+    "label": "RONDONIA",
+    "value": "RO",
+    "codigo_uf": 11
+  },
+  {
+    "label": "RORAIMA",
+    "value": "RR",
+    "codigo_uf": 14
+  },
+  {
+    "label": "SANTA CATARINA",
+    "value": "SC",
+    "codigo_uf": 42
+  },
+  {
+    "label": "SAO PAULO",
+    "value": "SP",
+    "codigo_uf": 35
+  },
+  {
+    "label": "SERGIPE",
+    "value": "SE",
+    "codigo_uf": 28
+  },
+  {
+    "label": "TOCANTINS",
+    "value": "TO",
+    "codigo_uf": 17
+  }
+]

@@ -1,4 +1,4 @@
-export type SimNaoSemInformacao = "SIM" | "NAO" | "SEM_INFORMACAO" | null;
+export type SimNaoSemInformacao = "SIM" | "NAO" | "SEM_INFORMACAO";
 
 export type StatusCondicao = SimNaoSemInformacao;
 
@@ -13,7 +13,7 @@ export interface PessoaCondicoesFormModel {
 }
 
 export interface PessoaIdentificacaoData {
-  nome: string;
+  nome_pessoa: string;
   nome_social: string;
   nome_mae: string;
   data_nascimento: string | null;
@@ -30,16 +30,17 @@ export interface PessoaDocumentosContatoData {
 }
 
 export interface PessoaPerfilSociodemograficoData {
-  sexo: string | null;
-  raca_cor_etnia: string | null;
-  estado_civil: string | null;
-  grau_instrucao: string | null;
-  identidade_genero: string | null;
-  orientacao_sexual: string | null;
+  sexo: string;
+  raca_cor_etnia: string;
+  estado_civil: string;
+  grau_instrucao: string ;
+  identidade_genero: string;
+  orientacao_sexual: string;
   ocupacao: string;
 }
 
 export interface PessoaEnderecoData {
+  pais_residencia: string;
   uf_residencia: string;
   municipio_residencia: string;
   distrito: string;
@@ -50,7 +51,6 @@ export interface PessoaEnderecoData {
   ponto_referencia: string;
   cep: string;
   zona_residencia: string | null;
-  pais_residencia: string;
 }
 
 export interface PessoaMigracaoOrigemData {
@@ -60,14 +60,11 @@ export interface PessoaMigracaoOrigemData {
   naturalidade: string;
 }
 
-export interface PessoaSaudeCondicoesData extends PessoaCondicoesFormModel {
-  gestante: string | null;
-}
 
 export interface PessoaMarcadoresSociaisData {
-  grupo_populacional_gptes: string[];
-  recebe_bpc: string | null;
-  participa_transferencia_renda: string | null;
+  grupo_populacional_gptes: string;
+  recebe_bpc: SimNaoSemInformacao;
+  participa_transferencia_renda: SimNaoSemInformacao;
 }
 
 export interface PessoaFormData
@@ -76,5 +73,5 @@ export interface PessoaFormData
     PessoaPerfilSociodemograficoData,
     PessoaEnderecoData,
     PessoaMigracaoOrigemData,
-    PessoaSaudeCondicoesData,
+    PessoaCondicoesFormModel,
     PessoaMarcadoresSociaisData {}

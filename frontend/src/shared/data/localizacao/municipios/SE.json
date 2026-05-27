@@ -1,0 +1,302 @@
+[
+  {
+    "label": "AMPARO DE SAO FRANCISCO",
+    "value": "2800100"
+  },
+  {
+    "label": "AQUIDABA",
+    "value": "2800209"
+  },
+  {
+    "label": "ARACAJU",
+    "value": "2800308"
+  },
+  {
+    "label": "ARAUA",
+    "value": "2800407"
+  },
+  {
+    "label": "AREIA BRANCA",
+    "value": "2800506"
+  },
+  {
+    "label": "BARRA DOS COQUEIROS",
+    "value": "2800605"
+  },
+  {
+    "label": "BOQUIM",
+    "value": "2800670"
+  },
+  {
+    "label": "BREJO GRANDE",
+    "value": "2800704"
+  },
+  {
+    "label": "CAMPO DO BRITO",
+    "value": "2801009"
+  },
+  {
+    "label": "CANHOBA",
+    "value": "2801108"
+  },
+  {
+    "label": "CANINDE DE SAO FRANCISCO",
+    "value": "2801207"
+  },
+  {
+    "label": "CAPELA",
+    "value": "2801306"
+  },
+  {
+    "label": "CARIRA",
+    "value": "2801405"
+  },
+  {
+    "label": "CARMOPOLIS",
+    "value": "2801504"
+  },
+  {
+    "label": "CEDRO DE SAO JOAO",
+    "value": "2801603"
+  },
+  {
+    "label": "CRISTINAPOLIS",
+    "value": "2801702"
+  },
+  {
+    "label": "CUMBE",
+    "value": "2801900"
+  },
+  {
+    "label": "DIVINA PASTORA",
+    "value": "2802007"
+  },
+  {
+    "label": "ESTANCIA",
+    "value": "2802106"
+  },
+  {
+    "label": "FEIRA NOVA",
+    "value": "2802205"
+  },
+  {
+    "label": "FREI PAULO",
+    "value": "2802304"
+  },
+  {
+    "label": "GARARU",
+    "value": "2802403"
+  },
+  {
+    "label": "GENERAL MAYNARD",
+    "value": "2802502"
+  },
+  {
+    "label": "GRACHO CARDOSO",
+    "value": "2802601"
+  },
+  {
+    "label": "ILHA DAS FLORES",
+    "value": "2802700"
+  },
+  {
+    "label": "INDIAROBA",
+    "value": "2802809"
+  },
+  {
+    "label": "ITABAIANA",
+    "value": "2802908"
+  },
+  {
+    "label": "ITABAIANINHA",
+    "value": "2803005"
+  },
+  {
+    "label": "ITABI",
+    "value": "2803104"
+  },
+  {
+    "label": "ITAPORANGA D'AJUDA",
+    "value": "2803203"
+  },
+  {
+    "label": "JAPARATUBA",
+    "value": "2803302"
+  },
+  {
+    "label": "JAPOATA",
+    "value": "2803401"
+  },
+  {
+    "label": "LAGARTO",
+    "value": "2803500"
+  },
+  {
+    "label": "LARANJEIRAS",
+    "value": "2803609"
+  },
+  {
+    "label": "MACAMBIRA",
+    "value": "2803708"
+  },
+  {
+    "label": "MALHADA DOS BOIS",
+    "value": "2803807"
+  },
+  {
+    "label": "MALHADOR",
+    "value": "2803906"
+  },
+  {
+    "label": "MARUIM",
+    "value": "2804003"
+  },
+  {
+    "label": "MOITA BONITA",
+    "value": "2804102"
+  },
+  {
+    "label": "MONTE ALEGRE DE SERGIPE",
+    "value": "2804201"
+  },
+  {
+    "label": "MURIBECA",
+    "value": "2804300"
+  },
+  {
+    "label": "NEOPOLIS",
+    "value": "2804409"
+  },
+  {
+    "label": "NOSSA SENHORA APARECIDA",
+    "value": "2804458"
+  },
+  {
+    "label": "NOSSA SENHORA DA GLORIA",
+    "value": "2804508"
+  },
+  {
+    "label": "NOSSA SENHORA DAS DORES",
+    "value": "2804607"
+  },
+  {
+    "label": "NOSSA SENHORA DE LOURDES",
+    "value": "2804706"
+  },
+  {
+    "label": "NOSSA SENHORA DO SOCORRO",
+    "value": "2804805"
+  },
+  {
+    "label": "PACATUBA",
+    "value": "2804904"
+  },
+  {
+    "label": "PEDRA MOLE",
+    "value": "2805000"
+  },
+  {
+    "label": "PEDRINHAS",
+    "value": "2805109"
+  },
+  {
+    "label": "PINHAO",
+    "value": "2805208"
+  },
+  {
+    "label": "PIRAMBU",
+    "value": "2805307"
+  },
+  {
+    "label": "POCO REDONDO",
+    "value": "2805406"
+  },
+  {
+    "label": "POCO VERDE",
+    "value": "2805505"
+  },
+  {
+    "label": "PORTO DA FOLHA",
+    "value": "2805604"
+  },
+  {
+    "label": "PROPRIA",
+    "value": "2805703"
+  },
+  {
+    "label": "RIACHAO DO DANTAS",
+    "value": "2805802"
+  },
+  {
+    "label": "RIACHUELO",
+    "value": "2805901"
+  },
+  {
+    "label": "RIBEIROPOLIS",
+    "value": "2806008"
+  },
+  {
+    "label": "ROSARIO DO CATETE",
+    "value": "2806107"
+  },
+  {
+    "label": "SALGADO",
+    "value": "2806206"
+  },
+  {
+    "label": "SANTA LUZIA DO ITANHY",
+    "value": "2806305"
+  },
+  {
+    "label": "SANTA ROSA DE LIMA",
+    "value": "2806503"
+  },
+  {
+    "label": "SANTANA DO SAO FRANCISCO",
+    "value": "2806404"
+  },
+  {
+    "label": "SANTO AMARO DAS BROTAS",
+    "value": "2806602"
+  },
+  {
+    "label": "SAO CRISTOVAO",
+    "value": "2806701"
+  },
+  {
+    "label": "SAO DOMINGOS",
+    "value": "2806800"
+  },
+  {
+    "label": "SAO FRANCISCO",
+    "value": "2806909"
+  },
+  {
+    "label": "SAO MIGUEL DO ALEIXO",
+    "value": "2807006"
+  },
+  {
+    "label": "SIMAO DIAS",
+    "value": "2807105"
+  },
+  {
+    "label": "SIRIRI",
+    "value": "2807204"
+  },
+  {
+    "label": "TELHA",
+    "value": "2807303"
+  },
+  {
+    "label": "TOBIAS BARRETO",
+    "value": "2807402"
+  },
+  {
+    "label": "TOMAR DO GERU",
+    "value": "2807501"
+  },
+  {
+    "label": "UMBAUBA",
+    "value": "2807600"
+  }
+]

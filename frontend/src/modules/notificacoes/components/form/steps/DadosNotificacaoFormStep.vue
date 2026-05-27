@@ -2,8 +2,6 @@
 import FormActions from "@/shared/components/form/FormActions.vue";
 import NotificacaoRegistroSection from "@/modules/notificacoes/components/form/sections/notificacao/NotificacaoRegistroSection.vue";
 import NotificacaoLocalSection from "@/modules/notificacoes/components/form/sections/notificacao/NotificacaoLocalSection.vue";
-import NotificacaoObservacoesSection from "@/modules/notificacoes/components/form/sections/notificacao/NotificacaoObservacoesSection.vue";
-import NotificacaoSaudeSection from "./sections/notificacao/NotificacaoSaudeSection.vue";
 
 const modelValue = defineModel({ type: Object, required: true });
 
@@ -13,7 +11,7 @@ defineEmits(["next"]);
 <template>
   <div class="flex flex-col gap-6">
     <h3 class="text-lg font-semibold text-surface-700">
-      Dados da Notificação
+      Dados Gerais da Notificação
     </h3>
 
     <NotificacaoRegistroSection v-model="modelValue" />

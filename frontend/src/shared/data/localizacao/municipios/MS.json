@@ -1,0 +1,318 @@
+[
+  {
+    "label": "AGUA CLARA",
+    "value": "5000203"
+  },
+  {
+    "label": "ALCINOPOLIS",
+    "value": "5000252"
+  },
+  {
+    "label": "AMAMBAI",
+    "value": "5000609"
+  },
+  {
+    "label": "ANASTACIO",
+    "value": "5000708"
+  },
+  {
+    "label": "ANAURILANDIA",
+    "value": "5000807"
+  },
+  {
+    "label": "ANGELICA",
+    "value": "5000856"
+  },
+  {
+    "label": "ANTONIO JOAO",
+    "value": "5000906"
+  },
+  {
+    "label": "APARECIDA DO TABOADO",
+    "value": "5001003"
+  },
+  {
+    "label": "AQUIDAUANA",
+    "value": "5001102"
+  },
+  {
+    "label": "ARAL MOREIRA",
+    "value": "5001243"
+  },
+  {
+    "label": "BANDEIRANTES",
+    "value": "5001508"
+  },
+  {
+    "label": "BATAGUASSU",
+    "value": "5001904"
+  },
+  {
+    "label": "BATAYPORA",
+    "value": "5002001"
+  },
+  {
+    "label": "BELA VISTA",
+    "value": "5002100"
+  },
+  {
+    "label": "BODOQUENA",
+    "value": "5002159"
+  },
+  {
+    "label": "BONITO",
+    "value": "5002209"
+  },
+  {
+    "label": "BRASILANDIA",
+    "value": "5002308"
+  },
+  {
+    "label": "CAARAPO",
+    "value": "5002407"
+  },
+  {
+    "label": "CAMAPUA",
+    "value": "5002605"
+  },
+  {
+    "label": "CAMPO GRANDE",
+    "value": "5002704"
+  },
+  {
+    "label": "CARACOL",
+    "value": "5002803"
+  },
+  {
+    "label": "CASSILANDIA",
+    "value": "5002902"
+  },
+  {
+    "label": "CHAPADAO DO SUL",
+    "value": "5002951"
+  },
+  {
+    "label": "CORGUINHO",
+    "value": "5003108"
+  },
+  {
+    "label": "CORONEL SAPUCAIA",
+    "value": "5003157"
+  },
+  {
+    "label": "CORUMBA",
+    "value": "5003207"
+  },
+  {
+    "label": "COSTA RICA",
+    "value": "5003256"
+  },
+  {
+    "label": "COXIM",
+    "value": "5003306"
+  },
+  {
+    "label": "DEODAPOLIS",
+    "value": "5003454"
+  },
+  {
+    "label": "DOIS IRMAOS DO BURITI",
+    "value": "5003488"
+  },
+  {
+    "label": "DOURADINA",
+    "value": "5003504"
+  },
+  {
+    "label": "DOURADOS",
+    "value": "5003702"
+  },
+  {
+    "label": "ELDORADO",
+    "value": "5003751"
+  },
+  {
+    "label": "FATIMA DO SUL",
+    "value": "5003801"
+  },
+  {
+    "label": "FIGUEIRAO",
+    "value": "5003900"
+  },
+  {
+    "label": "GLORIA DE DOURADOS",
+    "value": "5004007"
+  },
+  {
+    "label": "GUIA LOPES DA LAGUNA",
+    "value": "5004106"
+  },
+  {
+    "label": "IGUATEMI",
+    "value": "5004304"
+  },
+  {
+    "label": "INOCENCIA",
+    "value": "5004403"
+  },
+  {
+    "label": "ITAPORA",
+    "value": "5004502"
+  },
+  {
+    "label": "ITAQUIRAI",
+    "value": "5004601"
+  },
+  {
+    "label": "IVINHEMA",
+    "value": "5004700"
+  },
+  {
+    "label": "JAPORA",
+    "value": "5004809"
+  },
+  {
+    "label": "JARAGUARI",
+    "value": "5004908"
+  },
+  {
+    "label": "JARDIM",
+    "value": "5005004"
+  },
+  {
+    "label": "JATEI",
+    "value": "5005103"
+  },
+  {
+    "label": "JUTI",
+    "value": "5005152"
+  },
+  {
+    "label": "LADARIO",
+    "value": "5005202"
+  },
+  {
+    "label": "LAGUNA CARAPA",
+    "value": "5005251"
+  },
+  {
+    "label": "MARACAJU",
+    "value": "5005400"
+  },
+  {
+    "label": "MIRANDA",
+    "value": "5005608"
+  },
+  {
+    "label": "MUNDO NOVO",
+    "value": "5005681"
+  },
+  {
+    "label": "NAVIRAI",
+    "value": "5005707"
+  },
+  {
+    "label": "NIOAQUE",
+    "value": "5005806"
+  },
+  {
+    "label": "NOVA ALVORADA DO SUL",
+    "value": "5006002"
+  },
+  {
+    "label": "NOVA ANDRADINA",
+    "value": "5006200"
+  },
+  {
+    "label": "NOVO HORIZONTE DO SUL",
+    "value": "5006259"
+  },
+  {
+    "label": "PARAISO DAS AGUAS",
+    "value": "5006275"
+  },
+  {
+    "label": "PARANAIBA",
+    "value": "5006309"
+  },
+  {
+    "label": "PARANHOS",
+    "value": "5006358"
+  },
+  {
+    "label": "PEDRO GOMES",
+    "value": "5006408"
+  },
+  {
+    "label": "PONTA PORA",
+    "value": "5006606"
+  },
+  {
+    "label": "PORTO MURTINHO",
+    "value": "5006903"
+  },
+  {
+    "label": "RIBAS DO RIO PARDO",
+    "value": "5007109"
+  },
+  {
+    "label": "RIO BRILHANTE",
+    "value": "5007208"
+  },
+  {
+    "label": "RIO NEGRO",
+    "value": "5007307"
+  },
+  {
+    "label": "RIO VERDE DE MATO GROSSO",
+    "value": "5007406"
+  },
+  {
+    "label": "ROCHEDO",
+    "value": "5007505"
+  },
+  {
+    "label": "SANTA RITA DO PARDO",
+    "value": "5007554"
+  },
+  {
+    "label": "SAO GABRIEL DO OESTE",
+    "value": "5007695"
+  },
+  {
+    "label": "SELVIRIA",
+    "value": "5007802"
+  },
+  {
+    "label": "SETE QUEDAS",
+    "value": "5007703"
+  },
+  {
+    "label": "SIDROLANDIA",
+    "value": "5007901"
+  },
+  {
+    "label": "SONORA",
+    "value": "5007935"
+  },
+  {
+    "label": "TACURU",
+    "value": "5007950"
+  },
+  {
+    "label": "TAQUARUSSU",
+    "value": "5007976"
+  },
+  {
+    "label": "TERENOS",
+    "value": "5008008"
+  },
+  {
+    "label": "TRES LAGOAS",
+    "value": "5008305"
+  },
+  {
+    "label": "VICENTINA",
+    "value": "5008404"
+  }
+]

@@ -5,18 +5,6 @@ import FormGrid from "@/shared/components/form/FormGrid.vue";
 
 const modelValue = defineModel({ type: Object, required: true });
 
-const orgaos = ref([
-  "Assistência Social",
-  "Saúde",
-  "Educação",
-  "Conselho Tutelar",
-  "Segurança Pública",
-  "Poder Judiciário",
-  "Ministério Público",
-  "Defensoria Pública",
-  "Outro",
-]);
-
 const unidades = ref([
   "Centro de Convivência",
   "Centro Especializado de Atendimento à Mulher/Casa da Mulher",
@@ -52,53 +40,34 @@ const unidades = ref([
     <FormGrid>
       <div class="col-span-12 md:col-span-3">
         <FloatLabel variant="on">
-          <DatePicker
-            id="data_notificacao"
-            v-model="modelValue.data_notificacao"
-            dateFormat="dd/mm/yy"
-            showIcon
-            showButtonBar
-            fluid
-          />
+          <DatePicker id="data_notificacao" v-model="modelValue.data_notificacao" dateFormat="dd/mm/yy" showIcon
+            showButtonBar fluid />
           <label for="data_notificacao">Data da notificação</label>
         </FloatLabel>
       </div>
 
       <div class="col-span-12 md:col-span-3">
         <FloatLabel variant="on">
-          <DatePicker
-            id="data_ocorrencia"
-            v-model="modelValue.data_ocorrencia"
-            dateFormat="dd/mm/yy"
-            showIcon
-            showButtonBar
-            fluid
-          />
+          <DatePicker id="data_ocorrencia" v-model="modelValue.data_ocorrencia" dateFormat="dd/mm/yy" showIcon
+            showButtonBar fluid />
           <label for="data_ocorrencia">Data da ocorrência</label>
         </FloatLabel>
       </div>
 
       <div class="col-span-12 md:col-span-3">
         <FloatLabel variant="on">
-          <InputText
-            id="hora_ocorrencia"
-            v-model="modelValue.hora_ocorrencia"
-            placeholder="HH:MM (00:00 - 23:59 horas)"
-            fluid
-          />
+          <InputMask id="hora_ocorrencia" v-model="modelValue.hora_ocorrencia" placeholder="(00:00 - 23:59)"
+            mask="99:99" fluid />
           <label for="hora_ocorrencia">Hora da ocorrência</label>
         </FloatLabel>
       </div>
 
       <div class="col-span-12 md:col-span-3">
-        <Select
-          v-model="modelValue.unidade_notificadora"
-          :options="unidades"
-          placeholder="Unidade notificadora"
-          filter
-          showClear
-          fluid
-        />
+        <FloatLabel variant="on">
+          <Select id="unidade_notificadora" v-model="modelValue.unidade_notificadora" :options="unidades" filter
+            fluid />
+          <label for="unidade_notificadora">Unidade Notificadora</label>
+        </FloatLabel>
       </div>
 
     </FormGrid>

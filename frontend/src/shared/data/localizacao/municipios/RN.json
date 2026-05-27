@@ -1,0 +1,670 @@
+[
+  {
+    "label": "ACARI",
+    "value": "2400109"
+  },
+  {
+    "label": "ACU",
+    "value": "2400208"
+  },
+  {
+    "label": "AFONSO BEZERRA",
+    "value": "2400307"
+  },
+  {
+    "label": "AGUA NOVA",
+    "value": "2400406"
+  },
+  {
+    "label": "ALEXANDRIA",
+    "value": "2400505"
+  },
+  {
+    "label": "ALMINO AFONSO",
+    "value": "2400604"
+  },
+  {
+    "label": "ALTO DO RODRIGUES",
+    "value": "2400703"
+  },
+  {
+    "label": "ANGICOS",
+    "value": "2400802"
+  },
+  {
+    "label": "ANTONIO MARTINS",
+    "value": "2400901"
+  },
+  {
+    "label": "APODI",
+    "value": "2401008"
+  },
+  {
+    "label": "AREIA BRANCA",
+    "value": "2401107"
+  },
+  {
+    "label": "ARES",
+    "value": "2401206"
+  },
+  {
+    "label": "AUGUSTO SEVERO (CAMPO GRANDE)",
+    "value": "2401305"
+  },
+  {
+    "label": "BAIA FORMOSA",
+    "value": "2401404"
+  },
+  {
+    "label": "BARAUNA",
+    "value": "2401453"
+  },
+  {
+    "label": "BARCELONA",
+    "value": "2401503"
+  },
+  {
+    "label": "BENTO FERNANDES",
+    "value": "2401602"
+  },
+  {
+    "label": "BODO",
+    "value": "2401651"
+  },
+  {
+    "label": "BOM JESUS",
+    "value": "2401701"
+  },
+  {
+    "label": "BREJINHO",
+    "value": "2401800"
+  },
+  {
+    "label": "CAICARA DO NORTE",
+    "value": "2401859"
+  },
+  {
+    "label": "CAICARA DO RIO DO VENTO",
+    "value": "2401909"
+  },
+  {
+    "label": "CAICO",
+    "value": "2402006"
+  },
+  {
+    "label": "CAMPO REDONDO",
+    "value": "2402105"
+  },
+  {
+    "label": "CANGUARETAMA",
+    "value": "2402204"
+  },
+  {
+    "label": "CARAUBAS",
+    "value": "2402303"
+  },
+  {
+    "label": "CARNAUBA DOS DANTAS",
+    "value": "2402402"
+  },
+  {
+    "label": "CARNAUBAIS",
+    "value": "2402501"
+  },
+  {
+    "label": "CEARA-MIRIM",
+    "value": "2402600"
+  },
+  {
+    "label": "CERRO CORA",
+    "value": "2402709"
+  },
+  {
+    "label": "CORONEL EZEQUIEL",
+    "value": "2402808"
+  },
+  {
+    "label": "CORONEL JOAO PESSOA",
+    "value": "2402907"
+  },
+  {
+    "label": "CRUZETA",
+    "value": "2403004"
+  },
+  {
+    "label": "CURRAIS NOVOS",
+    "value": "2403103"
+  },
+  {
+    "label": "DOUTOR SEVERIANO",
+    "value": "2403202"
+  },
+  {
+    "label": "ENCANTO",
+    "value": "2403301"
+  },
+  {
+    "label": "EQUADOR",
+    "value": "2403400"
+  },
+  {
+    "label": "ESPIRITO SANTO",
+    "value": "2403509"
+  },
+  {
+    "label": "EXTREMOZ",
+    "value": "2403608"
+  },
+  {
+    "label": "FELIPE GUERRA",
+    "value": "2403707"
+  },
+  {
+    "label": "FERNANDO PEDROZA",
+    "value": "2403756"
+  },
+  {
+    "label": "FLORANIA",
+    "value": "2403806"
+  },
+  {
+    "label": "FRANCISCO DANTAS",
+    "value": "2403905"
+  },
+  {
+    "label": "FRUTUOSO GOMES",
+    "value": "2404002"
+  },
+  {
+    "label": "GALINHOS",
+    "value": "2404101"
+  },
+  {
+    "label": "GOIANINHA",
+    "value": "2404200"
+  },
+  {
+    "label": "GOVERNADOR DIX-SEPT ROSADO",
+    "value": "2404309"
+  },
+  {
+    "label": "GROSSOS",
+    "value": "2404408"
+  },
+  {
+    "label": "GUAMARE",
+    "value": "2404507"
+  },
+  {
+    "label": "IELMO MARINHO",
+    "value": "2404606"
+  },
+  {
+    "label": "IPANGUACU",
+    "value": "2404705"
+  },
+  {
+    "label": "IPUEIRA",
+    "value": "2404804"
+  },
+  {
+    "label": "ITAJA",
+    "value": "2404853"
+  },
+  {
+    "label": "ITAU",
+    "value": "2404903"
+  },
+  {
+    "label": "JACANA",
+    "value": "2405009"
+  },
+  {
+    "label": "JANDAIRA",
+    "value": "2405108"
+  },
+  {
+    "label": "JANDUIS",
+    "value": "2405207"
+  },
+  {
+    "label": "JANUARIO CICCO (BOA SAUDE)",
+    "value": "2405306"
+  },
+  {
+    "label": "JAPI",
+    "value": "2405405"
+  },
+  {
+    "label": "JARDIM DE ANGICOS",
+    "value": "2405504"
+  },
+  {
+    "label": "JARDIM DE PIRANHAS",
+    "value": "2405603"
+  },
+  {
+    "label": "JARDIM DO SERIDO",
+    "value": "2405702"
+  },
+  {
+    "label": "JOAO CAMARA",
+    "value": "2405801"
+  },
+  {
+    "label": "JOAO DIAS",
+    "value": "2405900"
+  },
+  {
+    "label": "JOSE DA PENHA",
+    "value": "2406007"
+  },
+  {
+    "label": "JUCURUTU",
+    "value": "2406106"
+  },
+  {
+    "label": "JUNDIA",
+    "value": "2406155"
+  },
+  {
+    "label": "LAGOA D'ANTA",
+    "value": "2406205"
+  },
+  {
+    "label": "LAGOA DE PEDRAS",
+    "value": "2406304"
+  },
+  {
+    "label": "LAGOA DE VELHOS",
+    "value": "2406403"
+  },
+  {
+    "label": "LAGOA NOVA",
+    "value": "2406502"
+  },
+  {
+    "label": "LAGOA SALGADA",
+    "value": "2406601"
+  },
+  {
+    "label": "LAJES",
+    "value": "2406700"
+  },
+  {
+    "label": "LAJES PINTADAS",
+    "value": "2406809"
+  },
+  {
+    "label": "LUCRECIA",
+    "value": "2406908"
+  },
+  {
+    "label": "LUIS GOMES",
+    "value": "2407005"
+  },
+  {
+    "label": "MACAIBA",
+    "value": "2407104"
+  },
+  {
+    "label": "MACAU",
+    "value": "2407203"
+  },
+  {
+    "label": "MAJOR SALES",
+    "value": "2407252"
+  },
+  {
+    "label": "MARCELINO VIEIRA",
+    "value": "2407302"
+  },
+  {
+    "label": "MARTINS",
+    "value": "2407401"
+  },
+  {
+    "label": "MAXARANGUAPE",
+    "value": "2407500"
+  },
+  {
+    "label": "MESSIAS TARGINO",
+    "value": "2407609"
+  },
+  {
+    "label": "MONTANHAS",
+    "value": "2407708"
+  },
+  {
+    "label": "MONTE ALEGRE",
+    "value": "2407807"
+  },
+  {
+    "label": "MONTE DAS GAMELEIRAS",
+    "value": "2407906"
+  },
+  {
+    "label": "MOSSORO",
+    "value": "2408003"
+  },
+  {
+    "label": "NATAL",
+    "value": "2408102"
+  },
+  {
+    "label": "NISIA FLORESTA",
+    "value": "2408201"
+  },
+  {
+    "label": "NOVA CRUZ",
+    "value": "2408300"
+  },
+  {
+    "label": "OLHO-D'AGUA DO BORGES",
+    "value": "2408409"
+  },
+  {
+    "label": "OURO BRANCO",
+    "value": "2408508"
+  },
+  {
+    "label": "PARANA",
+    "value": "2408607"
+  },
+  {
+    "label": "PARAU",
+    "value": "2408706"
+  },
+  {
+    "label": "PARAZINHO",
+    "value": "2408805"
+  },
+  {
+    "label": "PARELHAS",
+    "value": "2408904"
+  },
+  {
+    "label": "PARNAMIRIM",
+    "value": "2403251"
+  },
+  {
+    "label": "PASSA E FICA",
+    "value": "2409100"
+  },
+  {
+    "label": "PASSAGEM",
+    "value": "2409209"
+  },
+  {
+    "label": "PATU",
+    "value": "2409308"
+  },
+  {
+    "label": "PAU DOS FERROS",
+    "value": "2409407"
+  },
+  {
+    "label": "PEDRA GRANDE",
+    "value": "2409506"
+  },
+  {
+    "label": "PEDRA PRETA",
+    "value": "2409605"
+  },
+  {
+    "label": "PEDRO AVELINO",
+    "value": "2409704"
+  },
+  {
+    "label": "PEDRO VELHO",
+    "value": "2409803"
+  },
+  {
+    "label": "PENDENCIAS",
+    "value": "2409902"
+  },
+  {
+    "label": "PILOES",
+    "value": "2410009"
+  },
+  {
+    "label": "POCO BRANCO",
+    "value": "2410108"
+  },
+  {
+    "label": "PORTALEGRE",
+    "value": "2410207"
+  },
+  {
+    "label": "PORTO DO MANGUE",
+    "value": "2410256"
+  },
+  {
+    "label": "PUREZA",
+    "value": "2410405"
+  },
+  {
+    "label": "RAFAEL FERNANDES",
+    "value": "2410504"
+  },
+  {
+    "label": "RAFAEL GODEIRO",
+    "value": "2410603"
+  },
+  {
+    "label": "RIACHO DA CRUZ",
+    "value": "2410702"
+  },
+  {
+    "label": "RIACHO DE SANTANA",
+    "value": "2410801"
+  },
+  {
+    "label": "RIACHUELO",
+    "value": "2410900"
+  },
+  {
+    "label": "RIO DO FOGO",
+    "value": "2408953"
+  },
+  {
+    "label": "RODOLFO FERNANDES",
+    "value": "2411007"
+  },
+  {
+    "label": "RUY BARBOSA",
+    "value": "2411106"
+  },
+  {
+    "label": "SANTA CRUZ",
+    "value": "2411205"
+  },
+  {
+    "label": "SANTA MARIA",
+    "value": "2409332"
+  },
+  {
+    "label": "SANTANA DO MATOS",
+    "value": "2411403"
+  },
+  {
+    "label": "SANTANA DO SERIDO",
+    "value": "2411429"
+  },
+  {
+    "label": "SANTO ANTONIO",
+    "value": "2411502"
+  },
+  {
+    "label": "SAO BENTO DO NORTE",
+    "value": "2411601"
+  },
+  {
+    "label": "SAO BENTO DO TRAIRI",
+    "value": "2411700"
+  },
+  {
+    "label": "SAO FERNANDO",
+    "value": "2411809"
+  },
+  {
+    "label": "SAO FRANCISCO DO OESTE",
+    "value": "2411908"
+  },
+  {
+    "label": "SAO GONCALO DO AMARANTE",
+    "value": "2412005"
+  },
+  {
+    "label": "SAO JOAO DO SABUGI",
+    "value": "2412104"
+  },
+  {
+    "label": "SAO JOSE DE MIPIBU",
+    "value": "2412203"
+  },
+  {
+    "label": "SAO JOSE DO CAMPESTRE",
+    "value": "2412302"
+  },
+  {
+    "label": "SAO JOSE DO SERIDO",
+    "value": "2412401"
+  },
+  {
+    "label": "SAO MIGUEL",
+    "value": "2412500"
+  },
+  {
+    "label": "SAO MIGUEL DO GOSTOSO",
+    "value": "2412559"
+  },
+  {
+    "label": "SAO PAULO DO POTENGI",
+    "value": "2412609"
+  },
+  {
+    "label": "SAO PEDRO",
+    "value": "2412708"
+  },
+  {
+    "label": "SAO RAFAEL",
+    "value": "2412807"
+  },
+  {
+    "label": "SAO TOME",
+    "value": "2412906"
+  },
+  {
+    "label": "SAO VICENTE",
+    "value": "2413003"
+  },
+  {
+    "label": "SENADOR ELOI DE SOUZA",
+    "value": "2413102"
+  },
+  {
+    "label": "SENADOR GEORGINO AVELINO",
+    "value": "2413201"
+  },
+  {
+    "label": "SERRA CAIADA",
+    "value": "2410306"
+  },
+  {
+    "label": "SERRA DE SAO BENTO",
+    "value": "2413300"
+  },
+  {
+    "label": "SERRA DO MEL",
+    "value": "2413359"
+  },
+  {
+    "label": "SERRA NEGRA DO NORTE",
+    "value": "2413409"
+  },
+  {
+    "label": "SERRINHA",
+    "value": "2413508"
+  },
+  {
+    "label": "SERRINHA DOS PINTOS",
+    "value": "2413557"
+  },
+  {
+    "label": "SEVERIANO MELO",
+    "value": "2413607"
+  },
+  {
+    "label": "SITIO NOVO",
+    "value": "2413706"
+  },
+  {
+    "label": "TABOLEIRO GRANDE",
+    "value": "2413805"
+  },
+  {
+    "label": "TAIPU",
+    "value": "2413904"
+  },
+  {
+    "label": "TANGARA",
+    "value": "2414001"
+  },
+  {
+    "label": "TENENTE ANANIAS",
+    "value": "2414100"
+  },
+  {
+    "label": "TENENTE LAURENTINO CRUZ",
+    "value": "2414159"
+  },
+  {
+    "label": "TIBAU",
+    "value": "2411056"
+  },
+  {
+    "label": "TIBAU DO SUL",
+    "value": "2414209"
+  },
+  {
+    "label": "TIMBAUBA DOS BATISTAS",
+    "value": "2414308"
+  },
+  {
+    "label": "TOUROS",
+    "value": "2414407"
+  },
+  {
+    "label": "TRIUNFO POTIGUAR",
+    "value": "2414456"
+  },
+  {
+    "label": "UMARIZAL",
+    "value": "2414506"
+  },
+  {
+    "label": "UPANEMA",
+    "value": "2414605"
+  },
+  {
+    "label": "VARZEA",
+    "value": "2414704"
+  },
+  {
+    "label": "VENHA-VER",
+    "value": "2414753"
+  },
+  {
+    "label": "VERA CRUZ",
+    "value": "2414803"
+  },
+  {
+    "label": "VICOSA",
+    "value": "2414902"
+  },
+  {
+    "label": "VILA FLOR",
+    "value": "2415008"
+  }
+]

@@ -3,7 +3,7 @@ import type { PessoaFormData } from "@/modules/pessoas/types/pessoa.types";
 
 function createInitialFormData(): PessoaFormData {
   return {
-    nome: "",
+    nome_pessoa: "",
     nome_social: "",
     nome_mae: "",
     data_nascimento: null,
@@ -16,16 +16,9 @@ function createInitialFormData(): PessoaFormData {
     telefone: "",
     email: "",
 
-    sexo: null,
-    raca_cor_etnia: null,
-    estado_civil: null,
-    grau_instrucao: null,
-    identidade_genero: null,
-    orientacao_sexual: null,
-    ocupacao: "",
-
-    uf_residencia: "",
-    municipio_residencia: "",
+    pais_residencia: "BR",
+    uf_residencia: "CE",
+    municipio_residencia: "2303501",
     distrito: "",
     bairro: "",
     logradouro: "",
@@ -34,20 +27,26 @@ function createInitialFormData(): PessoaFormData {
     ponto_referencia: "",
     cep: "",
     zona_residencia: null,
-    pais_residencia: "",
+    
+    sexo: "",
+    raca_cor_etnia: "",
+    estado_civil: "",
+    grau_instrucao: "",
+    identidade_genero: "",
+    orientacao_sexual: "",
+    ocupacao: "",
 
     is_psr: false,
     is_migrante: false,
     nacionalidade: "",
     naturalidade: "",
 
-    gestante: null,
-    possui_condicao_deficiencia_transtorno: null,
+    possui_condicao_deficiencia_transtorno: "NAO",
     condicoes: [],
 
-    grupo_populacional_gptes: [],
-    recebe_bpc: null,
-    participa_transferencia_renda: null,
+    grupo_populacional_gptes: "",
+    recebe_bpc: "NAO",
+    participa_transferencia_renda: "NAO",
   };
 }
 

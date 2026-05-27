@@ -1,0 +1,370 @@
+[
+  {
+    "label": "ANGRA DOS REIS",
+    "value": "3300100"
+  },
+  {
+    "label": "APERIBE",
+    "value": "3300159"
+  },
+  {
+    "label": "ARARUAMA",
+    "value": "3300209"
+  },
+  {
+    "label": "AREAL",
+    "value": "3300225"
+  },
+  {
+    "label": "ARMACAO DOS BUZIOS",
+    "value": "3300233"
+  },
+  {
+    "label": "ARRAIAL DO CABO",
+    "value": "3300258"
+  },
+  {
+    "label": "BARRA DO PIRAI",
+    "value": "3300308"
+  },
+  {
+    "label": "BARRA MANSA",
+    "value": "3300407"
+  },
+  {
+    "label": "BELFORD ROXO",
+    "value": "3300456"
+  },
+  {
+    "label": "BOM JARDIM",
+    "value": "3300506"
+  },
+  {
+    "label": "BOM JESUS DO ITABAPOANA",
+    "value": "3300605"
+  },
+  {
+    "label": "CABO FRIO",
+    "value": "3300704"
+  },
+  {
+    "label": "CACHOEIRAS DE MACACU",
+    "value": "3300803"
+  },
+  {
+    "label": "CAMBUCI",
+    "value": "3300902"
+  },
+  {
+    "label": "CAMPOS DOS GOYTACAZES",
+    "value": "3301009"
+  },
+  {
+    "label": "CANTAGALO",
+    "value": "3301108"
+  },
+  {
+    "label": "CARAPEBUS",
+    "value": "3300936"
+  },
+  {
+    "label": "CARDOSO MOREIRA",
+    "value": "3301157"
+  },
+  {
+    "label": "CARMO",
+    "value": "3301207"
+  },
+  {
+    "label": "CASIMIRO DE ABREU",
+    "value": "3301306"
+  },
+  {
+    "label": "COMENDADOR LEVY GASPARIAN",
+    "value": "3300951"
+  },
+  {
+    "label": "CONCEICAO DE MACABU",
+    "value": "3301405"
+  },
+  {
+    "label": "CORDEIRO",
+    "value": "3301504"
+  },
+  {
+    "label": "DUAS BARRAS",
+    "value": "3301603"
+  },
+  {
+    "label": "DUQUE DE CAXIAS",
+    "value": "3301702"
+  },
+  {
+    "label": "ENGENHEIRO PAULO DE FRONTIN",
+    "value": "3301801"
+  },
+  {
+    "label": "GUAPIMIRIM",
+    "value": "3301850"
+  },
+  {
+    "label": "IGUABA GRANDE",
+    "value": "3301876"
+  },
+  {
+    "label": "ITABORAI",
+    "value": "3301900"
+  },
+  {
+    "label": "ITAGUAI",
+    "value": "3302007"
+  },
+  {
+    "label": "ITALVA",
+    "value": "3302056"
+  },
+  {
+    "label": "ITAOCARA",
+    "value": "3302106"
+  },
+  {
+    "label": "ITAPERUNA",
+    "value": "3302205"
+  },
+  {
+    "label": "ITATIAIA",
+    "value": "3302254"
+  },
+  {
+    "label": "JAPERI",
+    "value": "3302270"
+  },
+  {
+    "label": "LAJE DO MURIAE",
+    "value": "3302304"
+  },
+  {
+    "label": "MACAE",
+    "value": "3302403"
+  },
+  {
+    "label": "MACUCO",
+    "value": "3302452"
+  },
+  {
+    "label": "MAGE",
+    "value": "3302502"
+  },
+  {
+    "label": "MANGARATIBA",
+    "value": "3302601"
+  },
+  {
+    "label": "MARICA",
+    "value": "3302700"
+  },
+  {
+    "label": "MENDES",
+    "value": "3302809"
+  },
+  {
+    "label": "MESQUITA",
+    "value": "3302858"
+  },
+  {
+    "label": "MIGUEL PEREIRA",
+    "value": "3302908"
+  },
+  {
+    "label": "MIRACEMA",
+    "value": "3303005"
+  },
+  {
+    "label": "NATIVIDADE",
+    "value": "3303104"
+  },
+  {
+    "label": "NILOPOLIS",
+    "value": "3303203"
+  },
+  {
+    "label": "NITEROI",
+    "value": "3303302"
+  },
+  {
+    "label": "NOVA FRIBURGO",
+    "value": "3303401"
+  },
+  {
+    "label": "NOVA IGUACU",
+    "value": "3303500"
+  },
+  {
+    "label": "PARACAMBI",
+    "value": "3303609"
+  },
+  {
+    "label": "PARAIBA DO SUL",
+    "value": "3303708"
+  },
+  {
+    "label": "PARATY",
+    "value": "3303807"
+  },
+  {
+    "label": "PATY DO ALFERES",
+    "value": "3303856"
+  },
+  {
+    "label": "PETROPOLIS",
+    "value": "3303906"
+  },
+  {
+    "label": "PINHEIRAL",
+    "value": "3303955"
+  },
+  {
+    "label": "PIRAI",
+    "value": "3304003"
+  },
+  {
+    "label": "PORCIUNCULA",
+    "value": "3304102"
+  },
+  {
+    "label": "PORTO REAL",
+    "value": "3304110"
+  },
+  {
+    "label": "QUATIS",
+    "value": "3304128"
+  },
+  {
+    "label": "QUEIMADOS",
+    "value": "3304144"
+  },
+  {
+    "label": "QUISSAMA",
+    "value": "3304151"
+  },
+  {
+    "label": "RESENDE",
+    "value": "3304201"
+  },
+  {
+    "label": "RIO BONITO",
+    "value": "3304300"
+  },
+  {
+    "label": "RIO CLARO",
+    "value": "3304409"
+  },
+  {
+    "label": "RIO DAS FLORES",
+    "value": "3304508"
+  },
+  {
+    "label": "RIO DAS OSTRAS",
+    "value": "3304524"
+  },
+  {
+    "label": "RIO DE JANEIRO",
+    "value": "3304557"
+  },
+  {
+    "label": "SANTA MARIA MADALENA",
+    "value": "3304607"
+  },
+  {
+    "label": "SANTO ANTONIO DE PADUA",
+    "value": "3304706"
+  },
+  {
+    "label": "SAO FIDELIS",
+    "value": "3304805"
+  },
+  {
+    "label": "SAO FRANCISCO DE ITABAPOANA",
+    "value": "3304755"
+  },
+  {
+    "label": "SAO GONCALO",
+    "value": "3304904"
+  },
+  {
+    "label": "SAO JOAO DA BARRA",
+    "value": "3305000"
+  },
+  {
+    "label": "SAO JOAO DE MERITI",
+    "value": "3305109"
+  },
+  {
+    "label": "SAO JOSE DE UBA",
+    "value": "3305133"
+  },
+  {
+    "label": "SAO JOSE DO VALE DO RIO PRETO",
+    "value": "3305158"
+  },
+  {
+    "label": "SAO PEDRO DA ALDEIA",
+    "value": "3305208"
+  },
+  {
+    "label": "SAO SEBASTIAO DO ALTO",
+    "value": "3305307"
+  },
+  {
+    "label": "SAPUCAIA",
+    "value": "3305406"
+  },
+  {
+    "label": "SAQUAREMA",
+    "value": "3305505"
+  },
+  {
+    "label": "SEROPEDICA",
+    "value": "3305554"
+  },
+  {
+    "label": "SILVA JARDIM",
+    "value": "3305604"
+  },
+  {
+    "label": "SUMIDOURO",
+    "value": "3305703"
+  },
+  {
+    "label": "TANGUA",
+    "value": "3305752"
+  },
+  {
+    "label": "TERESOPOLIS",
+    "value": "3305802"
+  },
+  {
+    "label": "TRAJANO DE MORAES",
+    "value": "3305901"
+  },
+  {
+    "label": "TRES RIOS",
+    "value": "3306008"
+  },
+  {
+    "label": "VALENCA",
+    "value": "3306107"
+  },
+  {
+    "label": "VARRE-SAI",
+    "value": "3306156"
+  },
+  {
+    "label": "VASSOURAS",
+    "value": "3306206"
+  },
+  {
+    "label": "VOLTA REDONDA",
+    "value": "3306305"
+  }
+]

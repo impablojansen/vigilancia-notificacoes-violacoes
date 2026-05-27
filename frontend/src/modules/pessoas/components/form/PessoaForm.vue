@@ -3,10 +3,11 @@ import { useRouter } from "vue-router";
 
 import PessoaIdentificacaoSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaIdentificacaoSection.vue";
 import PessoaDocumentacaoSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaDocumentacaoSection.vue";
-import PessoaCaracterizacaoSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaCaracterizacaoSection.vue";
+import PessoaCaracterizacaoSocialSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaCaracterizacaoSocialSection.vue";
 import PessoaPCDSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaPCDSection.vue";
 import PessoaCondicoesEspecificasSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaCondicoesEspecificasSection.vue";
 import PessoaResidenciaSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaResidenciaSection.vue";
+
 import { usePessoaForm } from "@/modules/pessoas/composables/usePessoaForm";
 
 const router = useRouter();
@@ -34,7 +35,7 @@ function handleSalvar() {
     <PessoaIdentificacaoSection v-model="formData" />
     <PessoaDocumentacaoSection v-model="formData" />
     <PessoaResidenciaSection v-model="formData" />
-    <PessoaCaracterizacaoSection v-model="formData" />
+    <PessoaCaracterizacaoSocialSection v-model="formData" />
     <PessoaPCDSection v-model="formData" />
     <PessoaCondicoesEspecificasSection v-model="formData" />
 

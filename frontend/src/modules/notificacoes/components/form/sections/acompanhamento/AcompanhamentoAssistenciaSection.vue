@@ -71,7 +71,6 @@ watch(
 <template>
   <FormSection legend="Campo exclusivo e obrigatório da Assistência Social">
     <div class="flex flex-col gap-4">
-      <!-- Situação de acompanhamento -->
       <div class="rounded-xl border border-surface-200 bg-surface-50 p-4">
         <div class="mb-4">
           <h4 class="text-sm font-semibold text-surface-800">
@@ -85,128 +84,74 @@ watch(
 
         <FormGrid>
           <div class="col-span-12 md:col-span-4">
-            <Select
-              v-model="modelValue.status_acompanhamento"
-              :options="STATUS_ACOMPANHAMENTO_OPTIONS"
-              optionLabel="label"
-              optionValue="value"
-              placeholder="Acompanhamento do caso"
-              showClear
-              fluid
-            />
-          </div>
+            <FloatLabel variant="on">
+              <Select id="status_acompanhamento" v-model="modelValue.status_acompanhamento"
+                :options="STATUS_ACOMPANHAMENTO_OPTIONS" optionLabel="label" optionValue="value" fluid />
+              <label for="status_acompanhamento">Acompanhamento do caso</label>
+            </FloatLabel>
 
-          <div class="col-span-12 md:col-span-4">
-            <Select
-              v-model="modelValue.local_acompanhamento"
-              :options="LOCAIS_ACOMPANHAMENTO_OPTIONS"
-              optionLabel="label"
-              optionValue="value"
-              placeholder="Local de acompanhamento do caso"
-              showClear
-              fluid
-              :disabled="!acompanhamentoHabilitado"
-              :class="{ 'opacity-50': !acompanhamentoHabilitado }"
-            />
           </div>
 
           <div class="col-span-12 md:col-span-4">
             <FloatLabel variant="on">
-              <DatePicker
-                id="data_encerramento"
-                v-model="modelValue.data_encerramento"
-                dateFormat="dd/mm/yy"
-                showIcon
-                showButtonBar
-                fluid
-                :disabled="!dataEncerramentoHabilitada"
-                :class="{ 'opacity-50': !dataEncerramentoHabilitada }"
-              />
-              <label for="data_encerramento">Data de encerramento</label>
+              <Select id="local_acompanhamento" v-model="modelValue.local_acompanhamento"
+                :options="LOCAIS_ACOMPANHAMENTO_OPTIONS" optionLabel="label" optionValue="value" fluid
+                :disabled="!acompanhamentoHabilitado" :class="{ 'opacity-50': !acompanhamentoHabilitado }" />
+              <label for="local_acompanhamento">Local de Acompanhamento</label>
+            </FloatLabel>
+          </div>
+
+          <div class="col-span-12 md:col-span-4">
+            <FloatLabel variant="on">
+              <DatePicker id="data_encerramento_acompanhamento" v-model="modelValue.data_encerramento_acompanhamento" dateFormat="dd/mm/yy" showIcon
+                showButtonBar fluid :disabled="!dataEncerramentoHabilitada"
+                :class="{ 'opacity-50': !dataEncerramentoHabilitada }" />
+              <label for="data_encerramento_acompanhamento">Data de encerramento</label>
             </FloatLabel>
           </div>
 
           <div class="col-span-12">
-            <Select
-              v-model="modelValue.servico_inserido"
-              :options="SERVICOS"
-              filter
-              showClear
-              fluid
-              class="w-full min-h-[42px]"
-              :disabled="!acompanhamentoHabilitado"
-              :class="{ 'opacity-50': !acompanhamentoHabilitado }"
-            >
-              <template #value="slotProps">
-                <div class="truncate w-full text-left">
-                  <span v-if="slotProps.value">
-                    {{ slotProps.value }}
-                  </span>
-                  <span v-else class="text-gray-400">
-                    Caso o usuário esteja em acompanhamento, indique o serviço
-                  </span>
-                </div>
-              </template>
-
-              <template #option="slotProps">
-                <div class="whitespace-normal leading-tight py-1">
-                  {{ slotProps.option }}
-                </div>
-              </template>
-            </Select>
+            <FloatLabel variant="on">
+              <Select v-model="modelValue.servico_acompanhamento" :options="SERVICOS" filter showClear fluid
+                class="w-full min-h-[42px]" :disabled="!acompanhamentoHabilitado"
+                :class="{ 'opacity-50': !acompanhamentoHabilitado }" />
+              <label for="servico_acompanhamento">Caso usuário esteja em acompanhamento, indique o serviço</label>
+            </FloatLabel>
           </div>
         </FormGrid>
       </div>
 
-      <!-- Situação de ruptura de vínculos / pessoa em situação de rua -->
-      <div
-        class="rounded-xl border border-surface-200 bg-surface-50 p-4"
-        :class="{ 'opacity-60': !situacaoRupturaPsrHabilitada }"
-      >
+      <div class="rounded-xl border border-surface-200 bg-surface-50 p-4"
+        :class="{ 'opacity-60': !situacaoRupturaPsrHabilitada }">
         <div class="mb-4">
           <h4 class="text-sm font-semibold text-surface-800">
             Situação de ruptura de vínculos / pessoa em situação de rua
           </h4>
           <p class="mt-1 text-sm text-surface-600">
             Preencha este bloco somente em casos de
-            <strong>ruptura de vínculos</strong> e
-            <strong>pessoa em situação de rua</strong>,
+            <strong>RUPTURA DE VÍNCULOS</strong> ou
+            <strong>PESSOA EM SITUAÇÃO DE RUA</strong>,
             quando a notificação estiver marcada como
-            <strong>caso em acompanhamento</strong> ou
-            <strong>caso concluído</strong>.
+            <strong>CASO EM ACOMPANHAMENTO</strong> ou
+            <strong>CASO CONCLUÍDO</strong>.
           </p>
         </div>
 
         <FormGrid>
           <div class="col-span-12 md:col-span-6">
-            <Select
-              v-model="modelValue.situacao_ruptura_psr"
-              :options="SITUACAO_RUPTURA_PSR_OPTIONS"
-              optionLabel="label"
-              optionValue="value"
-              placeholder="Situação do caso"
-              showClear
-              fluid
-              :disabled="!situacaoRupturaPsrHabilitada"
-              :class="{ 'opacity-50': !situacaoRupturaPsrHabilitada }"
-            />
+            <Select v-model="modelValue.situacao_ruptura_psr" :options="SITUACAO_RUPTURA_PSR_OPTIONS"
+              optionLabel="label" optionValue="value" placeholder="Situação do caso" showClear fluid
+              :disabled="!situacaoRupturaPsrHabilitada" :class="{ 'opacity-50': !situacaoRupturaPsrHabilitada }" />
           </div>
 
           <div class="col-span-12 md:col-span-6">
-            <InputText
-              v-model="modelValue.outra_situacao"
-              placeholder="Especificar a situação"
-              :disabled="
-                !situacaoRupturaPsrHabilitada ||
-                modelValue.situacao_ruptura_psr !== 'OUTRO'
-              "
-              :class="{
+            <InputText v-model="modelValue.outra_situacao_ruptura_psr" placeholder="Especificar a situação" :disabled="!situacaoRupturaPsrHabilitada ||
+              modelValue.situacao_ruptura_psr !== 'OUTRO'
+              " :class="{
                 'opacity-50':
                   !situacaoRupturaPsrHabilitada ||
                   modelValue.situacao_ruptura_psr !== 'OUTRO'
-              }"
-              fluid
-            />
+              }" fluid />
           </div>
         </FormGrid>
       </div>

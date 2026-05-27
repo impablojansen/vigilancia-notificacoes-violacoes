@@ -1,0 +1,986 @@
+[
+  {
+    "label": "ABADIA DE GOIAS",
+    "value": "5200050"
+  },
+  {
+    "label": "ABADIANIA",
+    "value": "5200100"
+  },
+  {
+    "label": "ACREUNA",
+    "value": "5200134"
+  },
+  {
+    "label": "ADELANDIA",
+    "value": "5200159"
+  },
+  {
+    "label": "AGUA FRIA DE GOIAS",
+    "value": "5200175"
+  },
+  {
+    "label": "AGUA LIMPA",
+    "value": "5200209"
+  },
+  {
+    "label": "AGUAS LINDAS DE GOIAS",
+    "value": "5200258"
+  },
+  {
+    "label": "ALEXANIA",
+    "value": "5200308"
+  },
+  {
+    "label": "ALOANDIA",
+    "value": "5200506"
+  },
+  {
+    "label": "ALTO HORIZONTE",
+    "value": "5200555"
+  },
+  {
+    "label": "ALTO PARAISO DE GOIAS",
+    "value": "5200605"
+  },
+  {
+    "label": "ALVORADA DO NORTE",
+    "value": "5200803"
+  },
+  {
+    "label": "AMARALINA",
+    "value": "5200829"
+  },
+  {
+    "label": "AMERICANO DO BRASIL",
+    "value": "5200852"
+  },
+  {
+    "label": "AMORINOPOLIS",
+    "value": "5200902"
+  },
+  {
+    "label": "ANAPOLIS",
+    "value": "5201108"
+  },
+  {
+    "label": "ANHANGUERA",
+    "value": "5201207"
+  },
+  {
+    "label": "ANICUNS",
+    "value": "5201306"
+  },
+  {
+    "label": "APARECIDA DE GOIANIA",
+    "value": "5201405"
+  },
+  {
+    "label": "APARECIDA DO RIO DOCE",
+    "value": "5201454"
+  },
+  {
+    "label": "APORE",
+    "value": "5201504"
+  },
+  {
+    "label": "ARACU",
+    "value": "5201603"
+  },
+  {
+    "label": "ARAGARCAS",
+    "value": "5201702"
+  },
+  {
+    "label": "ARAGOIANIA",
+    "value": "5201801"
+  },
+  {
+    "label": "ARAGUAPAZ",
+    "value": "5202155"
+  },
+  {
+    "label": "ARENOPOLIS",
+    "value": "5202353"
+  },
+  {
+    "label": "ARUANA",
+    "value": "5202502"
+  },
+  {
+    "label": "AURILANDIA",
+    "value": "5202601"
+  },
+  {
+    "label": "AVELINOPOLIS",
+    "value": "5202809"
+  },
+  {
+    "label": "BALIZA",
+    "value": "5203104"
+  },
+  {
+    "label": "BARRO ALTO",
+    "value": "5203203"
+  },
+  {
+    "label": "BELA VISTA DE GOIAS",
+    "value": "5203302"
+  },
+  {
+    "label": "BOM JARDIM DE GOIAS",
+    "value": "5203401"
+  },
+  {
+    "label": "BOM JESUS DE GOIAS",
+    "value": "5203500"
+  },
+  {
+    "label": "BONFINOPOLIS",
+    "value": "5203559"
+  },
+  {
+    "label": "BONOPOLIS",
+    "value": "5203575"
+  },
+  {
+    "label": "BRAZABRANTES",
+    "value": "5203609"
+  },
+  {
+    "label": "BRITANIA",
+    "value": "5203807"
+  },
+  {
+    "label": "BURITI ALEGRE",
+    "value": "5203906"
+  },
+  {
+    "label": "BURITI DE GOIAS",
+    "value": "5203939"
+  },
+  {
+    "label": "BURITINOPOLIS",
+    "value": "5203962"
+  },
+  {
+    "label": "CABECEIRAS",
+    "value": "5204003"
+  },
+  {
+    "label": "CACHOEIRA ALTA",
+    "value": "5204102"
+  },
+  {
+    "label": "CACHOEIRA DE GOIAS",
+    "value": "5204201"
+  },
+  {
+    "label": "CACHOEIRA DOURADA",
+    "value": "5204250"
+  },
+  {
+    "label": "CACU",
+    "value": "5204300"
+  },
+  {
+    "label": "CAIAPONIA",
+    "value": "5204409"
+  },
+  {
+    "label": "CALDAS NOVAS",
+    "value": "5204508"
+  },
+  {
+    "label": "CALDAZINHA",
+    "value": "5204557"
+  },
+  {
+    "label": "CAMPESTRE DE GOIAS",
+    "value": "5204607"
+  },
+  {
+    "label": "CAMPINACU",
+    "value": "5204656"
+  },
+  {
+    "label": "CAMPINORTE",
+    "value": "5204706"
+  },
+  {
+    "label": "CAMPO ALEGRE DE GOIAS",
+    "value": "5204805"
+  },
+  {
+    "label": "CAMPO LIMPO DE GOIAS",
+    "value": "5204854"
+  },
+  {
+    "label": "CAMPOS BELOS",
+    "value": "5204904"
+  },
+  {
+    "label": "CAMPOS VERDES",
+    "value": "5204953"
+  },
+  {
+    "label": "CARMO DO RIO VERDE",
+    "value": "5205000"
+  },
+  {
+    "label": "CASTELANDIA",
+    "value": "5205059"
+  },
+  {
+    "label": "CATALAO",
+    "value": "5205109"
+  },
+  {
+    "label": "CATURAI",
+    "value": "5205208"
+  },
+  {
+    "label": "CAVALCANTE",
+    "value": "5205307"
+  },
+  {
+    "label": "CERES",
+    "value": "5205406"
+  },
+  {
+    "label": "CEZARINA",
+    "value": "5205455"
+  },
+  {
+    "label": "CHAPADAO DO CEU",
+    "value": "5205471"
+  },
+  {
+    "label": "CIDADE OCIDENTAL",
+    "value": "5205497"
+  },
+  {
+    "label": "COCALZINHO DE GOIAS",
+    "value": "5205513"
+  },
+  {
+    "label": "COLINAS DO SUL",
+    "value": "5205521"
+  },
+  {
+    "label": "CORREGO DO OURO",
+    "value": "5205703"
+  },
+  {
+    "label": "CORUMBA DE GOIAS",
+    "value": "5205802"
+  },
+  {
+    "label": "CORUMBAIBA",
+    "value": "5205901"
+  },
+  {
+    "label": "CRISTALINA",
+    "value": "5206206"
+  },
+  {
+    "label": "CRISTIANOPOLIS",
+    "value": "5206305"
+  },
+  {
+    "label": "CRIXAS",
+    "value": "5206404"
+  },
+  {
+    "label": "CROMINIA",
+    "value": "5206503"
+  },
+  {
+    "label": "CUMARI",
+    "value": "5206602"
+  },
+  {
+    "label": "DAMIANOPOLIS",
+    "value": "5206701"
+  },
+  {
+    "label": "DAMOLANDIA",
+    "value": "5206800"
+  },
+  {
+    "label": "DAVINOPOLIS",
+    "value": "5206909"
+  },
+  {
+    "label": "DIORAMA",
+    "value": "5207105"
+  },
+  {
+    "label": "DIVINOPOLIS DE GOIAS",
+    "value": "5208301"
+  },
+  {
+    "label": "DOVERLANDIA",
+    "value": "5207253"
+  },
+  {
+    "label": "EDEALINA",
+    "value": "5207352"
+  },
+  {
+    "label": "EDEIA",
+    "value": "5207402"
+  },
+  {
+    "label": "ESTRELA DO NORTE",
+    "value": "5207501"
+  },
+  {
+    "label": "FAINA",
+    "value": "5207535"
+  },
+  {
+    "label": "FAZENDA NOVA",
+    "value": "5207600"
+  },
+  {
+    "label": "FIRMINOPOLIS",
+    "value": "5207808"
+  },
+  {
+    "label": "FLORES DE GOIAS",
+    "value": "5207907"
+  },
+  {
+    "label": "FORMOSA",
+    "value": "5208004"
+  },
+  {
+    "label": "FORMOSO",
+    "value": "5208103"
+  },
+  {
+    "label": "GAMELEIRA DE GOIAS",
+    "value": "5208152"
+  },
+  {
+    "label": "GOIANAPOLIS",
+    "value": "5208400"
+  },
+  {
+    "label": "GOIANDIRA",
+    "value": "5208509"
+  },
+  {
+    "label": "GOIANESIA",
+    "value": "5208608"
+  },
+  {
+    "label": "GOIANIA",
+    "value": "5208707"
+  },
+  {
+    "label": "GOIANIRA",
+    "value": "5208806"
+  },
+  {
+    "label": "GOIAS",
+    "value": "5208905"
+  },
+  {
+    "label": "GOIATUBA",
+    "value": "5209101"
+  },
+  {
+    "label": "GOUVELANDIA",
+    "value": "5209150"
+  },
+  {
+    "label": "GUAPO",
+    "value": "5209200"
+  },
+  {
+    "label": "GUARAITA",
+    "value": "5209291"
+  },
+  {
+    "label": "GUARANI DE GOIAS",
+    "value": "5209408"
+  },
+  {
+    "label": "GUARINOS",
+    "value": "5209457"
+  },
+  {
+    "label": "HEITORAI",
+    "value": "5209606"
+  },
+  {
+    "label": "HIDROLANDIA",
+    "value": "5209705"
+  },
+  {
+    "label": "HIDROLINA",
+    "value": "5209804"
+  },
+  {
+    "label": "IACIARA",
+    "value": "5209903"
+  },
+  {
+    "label": "INACIOLANDIA",
+    "value": "5209937"
+  },
+  {
+    "label": "INDIARA",
+    "value": "5209952"
+  },
+  {
+    "label": "INHUMAS",
+    "value": "5210000"
+  },
+  {
+    "label": "IPAMERI",
+    "value": "5210109"
+  },
+  {
+    "label": "IPIRANGA DE GOIAS",
+    "value": "5210158"
+  },
+  {
+    "label": "IPORA",
+    "value": "5210208"
+  },
+  {
+    "label": "ISRAELANDIA",
+    "value": "5210307"
+  },
+  {
+    "label": "ITABERAI",
+    "value": "5210406"
+  },
+  {
+    "label": "ITAGUARI",
+    "value": "5210562"
+  },
+  {
+    "label": "ITAGUARU",
+    "value": "5210604"
+  },
+  {
+    "label": "ITAJA",
+    "value": "5210802"
+  },
+  {
+    "label": "ITAPACI",
+    "value": "5210901"
+  },
+  {
+    "label": "ITAPIRAPUA",
+    "value": "5211008"
+  },
+  {
+    "label": "ITAPURANGA",
+    "value": "5211206"
+  },
+  {
+    "label": "ITARUMA",
+    "value": "5211305"
+  },
+  {
+    "label": "ITAUCU",
+    "value": "5211404"
+  },
+  {
+    "label": "ITUMBIARA",
+    "value": "5211503"
+  },
+  {
+    "label": "IVOLANDIA",
+    "value": "5211602"
+  },
+  {
+    "label": "JANDAIA",
+    "value": "5211701"
+  },
+  {
+    "label": "JARAGUA",
+    "value": "5211800"
+  },
+  {
+    "label": "JATAI",
+    "value": "5211909"
+  },
+  {
+    "label": "JAUPACI",
+    "value": "5212006"
+  },
+  {
+    "label": "JESUPOLIS",
+    "value": "5212055"
+  },
+  {
+    "label": "JOVIANIA",
+    "value": "5212105"
+  },
+  {
+    "label": "JUSSARA",
+    "value": "5212204"
+  },
+  {
+    "label": "LAGOA SANTA",
+    "value": "5212253"
+  },
+  {
+    "label": "LEOPOLDO DE BULHOES",
+    "value": "5212303"
+  },
+  {
+    "label": "LUZIANIA",
+    "value": "5212501"
+  },
+  {
+    "label": "MAIRIPOTABA",
+    "value": "5212600"
+  },
+  {
+    "label": "MAMBAI",
+    "value": "5212709"
+  },
+  {
+    "label": "MARA ROSA",
+    "value": "5212808"
+  },
+  {
+    "label": "MARZAGAO",
+    "value": "5212907"
+  },
+  {
+    "label": "MATRINCHA",
+    "value": "5212956"
+  },
+  {
+    "label": "MAURILANDIA",
+    "value": "5213004"
+  },
+  {
+    "label": "MIMOSO DE GOIAS",
+    "value": "5213053"
+  },
+  {
+    "label": "MINACU",
+    "value": "5213087"
+  },
+  {
+    "label": "MINEIROS",
+    "value": "5213103"
+  },
+  {
+    "label": "MOIPORA",
+    "value": "5213400"
+  },
+  {
+    "label": "MONTE ALEGRE DE GOIAS",
+    "value": "5213509"
+  },
+  {
+    "label": "MONTES CLAROS DE GOIAS",
+    "value": "5213707"
+  },
+  {
+    "label": "MONTIVIDIU",
+    "value": "5213756"
+  },
+  {
+    "label": "MONTIVIDIU DO NORTE",
+    "value": "5213772"
+  },
+  {
+    "label": "MORRINHOS",
+    "value": "5213806"
+  },
+  {
+    "label": "MORRO AGUDO DE GOIAS",
+    "value": "5213855"
+  },
+  {
+    "label": "MOSSAMEDES",
+    "value": "5213905"
+  },
+  {
+    "label": "MOZARLANDIA",
+    "value": "5214002"
+  },
+  {
+    "label": "MUNDO NOVO",
+    "value": "5214051"
+  },
+  {
+    "label": "MUTUNOPOLIS",
+    "value": "5214101"
+  },
+  {
+    "label": "NAZARIO",
+    "value": "5214408"
+  },
+  {
+    "label": "NEROPOLIS",
+    "value": "5214507"
+  },
+  {
+    "label": "NIQUELANDIA",
+    "value": "5214606"
+  },
+  {
+    "label": "NOVA AMERICA",
+    "value": "5214705"
+  },
+  {
+    "label": "NOVA AURORA",
+    "value": "5214804"
+  },
+  {
+    "label": "NOVA CRIXAS",
+    "value": "5214838"
+  },
+  {
+    "label": "NOVA GLORIA",
+    "value": "5214861"
+  },
+  {
+    "label": "NOVA IGUACU DE GOIAS",
+    "value": "5214879"
+  },
+  {
+    "label": "NOVA ROMA",
+    "value": "5214903"
+  },
+  {
+    "label": "NOVA VENEZA",
+    "value": "5215009"
+  },
+  {
+    "label": "NOVO BRASIL",
+    "value": "5215207"
+  },
+  {
+    "label": "NOVO GAMA",
+    "value": "5215231"
+  },
+  {
+    "label": "NOVO PLANALTO",
+    "value": "5215256"
+  },
+  {
+    "label": "ORIZONA",
+    "value": "5215306"
+  },
+  {
+    "label": "OURO VERDE DE GOIAS",
+    "value": "5215405"
+  },
+  {
+    "label": "OUVIDOR",
+    "value": "5215504"
+  },
+  {
+    "label": "PADRE BERNARDO",
+    "value": "5215603"
+  },
+  {
+    "label": "PALESTINA DE GOIAS",
+    "value": "5215652"
+  },
+  {
+    "label": "PALMEIRAS DE GOIAS",
+    "value": "5215702"
+  },
+  {
+    "label": "PALMELO",
+    "value": "5215801"
+  },
+  {
+    "label": "PALMINOPOLIS",
+    "value": "5215900"
+  },
+  {
+    "label": "PANAMA",
+    "value": "5216007"
+  },
+  {
+    "label": "PARANAIGUARA",
+    "value": "5216304"
+  },
+  {
+    "label": "PARAUNA",
+    "value": "5216403"
+  },
+  {
+    "label": "PEROLANDIA",
+    "value": "5216452"
+  },
+  {
+    "label": "PETROLINA DE GOIAS",
+    "value": "5216809"
+  },
+  {
+    "label": "PILAR DE GOIAS",
+    "value": "5216908"
+  },
+  {
+    "label": "PIRACANJUBA",
+    "value": "5217104"
+  },
+  {
+    "label": "PIRANHAS",
+    "value": "5217203"
+  },
+  {
+    "label": "PIRENOPOLIS",
+    "value": "5217302"
+  },
+  {
+    "label": "PIRES DO RIO",
+    "value": "5217401"
+  },
+  {
+    "label": "PLANALTINA",
+    "value": "5217609"
+  },
+  {
+    "label": "PONTALINA",
+    "value": "5217708"
+  },
+  {
+    "label": "PORANGATU",
+    "value": "5218003"
+  },
+  {
+    "label": "PORTEIRAO",
+    "value": "5218052"
+  },
+  {
+    "label": "PORTELANDIA",
+    "value": "5218102"
+  },
+  {
+    "label": "POSSE",
+    "value": "5218300"
+  },
+  {
+    "label": "PROFESSOR JAMIL",
+    "value": "5218391"
+  },
+  {
+    "label": "QUIRINOPOLIS",
+    "value": "5218508"
+  },
+  {
+    "label": "RIALMA",
+    "value": "5218607"
+  },
+  {
+    "label": "RIANAPOLIS",
+    "value": "5218706"
+  },
+  {
+    "label": "RIO QUENTE",
+    "value": "5218789"
+  },
+  {
+    "label": "RIO VERDE",
+    "value": "5218805"
+  },
+  {
+    "label": "RUBIATABA",
+    "value": "5218904"
+  },
+  {
+    "label": "SANCLERLANDIA",
+    "value": "5219001"
+  },
+  {
+    "label": "SANTA BARBARA DE GOIAS",
+    "value": "5219100"
+  },
+  {
+    "label": "SANTA CRUZ DE GOIAS",
+    "value": "5219209"
+  },
+  {
+    "label": "SANTA FE DE GOIAS",
+    "value": "5219258"
+  },
+  {
+    "label": "SANTA HELENA DE GOIAS",
+    "value": "5219308"
+  },
+  {
+    "label": "SANTA ISABEL",
+    "value": "5219357"
+  },
+  {
+    "label": "SANTA RITA DO ARAGUAIA",
+    "value": "5219407"
+  },
+  {
+    "label": "SANTA RITA DO NOVO DESTINO",
+    "value": "5219456"
+  },
+  {
+    "label": "SANTA ROSA DE GOIAS",
+    "value": "5219506"
+  },
+  {
+    "label": "SANTA TEREZA DE GOIAS",
+    "value": "5219605"
+  },
+  {
+    "label": "SANTA TEREZINHA DE GOIAS",
+    "value": "5219704"
+  },
+  {
+    "label": "SANTO ANTONIO DA BARRA",
+    "value": "5219712"
+  },
+  {
+    "label": "SANTO ANTONIO DE GOIAS",
+    "value": "5219738"
+  },
+  {
+    "label": "SANTO ANTONIO DO DESCOBERTO",
+    "value": "5219753"
+  },
+  {
+    "label": "SAO DOMINGOS",
+    "value": "5219803"
+  },
+  {
+    "label": "SAO FRANCISCO DE GOIAS",
+    "value": "5219902"
+  },
+  {
+    "label": "SAO JOAO D'ALIANCA",
+    "value": "5220009"
+  },
+  {
+    "label": "SAO JOAO DA PARAUNA",
+    "value": "5220058"
+  },
+  {
+    "label": "SAO LUIS DE MONTES BELOS",
+    "value": "5220108"
+  },
+  {
+    "label": "SAO LUIZ DO NORTE",
+    "value": "5220157"
+  },
+  {
+    "label": "SAO MIGUEL DO ARAGUAIA",
+    "value": "5220207"
+  },
+  {
+    "label": "SAO MIGUEL DO PASSA QUATRO",
+    "value": "5220264"
+  },
+  {
+    "label": "SAO PATRICIO",
+    "value": "5220280"
+  },
+  {
+    "label": "SAO SIMAO",
+    "value": "5220405"
+  },
+  {
+    "label": "SENADOR CANEDO",
+    "value": "5220454"
+  },
+  {
+    "label": "SERRANOPOLIS",
+    "value": "5220504"
+  },
+  {
+    "label": "SILVANIA",
+    "value": "5220603"
+  },
+  {
+    "label": "SIMOLANDIA",
+    "value": "5220686"
+  },
+  {
+    "label": "SITIO D'ABADIA",
+    "value": "5220702"
+  },
+  {
+    "label": "TAQUARAL DE GOIAS",
+    "value": "5221007"
+  },
+  {
+    "label": "TERESINA DE GOIAS",
+    "value": "5221080"
+  },
+  {
+    "label": "TEREZOPOLIS DE GOIAS",
+    "value": "5221197"
+  },
+  {
+    "label": "TRES RANCHOS",
+    "value": "5221304"
+  },
+  {
+    "label": "TRINDADE",
+    "value": "5221403"
+  },
+  {
+    "label": "TROMBAS",
+    "value": "5221452"
+  },
+  {
+    "label": "TURVANIA",
+    "value": "5221502"
+  },
+  {
+    "label": "TURVELANDIA",
+    "value": "5221551"
+  },
+  {
+    "label": "UIRAPURU",
+    "value": "5221577"
+  },
+  {
+    "label": "URUACU",
+    "value": "5221601"
+  },
+  {
+    "label": "URUANA",
+    "value": "5221700"
+  },
+  {
+    "label": "URUTAI",
+    "value": "5221809"
+  },
+  {
+    "label": "VALPARAISO DE GOIAS",
+    "value": "5221858"
+  },
+  {
+    "label": "VARJAO",
+    "value": "5221908"
+  },
+  {
+    "label": "VIANOPOLIS",
+    "value": "5222005"
+  },
+  {
+    "label": "VICENTINOPOLIS",
+    "value": "5222054"
+  },
+  {
+    "label": "VILA BOA",
+    "value": "5222203"
+  },
+  {
+    "label": "VILA PROPICIO",
+    "value": "5222302"
+  }
+]

@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import FormActions from "@/shared/components/form/FormActions.vue";
+
 import VioladorCadastroSection from "@/modules/notificacoes/components/form/sections/violador/VioladorCadastroSection.vue";
 
-const modelValue = defineModel<{ numero_envolvidos: number | null; violadores: any[] }>({
-  required: true,
-});
+const modelValue = defineModel({ type: Object, required: true });
 
 defineEmits(["next", "back"]);
 </script>
@@ -12,7 +11,7 @@ defineEmits(["next", "back"]);
 <template>
   <div class="flex flex-col gap-6">
     <h3 class="text-lg font-semibold text-surface-700">
-      Dados do Violador / Provável Autor
+      Dados do(s) Violador(es)
     </h3>
 
     <VioladorCadastroSection v-model="modelValue" />

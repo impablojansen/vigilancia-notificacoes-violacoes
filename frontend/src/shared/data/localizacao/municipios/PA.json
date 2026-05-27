@@ -1,0 +1,578 @@
+[
+  {
+    "label": "ABAETETUBA",
+    "value": "1500107"
+  },
+  {
+    "label": "ABEL FIGUEIREDO",
+    "value": "1500131"
+  },
+  {
+    "label": "ACARA",
+    "value": "1500206"
+  },
+  {
+    "label": "AFUA",
+    "value": "1500305"
+  },
+  {
+    "label": "AGUA AZUL DO NORTE",
+    "value": "1500347"
+  },
+  {
+    "label": "ALENQUER",
+    "value": "1500404"
+  },
+  {
+    "label": "ALMEIRIM",
+    "value": "1500503"
+  },
+  {
+    "label": "ALTAMIRA",
+    "value": "1500602"
+  },
+  {
+    "label": "ANAJAS",
+    "value": "1500701"
+  },
+  {
+    "label": "ANANINDEUA",
+    "value": "1500800"
+  },
+  {
+    "label": "ANAPU",
+    "value": "1500859"
+  },
+  {
+    "label": "AUGUSTO CORREA",
+    "value": "1500909"
+  },
+  {
+    "label": "AURORA DO PARA",
+    "value": "1500958"
+  },
+  {
+    "label": "AVEIRO",
+    "value": "1501006"
+  },
+  {
+    "label": "BAGRE",
+    "value": "1501105"
+  },
+  {
+    "label": "BAIAO",
+    "value": "1501204"
+  },
+  {
+    "label": "BANNACH",
+    "value": "1501253"
+  },
+  {
+    "label": "BARCARENA",
+    "value": "1501303"
+  },
+  {
+    "label": "BELEM",
+    "value": "1501402"
+  },
+  {
+    "label": "BELTERRA",
+    "value": "1501451"
+  },
+  {
+    "label": "BENEVIDES",
+    "value": "1501501"
+  },
+  {
+    "label": "BOM JESUS DO TOCANTINS",
+    "value": "1501576"
+  },
+  {
+    "label": "BONITO",
+    "value": "1501600"
+  },
+  {
+    "label": "BRAGANCA",
+    "value": "1501709"
+  },
+  {
+    "label": "BRASIL NOVO",
+    "value": "1501725"
+  },
+  {
+    "label": "BREJO GRANDE DO ARAGUAIA",
+    "value": "1501758"
+  },
+  {
+    "label": "BREU BRANCO",
+    "value": "1501782"
+  },
+  {
+    "label": "BREVES",
+    "value": "1501808"
+  },
+  {
+    "label": "BUJARU",
+    "value": "1501907"
+  },
+  {
+    "label": "CACHOEIRA DO ARARI",
+    "value": "1502004"
+  },
+  {
+    "label": "CACHOEIRA DO PIRIA",
+    "value": "1501956"
+  },
+  {
+    "label": "CAMETA",
+    "value": "1502103"
+  },
+  {
+    "label": "CANAA DOS CARAJAS",
+    "value": "1502152"
+  },
+  {
+    "label": "CAPANEMA",
+    "value": "1502202"
+  },
+  {
+    "label": "CAPITAO POCO",
+    "value": "1502301"
+  },
+  {
+    "label": "CASTANHAL",
+    "value": "1502400"
+  },
+  {
+    "label": "CHAVES",
+    "value": "1502509"
+  },
+  {
+    "label": "COLARES",
+    "value": "1502608"
+  },
+  {
+    "label": "CONCEICAO DO ARAGUAIA",
+    "value": "1502707"
+  },
+  {
+    "label": "CONCORDIA DO PARA",
+    "value": "1502756"
+  },
+  {
+    "label": "CUMARU DO NORTE",
+    "value": "1502764"
+  },
+  {
+    "label": "CURIONOPOLIS",
+    "value": "1502772"
+  },
+  {
+    "label": "CURRALINHO",
+    "value": "1502806"
+  },
+  {
+    "label": "CURUA",
+    "value": "1502855"
+  },
+  {
+    "label": "CURUCA",
+    "value": "1502905"
+  },
+  {
+    "label": "DOM ELISEU",
+    "value": "1502939"
+  },
+  {
+    "label": "ELDORADO DO CARAJAS",
+    "value": "1502954"
+  },
+  {
+    "label": "FARO",
+    "value": "1503002"
+  },
+  {
+    "label": "FLORESTA DO ARAGUAIA",
+    "value": "1503044"
+  },
+  {
+    "label": "GARRAFAO DO NORTE",
+    "value": "1503077"
+  },
+  {
+    "label": "GOIANESIA DO PARA",
+    "value": "1503093"
+  },
+  {
+    "label": "GURUPA",
+    "value": "1503101"
+  },
+  {
+    "label": "IGARAPE-ACU",
+    "value": "1503200"
+  },
+  {
+    "label": "IGARAPE-MIRI",
+    "value": "1503309"
+  },
+  {
+    "label": "INHANGAPI",
+    "value": "1503408"
+  },
+  {
+    "label": "IPIXUNA DO PARA",
+    "value": "1503457"
+  },
+  {
+    "label": "IRITUIA",
+    "value": "1503507"
+  },
+  {
+    "label": "ITAITUBA",
+    "value": "1503606"
+  },
+  {
+    "label": "ITUPIRANGA",
+    "value": "1503705"
+  },
+  {
+    "label": "JACAREACANGA",
+    "value": "1503754"
+  },
+  {
+    "label": "JACUNDA",
+    "value": "1503804"
+  },
+  {
+    "label": "JURUTI",
+    "value": "1503903"
+  },
+  {
+    "label": "LIMOEIRO DO AJURU",
+    "value": "1504000"
+  },
+  {
+    "label": "MAE DO RIO",
+    "value": "1504059"
+  },
+  {
+    "label": "MAGALHAES BARATA",
+    "value": "1504109"
+  },
+  {
+    "label": "MARABA",
+    "value": "1504208"
+  },
+  {
+    "label": "MARACANA",
+    "value": "1504307"
+  },
+  {
+    "label": "MARAPANIM",
+    "value": "1504406"
+  },
+  {
+    "label": "MARITUBA",
+    "value": "1504422"
+  },
+  {
+    "label": "MEDICILANDIA",
+    "value": "1504455"
+  },
+  {
+    "label": "MELGACO",
+    "value": "1504505"
+  },
+  {
+    "label": "MOCAJUBA",
+    "value": "1504604"
+  },
+  {
+    "label": "MOJU",
+    "value": "1504703"
+  },
+  {
+    "label": "MOJUI DOS CAMPOS",
+    "value": "1504752"
+  },
+  {
+    "label": "MONTE ALEGRE",
+    "value": "1504802"
+  },
+  {
+    "label": "MUANA",
+    "value": "1504901"
+  },
+  {
+    "label": "NOVA ESPERANCA DO PIRIA",
+    "value": "1504950"
+  },
+  {
+    "label": "NOVA IPIXUNA",
+    "value": "1504976"
+  },
+  {
+    "label": "NOVA TIMBOTEUA",
+    "value": "1505007"
+  },
+  {
+    "label": "NOVO PROGRESSO",
+    "value": "1505031"
+  },
+  {
+    "label": "NOVO REPARTIMENTO",
+    "value": "1505064"
+  },
+  {
+    "label": "OBIDOS",
+    "value": "1505106"
+  },
+  {
+    "label": "OEIRAS DO PARA",
+    "value": "1505205"
+  },
+  {
+    "label": "ORIXIMINA",
+    "value": "1505304"
+  },
+  {
+    "label": "OUREM",
+    "value": "1505403"
+  },
+  {
+    "label": "OURILANDIA DO NORTE",
+    "value": "1505437"
+  },
+  {
+    "label": "PACAJA",
+    "value": "1505486"
+  },
+  {
+    "label": "PALESTINA DO PARA",
+    "value": "1505494"
+  },
+  {
+    "label": "PARAGOMINAS",
+    "value": "1505502"
+  },
+  {
+    "label": "PARAUAPEBAS",
+    "value": "1505536"
+  },
+  {
+    "label": "PAU D'ARCO",
+    "value": "1505551"
+  },
+  {
+    "label": "PEIXE-BOI",
+    "value": "1505601"
+  },
+  {
+    "label": "PICARRA",
+    "value": "1505635"
+  },
+  {
+    "label": "PLACAS",
+    "value": "1505650"
+  },
+  {
+    "label": "PONTA DE PEDRAS",
+    "value": "1505700"
+  },
+  {
+    "label": "PORTEL",
+    "value": "1505809"
+  },
+  {
+    "label": "PORTO DE MOZ",
+    "value": "1505908"
+  },
+  {
+    "label": "PRAINHA",
+    "value": "1506005"
+  },
+  {
+    "label": "PRIMAVERA",
+    "value": "1506104"
+  },
+  {
+    "label": "QUATIPURU",
+    "value": "1506112"
+  },
+  {
+    "label": "REDENCAO",
+    "value": "1506138"
+  },
+  {
+    "label": "RIO MARIA",
+    "value": "1506161"
+  },
+  {
+    "label": "RONDON DO PARA",
+    "value": "1506187"
+  },
+  {
+    "label": "RUROPOLIS",
+    "value": "1506195"
+  },
+  {
+    "label": "SALINOPOLIS",
+    "value": "1506203"
+  },
+  {
+    "label": "SALVATERRA",
+    "value": "1506302"
+  },
+  {
+    "label": "SANTA BARBARA DO PARA",
+    "value": "1506351"
+  },
+  {
+    "label": "SANTA CRUZ DO ARARI",
+    "value": "1506401"
+  },
+  {
+    "label": "SANTA IZABEL DO PARA",
+    "value": "1506500"
+  },
+  {
+    "label": "SANTA LUZIA DO PARA",
+    "value": "1506559"
+  },
+  {
+    "label": "SANTA MARIA DAS BARREIRAS",
+    "value": "1506583"
+  },
+  {
+    "label": "SANTA MARIA DO PARA",
+    "value": "1506609"
+  },
+  {
+    "label": "SANTANA DO ARAGUAIA",
+    "value": "1506708"
+  },
+  {
+    "label": "SANTAREM",
+    "value": "1506807"
+  },
+  {
+    "label": "SANTAREM NOVO",
+    "value": "1506906"
+  },
+  {
+    "label": "SANTO ANTONIO DO TAUA",
+    "value": "1507003"
+  },
+  {
+    "label": "SAO CAETANO DE ODIVELAS",
+    "value": "1507102"
+  },
+  {
+    "label": "SAO DOMINGOS DO ARAGUAIA",
+    "value": "1507151"
+  },
+  {
+    "label": "SAO DOMINGOS DO CAPIM",
+    "value": "1507201"
+  },
+  {
+    "label": "SAO FELIX DO XINGU",
+    "value": "1507300"
+  },
+  {
+    "label": "SAO FRANCISCO DO PARA",
+    "value": "1507409"
+  },
+  {
+    "label": "SAO GERALDO DO ARAGUAIA",
+    "value": "1507458"
+  },
+  {
+    "label": "SAO JOAO DA PONTA",
+    "value": "1507466"
+  },
+  {
+    "label": "SAO JOAO DE PIRABAS",
+    "value": "1507474"
+  },
+  {
+    "label": "SAO JOAO DO ARAGUAIA",
+    "value": "1507508"
+  },
+  {
+    "label": "SAO MIGUEL DO GUAMA",
+    "value": "1507607"
+  },
+  {
+    "label": "SAO SEBASTIAO DA BOA VISTA",
+    "value": "1507706"
+  },
+  {
+    "label": "SAPUCAIA",
+    "value": "1507755"
+  },
+  {
+    "label": "SENADOR JOSE PORFIRIO",
+    "value": "1507805"
+  },
+  {
+    "label": "SOURE",
+    "value": "1507904"
+  },
+  {
+    "label": "TAILANDIA",
+    "value": "1507953"
+  },
+  {
+    "label": "TERRA ALTA",
+    "value": "1507961"
+  },
+  {
+    "label": "TERRA SANTA",
+    "value": "1507979"
+  },
+  {
+    "label": "TOME-ACU",
+    "value": "1508001"
+  },
+  {
+    "label": "TRACUATEUA",
+    "value": "1508035"
+  },
+  {
+    "label": "TRAIRAO",
+    "value": "1508050"
+  },
+  {
+    "label": "TUCUMA",
+    "value": "1508084"
+  },
+  {
+    "label": "TUCURUI",
+    "value": "1508100"
+  },
+  {
+    "label": "ULIANOPOLIS",
+    "value": "1508126"
+  },
+  {
+    "label": "URUARA",
+    "value": "1508159"
+  },
+  {
+    "label": "VIGIA",
+    "value": "1508209"
+  },
+  {
+    "label": "VISEU",
+    "value": "1508308"
+  },
+  {
+    "label": "VITORIA DO XINGU",
+    "value": "1508357"
+  },
+  {
+    "label": "XINGUARA",
+    "value": "1508407"
+  }
+]

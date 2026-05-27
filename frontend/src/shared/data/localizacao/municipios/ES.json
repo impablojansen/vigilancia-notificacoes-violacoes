@@ -1,0 +1,314 @@
+[
+  {
+    "label": "AFONSO CLAUDIO",
+    "value": "3200102"
+  },
+  {
+    "label": "AGUA DOCE DO NORTE",
+    "value": "3200169"
+  },
+  {
+    "label": "AGUIA BRANCA",
+    "value": "3200136"
+  },
+  {
+    "label": "ALEGRE",
+    "value": "3200201"
+  },
+  {
+    "label": "ALFREDO CHAVES",
+    "value": "3200300"
+  },
+  {
+    "label": "ALTO RIO NOVO",
+    "value": "3200359"
+  },
+  {
+    "label": "ANCHIETA",
+    "value": "3200409"
+  },
+  {
+    "label": "APIACA",
+    "value": "3200508"
+  },
+  {
+    "label": "ARACRUZ",
+    "value": "3200607"
+  },
+  {
+    "label": "ATILIO VIVACQUA",
+    "value": "3200706"
+  },
+  {
+    "label": "BAIXO GUANDU",
+    "value": "3200805"
+  },
+  {
+    "label": "BARRA DE SAO FRANCISCO",
+    "value": "3200904"
+  },
+  {
+    "label": "BOA ESPERANCA",
+    "value": "3201001"
+  },
+  {
+    "label": "BOM JESUS DO NORTE",
+    "value": "3201100"
+  },
+  {
+    "label": "BREJETUBA",
+    "value": "3201159"
+  },
+  {
+    "label": "CACHOEIRO DE ITAPEMIRIM",
+    "value": "3201209"
+  },
+  {
+    "label": "CARIACICA",
+    "value": "3201308"
+  },
+  {
+    "label": "CASTELO",
+    "value": "3201407"
+  },
+  {
+    "label": "COLATINA",
+    "value": "3201506"
+  },
+  {
+    "label": "CONCEICAO DA BARRA",
+    "value": "3201605"
+  },
+  {
+    "label": "CONCEICAO DO CASTELO",
+    "value": "3201704"
+  },
+  {
+    "label": "DIVINO DE SAO LOURENCO",
+    "value": "3201803"
+  },
+  {
+    "label": "DOMINGOS MARTINS",
+    "value": "3201902"
+  },
+  {
+    "label": "DORES DO RIO PRETO",
+    "value": "3202009"
+  },
+  {
+    "label": "ECOPORANGA",
+    "value": "3202108"
+  },
+  {
+    "label": "FUNDAO",
+    "value": "3202207"
+  },
+  {
+    "label": "GOVERNADOR LINDENBERG",
+    "value": "3202256"
+  },
+  {
+    "label": "GUACUI",
+    "value": "3202306"
+  },
+  {
+    "label": "GUARAPARI",
+    "value": "3202405"
+  },
+  {
+    "label": "IBATIBA",
+    "value": "3202454"
+  },
+  {
+    "label": "IBIRACU",
+    "value": "3202504"
+  },
+  {
+    "label": "IBITIRAMA",
+    "value": "3202553"
+  },
+  {
+    "label": "ICONHA",
+    "value": "3202603"
+  },
+  {
+    "label": "IRUPI",
+    "value": "3202652"
+  },
+  {
+    "label": "ITAGUACU",
+    "value": "3202702"
+  },
+  {
+    "label": "ITAPEMIRIM",
+    "value": "3202801"
+  },
+  {
+    "label": "ITARANA",
+    "value": "3202900"
+  },
+  {
+    "label": "IUNA",
+    "value": "3203007"
+  },
+  {
+    "label": "JAGUARE",
+    "value": "3203056"
+  },
+  {
+    "label": "JERONIMO MONTEIRO",
+    "value": "3203106"
+  },
+  {
+    "label": "JOAO NEIVA",
+    "value": "3203130"
+  },
+  {
+    "label": "LARANJA DA TERRA",
+    "value": "3203163"
+  },
+  {
+    "label": "LINHARES",
+    "value": "3203205"
+  },
+  {
+    "label": "MANTENOPOLIS",
+    "value": "3203304"
+  },
+  {
+    "label": "MARATAIZES",
+    "value": "3203320"
+  },
+  {
+    "label": "MARECHAL FLORIANO",
+    "value": "3203346"
+  },
+  {
+    "label": "MARILANDIA",
+    "value": "3203353"
+  },
+  {
+    "label": "MIMOSO DO SUL",
+    "value": "3203403"
+  },
+  {
+    "label": "MONTANHA",
+    "value": "3203502"
+  },
+  {
+    "label": "MUCURICI",
+    "value": "3203601"
+  },
+  {
+    "label": "MUNIZ FREIRE",
+    "value": "3203700"
+  },
+  {
+    "label": "MUQUI",
+    "value": "3203809"
+  },
+  {
+    "label": "NOVA VENECIA",
+    "value": "3203908"
+  },
+  {
+    "label": "PANCAS",
+    "value": "3204005"
+  },
+  {
+    "label": "PEDRO CANARIO",
+    "value": "3204054"
+  },
+  {
+    "label": "PINHEIROS",
+    "value": "3204104"
+  },
+  {
+    "label": "PIUMA",
+    "value": "3204203"
+  },
+  {
+    "label": "PONTO BELO",
+    "value": "3204252"
+  },
+  {
+    "label": "PRESIDENTE KENNEDY",
+    "value": "3204302"
+  },
+  {
+    "label": "RIO BANANAL",
+    "value": "3204351"
+  },
+  {
+    "label": "RIO NOVO DO SUL",
+    "value": "3204401"
+  },
+  {
+    "label": "SANTA LEOPOLDINA",
+    "value": "3204500"
+  },
+  {
+    "label": "SANTA MARIA DE JETIBA",
+    "value": "3204559"
+  },
+  {
+    "label": "SANTA TERESA",
+    "value": "3204609"
+  },
+  {
+    "label": "SAO DOMINGOS DO NORTE",
+    "value": "3204658"
+  },
+  {
+    "label": "SAO GABRIEL DA PALHA",
+    "value": "3204708"
+  },
+  {
+    "label": "SAO JOSE DO CALCADO",
+    "value": "3204807"
+  },
+  {
+    "label": "SAO MATEUS",
+    "value": "3204906"
+  },
+  {
+    "label": "SAO ROQUE DO CANAA",
+    "value": "3204955"
+  },
+  {
+    "label": "SERRA",
+    "value": "3205002"
+  },
+  {
+    "label": "SOORETAMA",
+    "value": "3205010"
+  },
+  {
+    "label": "VARGEM ALTA",
+    "value": "3205036"
+  },
+  {
+    "label": "VENDA NOVA DO IMIGRANTE",
+    "value": "3205069"
+  },
+  {
+    "label": "VIANA",
+    "value": "3205101"
+  },
+  {
+    "label": "VILA PAVAO",
+    "value": "3205150"
+  },
+  {
+    "label": "VILA VALERIO",
+    "value": "3205176"
+  },
+  {
+    "label": "VILA VELHA",
+    "value": "3205200"
+  },
+  {
+    "label": "VITORIA",
+    "value": "3205309"
+  }
+]

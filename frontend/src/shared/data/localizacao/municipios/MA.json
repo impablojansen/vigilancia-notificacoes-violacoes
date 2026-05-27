@@ -1,0 +1,870 @@
+[
+  {
+    "label": "ACAILANDIA",
+    "value": "2100055"
+  },
+  {
+    "label": "AFONSO CUNHA",
+    "value": "2100105"
+  },
+  {
+    "label": "AGUA DOCE DO MARANHAO",
+    "value": "2100154"
+  },
+  {
+    "label": "ALCANTARA",
+    "value": "2100204"
+  },
+  {
+    "label": "ALDEIAS ALTAS",
+    "value": "2100303"
+  },
+  {
+    "label": "ALTAMIRA DO MARANHAO",
+    "value": "2100402"
+  },
+  {
+    "label": "ALTO ALEGRE DO MARANHAO",
+    "value": "2100436"
+  },
+  {
+    "label": "ALTO ALEGRE DO PINDARE",
+    "value": "2100477"
+  },
+  {
+    "label": "ALTO PARNAIBA",
+    "value": "2100501"
+  },
+  {
+    "label": "AMAPA DO MARANHAO",
+    "value": "2100550"
+  },
+  {
+    "label": "AMARANTE DO MARANHAO",
+    "value": "2100600"
+  },
+  {
+    "label": "ANAJATUBA",
+    "value": "2100709"
+  },
+  {
+    "label": "ANAPURUS",
+    "value": "2100808"
+  },
+  {
+    "label": "APICUM-ACU",
+    "value": "2100832"
+  },
+  {
+    "label": "ARAGUANA",
+    "value": "2100873"
+  },
+  {
+    "label": "ARAIOSES",
+    "value": "2100907"
+  },
+  {
+    "label": "ARAME",
+    "value": "2100956"
+  },
+  {
+    "label": "ARARI",
+    "value": "2101004"
+  },
+  {
+    "label": "AXIXA",
+    "value": "2101103"
+  },
+  {
+    "label": "BACABAL",
+    "value": "2101202"
+  },
+  {
+    "label": "BACABEIRA",
+    "value": "2101251"
+  },
+  {
+    "label": "BACURI",
+    "value": "2101301"
+  },
+  {
+    "label": "BACURITUBA",
+    "value": "2101350"
+  },
+  {
+    "label": "BALSAS",
+    "value": "2101400"
+  },
+  {
+    "label": "BARAO DE GRAJAU",
+    "value": "2101509"
+  },
+  {
+    "label": "BARRA DO CORDA",
+    "value": "2101608"
+  },
+  {
+    "label": "BARREIRINHAS",
+    "value": "2101707"
+  },
+  {
+    "label": "BELA VISTA DO MARANHAO",
+    "value": "2101772"
+  },
+  {
+    "label": "BELAGUA",
+    "value": "2101731"
+  },
+  {
+    "label": "BENEDITO LEITE",
+    "value": "2101806"
+  },
+  {
+    "label": "BEQUIMAO",
+    "value": "2101905"
+  },
+  {
+    "label": "BERNARDO DO MEARIM",
+    "value": "2101939"
+  },
+  {
+    "label": "BOA VISTA DO GURUPI",
+    "value": "2101970"
+  },
+  {
+    "label": "BOM JARDIM",
+    "value": "2102002"
+  },
+  {
+    "label": "BOM JESUS DAS SELVAS",
+    "value": "2102036"
+  },
+  {
+    "label": "BOM LUGAR",
+    "value": "2102077"
+  },
+  {
+    "label": "BREJO",
+    "value": "2102101"
+  },
+  {
+    "label": "BREJO DE AREIA",
+    "value": "2102150"
+  },
+  {
+    "label": "BURITI",
+    "value": "2102200"
+  },
+  {
+    "label": "BURITI BRAVO",
+    "value": "2102309"
+  },
+  {
+    "label": "BURITICUPU",
+    "value": "2102325"
+  },
+  {
+    "label": "BURITIRANA",
+    "value": "2102358"
+  },
+  {
+    "label": "CACHOEIRA GRANDE",
+    "value": "2102374"
+  },
+  {
+    "label": "CAJAPIO",
+    "value": "2102408"
+  },
+  {
+    "label": "CAJARI",
+    "value": "2102507"
+  },
+  {
+    "label": "CAMPESTRE DO MARANHAO",
+    "value": "2102556"
+  },
+  {
+    "label": "CANDIDO MENDES",
+    "value": "2102606"
+  },
+  {
+    "label": "CANTANHEDE",
+    "value": "2102705"
+  },
+  {
+    "label": "CAPINZAL DO NORTE",
+    "value": "2102754"
+  },
+  {
+    "label": "CAROLINA",
+    "value": "2102804"
+  },
+  {
+    "label": "CARUTAPERA",
+    "value": "2102903"
+  },
+  {
+    "label": "CAXIAS",
+    "value": "2103000"
+  },
+  {
+    "label": "CEDRAL",
+    "value": "2103109"
+  },
+  {
+    "label": "CENTRAL DO MARANHAO",
+    "value": "2103125"
+  },
+  {
+    "label": "CENTRO DO GUILHERME",
+    "value": "2103158"
+  },
+  {
+    "label": "CENTRO NOVO DO MARANHAO",
+    "value": "2103174"
+  },
+  {
+    "label": "CHAPADINHA",
+    "value": "2103208"
+  },
+  {
+    "label": "CIDELANDIA",
+    "value": "2103257"
+  },
+  {
+    "label": "CODO",
+    "value": "2103307"
+  },
+  {
+    "label": "COELHO NETO",
+    "value": "2103406"
+  },
+  {
+    "label": "COLINAS",
+    "value": "2103505"
+  },
+  {
+    "label": "CONCEICAO DO LAGO-ACU",
+    "value": "2103554"
+  },
+  {
+    "label": "COROATA",
+    "value": "2103604"
+  },
+  {
+    "label": "CURURUPU",
+    "value": "2103703"
+  },
+  {
+    "label": "DAVINOPOLIS",
+    "value": "2103752"
+  },
+  {
+    "label": "DOM PEDRO",
+    "value": "2103802"
+  },
+  {
+    "label": "DUQUE BACELAR",
+    "value": "2103901"
+  },
+  {
+    "label": "ESPERANTINOPOLIS",
+    "value": "2104008"
+  },
+  {
+    "label": "ESTREITO",
+    "value": "2104057"
+  },
+  {
+    "label": "FEIRA NOVA DO MARANHAO",
+    "value": "2104073"
+  },
+  {
+    "label": "FERNANDO FALCAO",
+    "value": "2104081"
+  },
+  {
+    "label": "FORMOSA DA SERRA NEGRA",
+    "value": "2104099"
+  },
+  {
+    "label": "FORTALEZA DOS NOGUEIRAS",
+    "value": "2104107"
+  },
+  {
+    "label": "FORTUNA",
+    "value": "2104206"
+  },
+  {
+    "label": "GODOFREDO VIANA",
+    "value": "2104305"
+  },
+  {
+    "label": "GONCALVES DIAS",
+    "value": "2104404"
+  },
+  {
+    "label": "GOVERNADOR ARCHER",
+    "value": "2104503"
+  },
+  {
+    "label": "GOVERNADOR EDISON LOBAO",
+    "value": "2104552"
+  },
+  {
+    "label": "GOVERNADOR EUGENIO BARROS",
+    "value": "2104602"
+  },
+  {
+    "label": "GOVERNADOR LUIZ ROCHA",
+    "value": "2104628"
+  },
+  {
+    "label": "GOVERNADOR NEWTON BELLO",
+    "value": "2104651"
+  },
+  {
+    "label": "GOVERNADOR NUNES FREIRE",
+    "value": "2104677"
+  },
+  {
+    "label": "GRACA ARANHA",
+    "value": "2104701"
+  },
+  {
+    "label": "GRAJAU",
+    "value": "2104800"
+  },
+  {
+    "label": "GUIMARAES",
+    "value": "2104909"
+  },
+  {
+    "label": "HUMBERTO DE CAMPOS",
+    "value": "2105005"
+  },
+  {
+    "label": "ICATU",
+    "value": "2105104"
+  },
+  {
+    "label": "IGARAPE DO MEIO",
+    "value": "2105153"
+  },
+  {
+    "label": "IGARAPE GRANDE",
+    "value": "2105203"
+  },
+  {
+    "label": "IMPERATRIZ",
+    "value": "2105302"
+  },
+  {
+    "label": "ITAIPAVA DO GRAJAU",
+    "value": "2105351"
+  },
+  {
+    "label": "ITAPECURU MIRIM",
+    "value": "2105401"
+  },
+  {
+    "label": "ITINGA DO MARANHAO",
+    "value": "2105427"
+  },
+  {
+    "label": "JATOBA",
+    "value": "2105450"
+  },
+  {
+    "label": "JENIPAPO DOS VIEIRAS",
+    "value": "2105476"
+  },
+  {
+    "label": "JOAO LISBOA",
+    "value": "2105500"
+  },
+  {
+    "label": "JOSELANDIA",
+    "value": "2105609"
+  },
+  {
+    "label": "JUNCO DO MARANHAO",
+    "value": "2105658"
+  },
+  {
+    "label": "LAGO DA PEDRA",
+    "value": "2105708"
+  },
+  {
+    "label": "LAGO DO JUNCO",
+    "value": "2105807"
+  },
+  {
+    "label": "LAGO DOS RODRIGUES",
+    "value": "2105948"
+  },
+  {
+    "label": "LAGO VERDE",
+    "value": "2105906"
+  },
+  {
+    "label": "LAGOA DO MATO",
+    "value": "2105922"
+  },
+  {
+    "label": "LAGOA GRANDE DO MARANHAO",
+    "value": "2105963"
+  },
+  {
+    "label": "LAJEADO NOVO",
+    "value": "2105989"
+  },
+  {
+    "label": "LIMA CAMPOS",
+    "value": "2106003"
+  },
+  {
+    "label": "LORETO",
+    "value": "2106102"
+  },
+  {
+    "label": "LUIS DOMINGUES",
+    "value": "2106201"
+  },
+  {
+    "label": "MAGALHAES DE ALMEIDA",
+    "value": "2106300"
+  },
+  {
+    "label": "MARACACUME",
+    "value": "2106326"
+  },
+  {
+    "label": "MARAJA DO SENA",
+    "value": "2106359"
+  },
+  {
+    "label": "MARANHAOZINHO",
+    "value": "2106375"
+  },
+  {
+    "label": "MATA ROMA",
+    "value": "2106409"
+  },
+  {
+    "label": "MATINHA",
+    "value": "2106508"
+  },
+  {
+    "label": "MATOES",
+    "value": "2106607"
+  },
+  {
+    "label": "MATOES DO NORTE",
+    "value": "2106631"
+  },
+  {
+    "label": "MILAGRES DO MARANHAO",
+    "value": "2106672"
+  },
+  {
+    "label": "MIRADOR",
+    "value": "2106706"
+  },
+  {
+    "label": "MIRANDA DO NORTE",
+    "value": "2106755"
+  },
+  {
+    "label": "MIRINZAL",
+    "value": "2106805"
+  },
+  {
+    "label": "MONCAO",
+    "value": "2106904"
+  },
+  {
+    "label": "MONTES ALTOS",
+    "value": "2107001"
+  },
+  {
+    "label": "MORROS",
+    "value": "2107100"
+  },
+  {
+    "label": "NINA RODRIGUES",
+    "value": "2107209"
+  },
+  {
+    "label": "NOVA COLINAS",
+    "value": "2107258"
+  },
+  {
+    "label": "NOVA IORQUE",
+    "value": "2107308"
+  },
+  {
+    "label": "NOVA OLINDA DO MARANHAO",
+    "value": "2107357"
+  },
+  {
+    "label": "OLHO D'AGUA DAS CUNHAS",
+    "value": "2107407"
+  },
+  {
+    "label": "OLINDA NOVA DO MARANHAO",
+    "value": "2107456"
+  },
+  {
+    "label": "PACO DO LUMIAR",
+    "value": "2107506"
+  },
+  {
+    "label": "PALMEIRANDIA",
+    "value": "2107605"
+  },
+  {
+    "label": "PARAIBANO",
+    "value": "2107704"
+  },
+  {
+    "label": "PARNARAMA",
+    "value": "2107803"
+  },
+  {
+    "label": "PASSAGEM FRANCA",
+    "value": "2107902"
+  },
+  {
+    "label": "PASTOS BONS",
+    "value": "2108009"
+  },
+  {
+    "label": "PAULINO NEVES",
+    "value": "2108058"
+  },
+  {
+    "label": "PAULO RAMOS",
+    "value": "2108108"
+  },
+  {
+    "label": "PEDREIRAS",
+    "value": "2108207"
+  },
+  {
+    "label": "PEDRO DO ROSARIO",
+    "value": "2108256"
+  },
+  {
+    "label": "PENALVA",
+    "value": "2108306"
+  },
+  {
+    "label": "PERI MIRIM",
+    "value": "2108405"
+  },
+  {
+    "label": "PERITORO",
+    "value": "2108454"
+  },
+  {
+    "label": "PINDARE-MIRIM",
+    "value": "2108504"
+  },
+  {
+    "label": "PINHEIRO",
+    "value": "2108603"
+  },
+  {
+    "label": "PIO XII",
+    "value": "2108702"
+  },
+  {
+    "label": "PIRAPEMAS",
+    "value": "2108801"
+  },
+  {
+    "label": "POCAO DE PEDRAS",
+    "value": "2108900"
+  },
+  {
+    "label": "PORTO FRANCO",
+    "value": "2109007"
+  },
+  {
+    "label": "PORTO RICO DO MARANHAO",
+    "value": "2109056"
+  },
+  {
+    "label": "PRESIDENTE DUTRA",
+    "value": "2109106"
+  },
+  {
+    "label": "PRESIDENTE JUSCELINO",
+    "value": "2109205"
+  },
+  {
+    "label": "PRESIDENTE MEDICI",
+    "value": "2109239"
+  },
+  {
+    "label": "PRESIDENTE SARNEY",
+    "value": "2109270"
+  },
+  {
+    "label": "PRESIDENTE VARGAS",
+    "value": "2109304"
+  },
+  {
+    "label": "PRIMEIRA CRUZ",
+    "value": "2109403"
+  },
+  {
+    "label": "RAPOSA",
+    "value": "2109452"
+  },
+  {
+    "label": "RIACHAO",
+    "value": "2109502"
+  },
+  {
+    "label": "RIBAMAR FIQUENE",
+    "value": "2109551"
+  },
+  {
+    "label": "ROSARIO",
+    "value": "2109601"
+  },
+  {
+    "label": "SAMBAIBA",
+    "value": "2109700"
+  },
+  {
+    "label": "SANTA FILOMENA DO MARANHAO",
+    "value": "2109759"
+  },
+  {
+    "label": "SANTA HELENA",
+    "value": "2109809"
+  },
+  {
+    "label": "SANTA INES",
+    "value": "2109908"
+  },
+  {
+    "label": "SANTA LUZIA",
+    "value": "2110005"
+  },
+  {
+    "label": "SANTA LUZIA DO PARUA",
+    "value": "2110039"
+  },
+  {
+    "label": "SANTA QUITERIA DO MARANHAO",
+    "value": "2110104"
+  },
+  {
+    "label": "SANTA RITA",
+    "value": "2110203"
+  },
+  {
+    "label": "SANTANA DO MARANHAO",
+    "value": "2110237"
+  },
+  {
+    "label": "SANTO AMARO DO MARANHAO",
+    "value": "2110278"
+  },
+  {
+    "label": "SANTO ANTONIO DOS LOPES",
+    "value": "2110302"
+  },
+  {
+    "label": "SAO BENEDITO DO RIO PRETO",
+    "value": "2110401"
+  },
+  {
+    "label": "SAO BENTO",
+    "value": "2110500"
+  },
+  {
+    "label": "SAO BERNARDO",
+    "value": "2110609"
+  },
+  {
+    "label": "SAO DOMINGOS DO AZEITAO",
+    "value": "2110658"
+  },
+  {
+    "label": "SAO DOMINGOS DO MARANHAO",
+    "value": "2110708"
+  },
+  {
+    "label": "SAO FELIX DE BALSAS",
+    "value": "2110807"
+  },
+  {
+    "label": "SAO FRANCISCO DO BREJAO",
+    "value": "2110856"
+  },
+  {
+    "label": "SAO FRANCISCO DO MARANHAO",
+    "value": "2110906"
+  },
+  {
+    "label": "SAO JOAO BATISTA",
+    "value": "2111003"
+  },
+  {
+    "label": "SAO JOAO DO CARU",
+    "value": "2111029"
+  },
+  {
+    "label": "SAO JOAO DO PARAISO",
+    "value": "2111052"
+  },
+  {
+    "label": "SAO JOAO DO SOTER",
+    "value": "2111078"
+  },
+  {
+    "label": "SAO JOAO DOS PATOS",
+    "value": "2111102"
+  },
+  {
+    "label": "SAO JOSE DE RIBAMAR",
+    "value": "2111201"
+  },
+  {
+    "label": "SAO JOSE DOS BASILIOS",
+    "value": "2111250"
+  },
+  {
+    "label": "SAO LUIS",
+    "value": "2111300"
+  },
+  {
+    "label": "SAO LUIS GONZAGA DO MARANHAO",
+    "value": "2111409"
+  },
+  {
+    "label": "SAO MATEUS DO MARANHAO",
+    "value": "2111508"
+  },
+  {
+    "label": "SAO PEDRO DA AGUA BRANCA",
+    "value": "2111532"
+  },
+  {
+    "label": "SAO PEDRO DOS CRENTES",
+    "value": "2111573"
+  },
+  {
+    "label": "SAO RAIMUNDO DAS MANGABEIRAS",
+    "value": "2111607"
+  },
+  {
+    "label": "SAO RAIMUNDO DO DOCA BEZERRA",
+    "value": "2111631"
+  },
+  {
+    "label": "SAO ROBERTO",
+    "value": "2111672"
+  },
+  {
+    "label": "SAO VICENTE FERRER",
+    "value": "2111706"
+  },
+  {
+    "label": "SATUBINHA",
+    "value": "2111722"
+  },
+  {
+    "label": "SENADOR ALEXANDRE COSTA",
+    "value": "2111748"
+  },
+  {
+    "label": "SENADOR LA ROCQUE",
+    "value": "2111763"
+  },
+  {
+    "label": "SERRANO DO MARANHAO",
+    "value": "2111789"
+  },
+  {
+    "label": "SITIO NOVO",
+    "value": "2111805"
+  },
+  {
+    "label": "SUCUPIRA DO NORTE",
+    "value": "2111904"
+  },
+  {
+    "label": "SUCUPIRA DO RIACHAO",
+    "value": "2111953"
+  },
+  {
+    "label": "TASSO FRAGOSO",
+    "value": "2112001"
+  },
+  {
+    "label": "TIMBIRAS",
+    "value": "2112100"
+  },
+  {
+    "label": "TIMON",
+    "value": "2112209"
+  },
+  {
+    "label": "TRIZIDELA DO VALE",
+    "value": "2112233"
+  },
+  {
+    "label": "TUFILANDIA",
+    "value": "2112274"
+  },
+  {
+    "label": "TUNTUM",
+    "value": "2112308"
+  },
+  {
+    "label": "TURIACU",
+    "value": "2112407"
+  },
+  {
+    "label": "TURILANDIA",
+    "value": "2112456"
+  },
+  {
+    "label": "TUTOIA",
+    "value": "2112506"
+  },
+  {
+    "label": "URBANO SANTOS",
+    "value": "2112605"
+  },
+  {
+    "label": "VARGEM GRANDE",
+    "value": "2112704"
+  },
+  {
+    "label": "VIANA",
+    "value": "2112803"
+  },
+  {
+    "label": "VILA NOVA DOS MARTIRIOS",
+    "value": "2112852"
+  },
+  {
+    "label": "VITORIA DO MEARIM",
+    "value": "2112902"
+  },
+  {
+    "label": "VITORINO FREIRE",
+    "value": "2113009"
+  },
+  {
+    "label": "ZE DOCA",
+    "value": "2114007"
+  }
+]

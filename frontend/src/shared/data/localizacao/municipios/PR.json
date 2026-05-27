@@ -1,0 +1,1598 @@
+[
+  {
+    "label": "ABATIA",
+    "value": "4100103"
+  },
+  {
+    "label": "ADRIANOPOLIS",
+    "value": "4100202"
+  },
+  {
+    "label": "AGUDOS DO SUL",
+    "value": "4100301"
+  },
+  {
+    "label": "ALMIRANTE TAMANDARE",
+    "value": "4100400"
+  },
+  {
+    "label": "ALTAMIRA DO PARANA",
+    "value": "4100459"
+  },
+  {
+    "label": "ALTO PARAISO",
+    "value": "4128625"
+  },
+  {
+    "label": "ALTO PARANA",
+    "value": "4100608"
+  },
+  {
+    "label": "ALTO PIQUIRI",
+    "value": "4100707"
+  },
+  {
+    "label": "ALTONIA",
+    "value": "4100509"
+  },
+  {
+    "label": "ALVORADA DO SUL",
+    "value": "4100806"
+  },
+  {
+    "label": "AMAPORA",
+    "value": "4100905"
+  },
+  {
+    "label": "AMPERE",
+    "value": "4101002"
+  },
+  {
+    "label": "ANAHY",
+    "value": "4101051"
+  },
+  {
+    "label": "ANDIRA",
+    "value": "4101101"
+  },
+  {
+    "label": "ANGULO",
+    "value": "4101150"
+  },
+  {
+    "label": "ANTONINA",
+    "value": "4101200"
+  },
+  {
+    "label": "ANTONIO OLINTO",
+    "value": "4101309"
+  },
+  {
+    "label": "APUCARANA",
+    "value": "4101408"
+  },
+  {
+    "label": "ARAPONGAS",
+    "value": "4101507"
+  },
+  {
+    "label": "ARAPOTI",
+    "value": "4101606"
+  },
+  {
+    "label": "ARAPUA",
+    "value": "4101655"
+  },
+  {
+    "label": "ARARUNA",
+    "value": "4101705"
+  },
+  {
+    "label": "ARAUCARIA",
+    "value": "4101804"
+  },
+  {
+    "label": "ARIRANHA DO IVAI",
+    "value": "4101853"
+  },
+  {
+    "label": "ASSAI",
+    "value": "4101903"
+  },
+  {
+    "label": "ASSIS CHATEAUBRIAND",
+    "value": "4102000"
+  },
+  {
+    "label": "ASTORGA",
+    "value": "4102109"
+  },
+  {
+    "label": "ATALAIA",
+    "value": "4102208"
+  },
+  {
+    "label": "BALSA NOVA",
+    "value": "4102307"
+  },
+  {
+    "label": "BANDEIRANTES",
+    "value": "4102406"
+  },
+  {
+    "label": "BARBOSA FERRAZ",
+    "value": "4102505"
+  },
+  {
+    "label": "BARRA DO JACARE",
+    "value": "4102703"
+  },
+  {
+    "label": "BARRACAO",
+    "value": "4102604"
+  },
+  {
+    "label": "BELA VISTA DA CAROBA",
+    "value": "4102752"
+  },
+  {
+    "label": "BELA VISTA DO PARAISO",
+    "value": "4102802"
+  },
+  {
+    "label": "BITURUNA",
+    "value": "4102901"
+  },
+  {
+    "label": "BOA ESPERANCA",
+    "value": "4103008"
+  },
+  {
+    "label": "BOA ESPERANCA DO IGUACU",
+    "value": "4103024"
+  },
+  {
+    "label": "BOA VENTURA DE SAO ROQUE",
+    "value": "4103040"
+  },
+  {
+    "label": "BOA VISTA DA APARECIDA",
+    "value": "4103057"
+  },
+  {
+    "label": "BOCAIUVA DO SUL",
+    "value": "4103107"
+  },
+  {
+    "label": "BOM JESUS DO SUL",
+    "value": "4103156"
+  },
+  {
+    "label": "BOM SUCESSO",
+    "value": "4103206"
+  },
+  {
+    "label": "BOM SUCESSO DO SUL",
+    "value": "4103222"
+  },
+  {
+    "label": "BORRAZOPOLIS",
+    "value": "4103305"
+  },
+  {
+    "label": "BRAGANEY",
+    "value": "4103354"
+  },
+  {
+    "label": "BRASILANDIA DO SUL",
+    "value": "4103370"
+  },
+  {
+    "label": "CAFEARA",
+    "value": "4103404"
+  },
+  {
+    "label": "CAFELANDIA",
+    "value": "4103453"
+  },
+  {
+    "label": "CAFEZAL DO SUL",
+    "value": "4103479"
+  },
+  {
+    "label": "CALIFORNIA",
+    "value": "4103503"
+  },
+  {
+    "label": "CAMBARA",
+    "value": "4103602"
+  },
+  {
+    "label": "CAMBE",
+    "value": "4103701"
+  },
+  {
+    "label": "CAMBIRA",
+    "value": "4103800"
+  },
+  {
+    "label": "CAMPINA DA LAGOA",
+    "value": "4103909"
+  },
+  {
+    "label": "CAMPINA DO SIMAO",
+    "value": "4103958"
+  },
+  {
+    "label": "CAMPINA GRANDE DO SUL",
+    "value": "4104006"
+  },
+  {
+    "label": "CAMPO BONITO",
+    "value": "4104055"
+  },
+  {
+    "label": "CAMPO DO TENENTE",
+    "value": "4104105"
+  },
+  {
+    "label": "CAMPO LARGO",
+    "value": "4104204"
+  },
+  {
+    "label": "CAMPO MAGRO",
+    "value": "4104253"
+  },
+  {
+    "label": "CAMPO MOURAO",
+    "value": "4104303"
+  },
+  {
+    "label": "CANDIDO DE ABREU",
+    "value": "4104402"
+  },
+  {
+    "label": "CANDOI",
+    "value": "4104428"
+  },
+  {
+    "label": "CANTAGALO",
+    "value": "4104451"
+  },
+  {
+    "label": "CAPANEMA",
+    "value": "4104501"
+  },
+  {
+    "label": "CAPITAO LEONIDAS MARQUES",
+    "value": "4104600"
+  },
+  {
+    "label": "CARAMBEI",
+    "value": "4104659"
+  },
+  {
+    "label": "CARLOPOLIS",
+    "value": "4104709"
+  },
+  {
+    "label": "CASCAVEL",
+    "value": "4104808"
+  },
+  {
+    "label": "CASTRO",
+    "value": "4104907"
+  },
+  {
+    "label": "CATANDUVAS",
+    "value": "4105003"
+  },
+  {
+    "label": "CENTENARIO DO SUL",
+    "value": "4105102"
+  },
+  {
+    "label": "CERRO AZUL",
+    "value": "4105201"
+  },
+  {
+    "label": "CEU AZUL",
+    "value": "4105300"
+  },
+  {
+    "label": "CHOPINZINHO",
+    "value": "4105409"
+  },
+  {
+    "label": "CIANORTE",
+    "value": "4105508"
+  },
+  {
+    "label": "CIDADE GAUCHA",
+    "value": "4105607"
+  },
+  {
+    "label": "CLEVELANDIA",
+    "value": "4105706"
+  },
+  {
+    "label": "COLOMBO",
+    "value": "4105805"
+  },
+  {
+    "label": "COLORADO",
+    "value": "4105904"
+  },
+  {
+    "label": "CONGONHINHAS",
+    "value": "4106001"
+  },
+  {
+    "label": "CONSELHEIRO MAIRINCK",
+    "value": "4106100"
+  },
+  {
+    "label": "CONTENDA",
+    "value": "4106209"
+  },
+  {
+    "label": "CORBELIA",
+    "value": "4106308"
+  },
+  {
+    "label": "CORNELIO PROCOPIO",
+    "value": "4106407"
+  },
+  {
+    "label": "CORONEL DOMINGOS SOARES",
+    "value": "4106456"
+  },
+  {
+    "label": "CORONEL VIVIDA",
+    "value": "4106506"
+  },
+  {
+    "label": "CORUMBATAI DO SUL",
+    "value": "4106555"
+  },
+  {
+    "label": "CRUZ MACHADO",
+    "value": "4106803"
+  },
+  {
+    "label": "CRUZEIRO DO IGUACU",
+    "value": "4106571"
+  },
+  {
+    "label": "CRUZEIRO DO OESTE",
+    "value": "4106605"
+  },
+  {
+    "label": "CRUZEIRO DO SUL",
+    "value": "4106704"
+  },
+  {
+    "label": "CRUZMALTINA",
+    "value": "4106852"
+  },
+  {
+    "label": "CURITIBA",
+    "value": "4106902"
+  },
+  {
+    "label": "CURIUVA",
+    "value": "4107009"
+  },
+  {
+    "label": "DIAMANTE D'OESTE",
+    "value": "4107157"
+  },
+  {
+    "label": "DIAMANTE DO NORTE",
+    "value": "4107108"
+  },
+  {
+    "label": "DIAMANTE DO SUL",
+    "value": "4107124"
+  },
+  {
+    "label": "DOIS VIZINHOS",
+    "value": "4107207"
+  },
+  {
+    "label": "DOURADINA",
+    "value": "4107256"
+  },
+  {
+    "label": "DOUTOR CAMARGO",
+    "value": "4107306"
+  },
+  {
+    "label": "DOUTOR ULYSSES",
+    "value": "4128633"
+  },
+  {
+    "label": "ENEAS MARQUES",
+    "value": "4107405"
+  },
+  {
+    "label": "ENGENHEIRO BELTRAO",
+    "value": "4107504"
+  },
+  {
+    "label": "ENTRE RIOS DO OESTE",
+    "value": "4107538"
+  },
+  {
+    "label": "ESPERANCA NOVA",
+    "value": "4107520"
+  },
+  {
+    "label": "ESPIGAO ALTO DO IGUACU",
+    "value": "4107546"
+  },
+  {
+    "label": "FAROL",
+    "value": "4107553"
+  },
+  {
+    "label": "FAXINAL",
+    "value": "4107603"
+  },
+  {
+    "label": "FAZENDA RIO GRANDE",
+    "value": "4107652"
+  },
+  {
+    "label": "FENIX",
+    "value": "4107702"
+  },
+  {
+    "label": "FERNANDES PINHEIRO",
+    "value": "4107736"
+  },
+  {
+    "label": "FIGUEIRA",
+    "value": "4107751"
+  },
+  {
+    "label": "FLOR DA SERRA DO SUL",
+    "value": "4107850"
+  },
+  {
+    "label": "FLORAI",
+    "value": "4107801"
+  },
+  {
+    "label": "FLORESTA",
+    "value": "4107900"
+  },
+  {
+    "label": "FLORESTOPOLIS",
+    "value": "4108007"
+  },
+  {
+    "label": "FLORIDA",
+    "value": "4108106"
+  },
+  {
+    "label": "FORMOSA DO OESTE",
+    "value": "4108205"
+  },
+  {
+    "label": "FOZ DO IGUACU",
+    "value": "4108304"
+  },
+  {
+    "label": "FOZ DO JORDAO",
+    "value": "4108452"
+  },
+  {
+    "label": "FRANCISCO ALVES",
+    "value": "4108320"
+  },
+  {
+    "label": "FRANCISCO BELTRAO",
+    "value": "4108403"
+  },
+  {
+    "label": "GENERAL CARNEIRO",
+    "value": "4108502"
+  },
+  {
+    "label": "GODOY MOREIRA",
+    "value": "4108551"
+  },
+  {
+    "label": "GOIOERE",
+    "value": "4108601"
+  },
+  {
+    "label": "GOIOXIM",
+    "value": "4108650"
+  },
+  {
+    "label": "GRANDES RIOS",
+    "value": "4108700"
+  },
+  {
+    "label": "GUAIRA",
+    "value": "4108809"
+  },
+  {
+    "label": "GUAIRACA",
+    "value": "4108908"
+  },
+  {
+    "label": "GUAMIRANGA",
+    "value": "4108957"
+  },
+  {
+    "label": "GUAPIRAMA",
+    "value": "4109005"
+  },
+  {
+    "label": "GUAPOREMA",
+    "value": "4109104"
+  },
+  {
+    "label": "GUARACI",
+    "value": "4109203"
+  },
+  {
+    "label": "GUARANIACU",
+    "value": "4109302"
+  },
+  {
+    "label": "GUARAPUAVA",
+    "value": "4109401"
+  },
+  {
+    "label": "GUARAQUECABA",
+    "value": "4109500"
+  },
+  {
+    "label": "GUARATUBA",
+    "value": "4109609"
+  },
+  {
+    "label": "HONORIO SERPA",
+    "value": "4109658"
+  },
+  {
+    "label": "IBAITI",
+    "value": "4109708"
+  },
+  {
+    "label": "IBEMA",
+    "value": "4109757"
+  },
+  {
+    "label": "IBIPORA",
+    "value": "4109807"
+  },
+  {
+    "label": "ICARAIMA",
+    "value": "4109906"
+  },
+  {
+    "label": "IGUARACU",
+    "value": "4110003"
+  },
+  {
+    "label": "IGUATU",
+    "value": "4110052"
+  },
+  {
+    "label": "IMBAU",
+    "value": "4110078"
+  },
+  {
+    "label": "IMBITUVA",
+    "value": "4110102"
+  },
+  {
+    "label": "INACIO MARTINS",
+    "value": "4110201"
+  },
+  {
+    "label": "INAJA",
+    "value": "4110300"
+  },
+  {
+    "label": "INDIANOPOLIS",
+    "value": "4110409"
+  },
+  {
+    "label": "IPIRANGA",
+    "value": "4110508"
+  },
+  {
+    "label": "IPORA",
+    "value": "4110607"
+  },
+  {
+    "label": "IRACEMA DO OESTE",
+    "value": "4110656"
+  },
+  {
+    "label": "IRATI",
+    "value": "4110706"
+  },
+  {
+    "label": "IRETAMA",
+    "value": "4110805"
+  },
+  {
+    "label": "ITAGUAJE",
+    "value": "4110904"
+  },
+  {
+    "label": "ITAIPULANDIA",
+    "value": "4110953"
+  },
+  {
+    "label": "ITAMBARACA",
+    "value": "4111001"
+  },
+  {
+    "label": "ITAMBE",
+    "value": "4111100"
+  },
+  {
+    "label": "ITAPEJARA D'OESTE",
+    "value": "4111209"
+  },
+  {
+    "label": "ITAPERUCU",
+    "value": "4111258"
+  },
+  {
+    "label": "ITAUNA DO SUL",
+    "value": "4111308"
+  },
+  {
+    "label": "IVAI",
+    "value": "4111407"
+  },
+  {
+    "label": "IVAIPORA",
+    "value": "4111506"
+  },
+  {
+    "label": "IVATE",
+    "value": "4111555"
+  },
+  {
+    "label": "IVATUBA",
+    "value": "4111605"
+  },
+  {
+    "label": "JABOTI",
+    "value": "4111704"
+  },
+  {
+    "label": "JACAREZINHO",
+    "value": "4111803"
+  },
+  {
+    "label": "JAGUAPITA",
+    "value": "4111902"
+  },
+  {
+    "label": "JAGUARIAIVA",
+    "value": "4112009"
+  },
+  {
+    "label": "JANDAIA DO SUL",
+    "value": "4112108"
+  },
+  {
+    "label": "JANIOPOLIS",
+    "value": "4112207"
+  },
+  {
+    "label": "JAPIRA",
+    "value": "4112306"
+  },
+  {
+    "label": "JAPURA",
+    "value": "4112405"
+  },
+  {
+    "label": "JARDIM ALEGRE",
+    "value": "4112504"
+  },
+  {
+    "label": "JARDIM OLINDA",
+    "value": "4112603"
+  },
+  {
+    "label": "JATAIZINHO",
+    "value": "4112702"
+  },
+  {
+    "label": "JESUITAS",
+    "value": "4112751"
+  },
+  {
+    "label": "JOAQUIM TAVORA",
+    "value": "4112801"
+  },
+  {
+    "label": "JUNDIAI DO SUL",
+    "value": "4112900"
+  },
+  {
+    "label": "JURANDA",
+    "value": "4112959"
+  },
+  {
+    "label": "JUSSARA",
+    "value": "4113007"
+  },
+  {
+    "label": "KALORE",
+    "value": "4113106"
+  },
+  {
+    "label": "LAPA",
+    "value": "4113205"
+  },
+  {
+    "label": "LARANJAL",
+    "value": "4113254"
+  },
+  {
+    "label": "LARANJEIRAS DO SUL",
+    "value": "4113304"
+  },
+  {
+    "label": "LEOPOLIS",
+    "value": "4113403"
+  },
+  {
+    "label": "LIDIANOPOLIS",
+    "value": "4113429"
+  },
+  {
+    "label": "LINDOESTE",
+    "value": "4113452"
+  },
+  {
+    "label": "LOANDA",
+    "value": "4113502"
+  },
+  {
+    "label": "LOBATO",
+    "value": "4113601"
+  },
+  {
+    "label": "LONDRINA",
+    "value": "4113700"
+  },
+  {
+    "label": "LUIZIANA",
+    "value": "4113734"
+  },
+  {
+    "label": "LUNARDELLI",
+    "value": "4113759"
+  },
+  {
+    "label": "LUPIONOPOLIS",
+    "value": "4113809"
+  },
+  {
+    "label": "MALLET",
+    "value": "4113908"
+  },
+  {
+    "label": "MAMBORE",
+    "value": "4114005"
+  },
+  {
+    "label": "MANDAGUACU",
+    "value": "4114104"
+  },
+  {
+    "label": "MANDAGUARI",
+    "value": "4114203"
+  },
+  {
+    "label": "MANDIRITUBA",
+    "value": "4114302"
+  },
+  {
+    "label": "MANFRINOPOLIS",
+    "value": "4114351"
+  },
+  {
+    "label": "MANGUEIRINHA",
+    "value": "4114401"
+  },
+  {
+    "label": "MANOEL RIBAS",
+    "value": "4114500"
+  },
+  {
+    "label": "MARECHAL CANDIDO RONDON",
+    "value": "4114609"
+  },
+  {
+    "label": "MARIA HELENA",
+    "value": "4114708"
+  },
+  {
+    "label": "MARIALVA",
+    "value": "4114807"
+  },
+  {
+    "label": "MARILANDIA DO SUL",
+    "value": "4114906"
+  },
+  {
+    "label": "MARILENA",
+    "value": "4115002"
+  },
+  {
+    "label": "MARILUZ",
+    "value": "4115101"
+  },
+  {
+    "label": "MARINGA",
+    "value": "4115200"
+  },
+  {
+    "label": "MARIOPOLIS",
+    "value": "4115309"
+  },
+  {
+    "label": "MARIPA",
+    "value": "4115358"
+  },
+  {
+    "label": "MARMELEIRO",
+    "value": "4115408"
+  },
+  {
+    "label": "MARQUINHO",
+    "value": "4115457"
+  },
+  {
+    "label": "MARUMBI",
+    "value": "4115507"
+  },
+  {
+    "label": "MATELANDIA",
+    "value": "4115606"
+  },
+  {
+    "label": "MATINHOS",
+    "value": "4115705"
+  },
+  {
+    "label": "MATO RICO",
+    "value": "4115739"
+  },
+  {
+    "label": "MAUA DA SERRA",
+    "value": "4115754"
+  },
+  {
+    "label": "MEDIANEIRA",
+    "value": "4115804"
+  },
+  {
+    "label": "MERCEDES",
+    "value": "4115853"
+  },
+  {
+    "label": "MIRADOR",
+    "value": "4115903"
+  },
+  {
+    "label": "MIRASELVA",
+    "value": "4116000"
+  },
+  {
+    "label": "MISSAL",
+    "value": "4116059"
+  },
+  {
+    "label": "MOREIRA SALES",
+    "value": "4116109"
+  },
+  {
+    "label": "MORRETES",
+    "value": "4116208"
+  },
+  {
+    "label": "MUNHOZ DE MELO",
+    "value": "4116307"
+  },
+  {
+    "label": "NOSSA SENHORA DAS GRACAS",
+    "value": "4116406"
+  },
+  {
+    "label": "NOVA ALIANCA DO IVAI",
+    "value": "4116505"
+  },
+  {
+    "label": "NOVA AMERICA DA COLINA",
+    "value": "4116604"
+  },
+  {
+    "label": "NOVA AURORA",
+    "value": "4116703"
+  },
+  {
+    "label": "NOVA CANTU",
+    "value": "4116802"
+  },
+  {
+    "label": "NOVA ESPERANCA",
+    "value": "4116901"
+  },
+  {
+    "label": "NOVA ESPERANCA DO SUDOESTE",
+    "value": "4116950"
+  },
+  {
+    "label": "NOVA FATIMA",
+    "value": "4117008"
+  },
+  {
+    "label": "NOVA LARANJEIRAS",
+    "value": "4117057"
+  },
+  {
+    "label": "NOVA LONDRINA",
+    "value": "4117107"
+  },
+  {
+    "label": "NOVA OLIMPIA",
+    "value": "4117206"
+  },
+  {
+    "label": "NOVA PRATA DO IGUACU",
+    "value": "4117255"
+  },
+  {
+    "label": "NOVA SANTA BARBARA",
+    "value": "4117214"
+  },
+  {
+    "label": "NOVA SANTA ROSA",
+    "value": "4117222"
+  },
+  {
+    "label": "NOVA TEBAS",
+    "value": "4117271"
+  },
+  {
+    "label": "NOVO ITACOLOMI",
+    "value": "4117297"
+  },
+  {
+    "label": "ORTIGUEIRA",
+    "value": "4117305"
+  },
+  {
+    "label": "OURIZONA",
+    "value": "4117404"
+  },
+  {
+    "label": "OURO VERDE DO OESTE",
+    "value": "4117453"
+  },
+  {
+    "label": "PAICANDU",
+    "value": "4117503"
+  },
+  {
+    "label": "PALMAS",
+    "value": "4117602"
+  },
+  {
+    "label": "PALMEIRA",
+    "value": "4117701"
+  },
+  {
+    "label": "PALMITAL",
+    "value": "4117800"
+  },
+  {
+    "label": "PALOTINA",
+    "value": "4117909"
+  },
+  {
+    "label": "PARAISO DO NORTE",
+    "value": "4118006"
+  },
+  {
+    "label": "PARANACITY",
+    "value": "4118105"
+  },
+  {
+    "label": "PARANAGUA",
+    "value": "4118204"
+  },
+  {
+    "label": "PARANAPOEMA",
+    "value": "4118303"
+  },
+  {
+    "label": "PARANAVAI",
+    "value": "4118402"
+  },
+  {
+    "label": "PATO BRAGADO",
+    "value": "4118451"
+  },
+  {
+    "label": "PATO BRANCO",
+    "value": "4118501"
+  },
+  {
+    "label": "PAULA FREITAS",
+    "value": "4118600"
+  },
+  {
+    "label": "PAULO FRONTIN",
+    "value": "4118709"
+  },
+  {
+    "label": "PEABIRU",
+    "value": "4118808"
+  },
+  {
+    "label": "PEROBAL",
+    "value": "4118857"
+  },
+  {
+    "label": "PEROLA",
+    "value": "4118907"
+  },
+  {
+    "label": "PEROLA D'OESTE",
+    "value": "4119004"
+  },
+  {
+    "label": "PIEN",
+    "value": "4119103"
+  },
+  {
+    "label": "PINHAIS",
+    "value": "4119152"
+  },
+  {
+    "label": "PINHAL DE SAO BENTO",
+    "value": "4119251"
+  },
+  {
+    "label": "PINHALAO",
+    "value": "4119202"
+  },
+  {
+    "label": "PINHAO",
+    "value": "4119301"
+  },
+  {
+    "label": "PIRAI DO SUL",
+    "value": "4119400"
+  },
+  {
+    "label": "PIRAQUARA",
+    "value": "4119509"
+  },
+  {
+    "label": "PITANGA",
+    "value": "4119608"
+  },
+  {
+    "label": "PITANGUEIRAS",
+    "value": "4119657"
+  },
+  {
+    "label": "PLANALTINA DO PARANA",
+    "value": "4119707"
+  },
+  {
+    "label": "PLANALTO",
+    "value": "4119806"
+  },
+  {
+    "label": "PONTA GROSSA",
+    "value": "4119905"
+  },
+  {
+    "label": "PONTAL DO PARANA",
+    "value": "4119954"
+  },
+  {
+    "label": "PORECATU",
+    "value": "4120002"
+  },
+  {
+    "label": "PORTO AMAZONAS",
+    "value": "4120101"
+  },
+  {
+    "label": "PORTO BARREIRO",
+    "value": "4120150"
+  },
+  {
+    "label": "PORTO RICO",
+    "value": "4120200"
+  },
+  {
+    "label": "PORTO VITORIA",
+    "value": "4120309"
+  },
+  {
+    "label": "PRADO FERREIRA",
+    "value": "4120333"
+  },
+  {
+    "label": "PRANCHITA",
+    "value": "4120358"
+  },
+  {
+    "label": "PRESIDENTE CASTELO BRANCO",
+    "value": "4120408"
+  },
+  {
+    "label": "PRIMEIRO DE MAIO",
+    "value": "4120507"
+  },
+  {
+    "label": "PRUDENTOPOLIS",
+    "value": "4120606"
+  },
+  {
+    "label": "QUARTO CENTENARIO",
+    "value": "4120655"
+  },
+  {
+    "label": "QUATIGUA",
+    "value": "4120705"
+  },
+  {
+    "label": "QUATRO BARRAS",
+    "value": "4120804"
+  },
+  {
+    "label": "QUATRO PONTES",
+    "value": "4120853"
+  },
+  {
+    "label": "QUEDAS DO IGUACU",
+    "value": "4120903"
+  },
+  {
+    "label": "QUERENCIA DO NORTE",
+    "value": "4121000"
+  },
+  {
+    "label": "QUINTA DO SOL",
+    "value": "4121109"
+  },
+  {
+    "label": "QUITANDINHA",
+    "value": "4121208"
+  },
+  {
+    "label": "RAMILANDIA",
+    "value": "4121257"
+  },
+  {
+    "label": "RANCHO ALEGRE",
+    "value": "4121307"
+  },
+  {
+    "label": "RANCHO ALEGRE D'OESTE",
+    "value": "4121356"
+  },
+  {
+    "label": "REALEZA",
+    "value": "4121406"
+  },
+  {
+    "label": "REBOUCAS",
+    "value": "4121505"
+  },
+  {
+    "label": "RENASCENCA",
+    "value": "4121604"
+  },
+  {
+    "label": "RESERVA",
+    "value": "4121703"
+  },
+  {
+    "label": "RESERVA DO IGUACU",
+    "value": "4121752"
+  },
+  {
+    "label": "RIBEIRAO CLARO",
+    "value": "4121802"
+  },
+  {
+    "label": "RIBEIRAO DO PINHAL",
+    "value": "4121901"
+  },
+  {
+    "label": "RIO AZUL",
+    "value": "4122008"
+  },
+  {
+    "label": "RIO BOM",
+    "value": "4122107"
+  },
+  {
+    "label": "RIO BONITO DO IGUACU",
+    "value": "4122156"
+  },
+  {
+    "label": "RIO BRANCO DO IVAI",
+    "value": "4122172"
+  },
+  {
+    "label": "RIO BRANCO DO SUL",
+    "value": "4122206"
+  },
+  {
+    "label": "RIO NEGRO",
+    "value": "4122305"
+  },
+  {
+    "label": "ROLANDIA",
+    "value": "4122404"
+  },
+  {
+    "label": "RONCADOR",
+    "value": "4122503"
+  },
+  {
+    "label": "RONDON",
+    "value": "4122602"
+  },
+  {
+    "label": "ROSARIO DO IVAI",
+    "value": "4122651"
+  },
+  {
+    "label": "SABAUDIA",
+    "value": "4122701"
+  },
+  {
+    "label": "SALGADO FILHO",
+    "value": "4122800"
+  },
+  {
+    "label": "SALTO DO ITARARE",
+    "value": "4122909"
+  },
+  {
+    "label": "SALTO DO LONTRA",
+    "value": "4123006"
+  },
+  {
+    "label": "SANTA AMELIA",
+    "value": "4123105"
+  },
+  {
+    "label": "SANTA CECILIA DO PAVAO",
+    "value": "4123204"
+  },
+  {
+    "label": "SANTA CRUZ DE MONTE CASTELO",
+    "value": "4123303"
+  },
+  {
+    "label": "SANTA FE",
+    "value": "4123402"
+  },
+  {
+    "label": "SANTA HELENA",
+    "value": "4123501"
+  },
+  {
+    "label": "SANTA INES",
+    "value": "4123600"
+  },
+  {
+    "label": "SANTA ISABEL DO IVAI",
+    "value": "4123709"
+  },
+  {
+    "label": "SANTA IZABEL DO OESTE",
+    "value": "4123808"
+  },
+  {
+    "label": "SANTA LUCIA",
+    "value": "4123824"
+  },
+  {
+    "label": "SANTA MARIA DO OESTE",
+    "value": "4123857"
+  },
+  {
+    "label": "SANTA MARIANA",
+    "value": "4123907"
+  },
+  {
+    "label": "SANTA MONICA",
+    "value": "4123956"
+  },
+  {
+    "label": "SANTA TEREZA DO OESTE",
+    "value": "4124020"
+  },
+  {
+    "label": "SANTA TEREZINHA DE ITAIPU",
+    "value": "4124053"
+  },
+  {
+    "label": "SANTANA DO ITARARE",
+    "value": "4124004"
+  },
+  {
+    "label": "SANTO ANTONIO DA PLATINA",
+    "value": "4124103"
+  },
+  {
+    "label": "SANTO ANTONIO DO CAIUA",
+    "value": "4124202"
+  },
+  {
+    "label": "SANTO ANTONIO DO PARAISO",
+    "value": "4124301"
+  },
+  {
+    "label": "SANTO ANTONIO DO SUDOESTE",
+    "value": "4124400"
+  },
+  {
+    "label": "SANTO INACIO",
+    "value": "4124509"
+  },
+  {
+    "label": "SAO CARLOS DO IVAI",
+    "value": "4124608"
+  },
+  {
+    "label": "SAO JERONIMO DA SERRA",
+    "value": "4124707"
+  },
+  {
+    "label": "SAO JOAO",
+    "value": "4124806"
+  },
+  {
+    "label": "SAO JOAO DO CAIUA",
+    "value": "4124905"
+  },
+  {
+    "label": "SAO JOAO DO IVAI",
+    "value": "4125001"
+  },
+  {
+    "label": "SAO JOAO DO TRIUNFO",
+    "value": "4125100"
+  },
+  {
+    "label": "SAO JORGE D'OESTE",
+    "value": "4125209"
+  },
+  {
+    "label": "SAO JORGE DO IVAI",
+    "value": "4125308"
+  },
+  {
+    "label": "SAO JORGE DO PATROCINIO",
+    "value": "4125357"
+  },
+  {
+    "label": "SAO JOSE DA BOA VISTA",
+    "value": "4125407"
+  },
+  {
+    "label": "SAO JOSE DAS PALMEIRAS",
+    "value": "4125456"
+  },
+  {
+    "label": "SAO JOSE DOS PINHAIS",
+    "value": "4125506"
+  },
+  {
+    "label": "SAO MANOEL DO PARANA",
+    "value": "4125555"
+  },
+  {
+    "label": "SAO MATEUS DO SUL",
+    "value": "4125605"
+  },
+  {
+    "label": "SAO MIGUEL DO IGUACU",
+    "value": "4125704"
+  },
+  {
+    "label": "SAO PEDRO DO IGUACU",
+    "value": "4125753"
+  },
+  {
+    "label": "SAO PEDRO DO IVAI",
+    "value": "4125803"
+  },
+  {
+    "label": "SAO PEDRO DO PARANA",
+    "value": "4125902"
+  },
+  {
+    "label": "SAO SEBASTIAO DA AMOREIRA",
+    "value": "4126009"
+  },
+  {
+    "label": "SAO TOME",
+    "value": "4126108"
+  },
+  {
+    "label": "SAPOPEMA",
+    "value": "4126207"
+  },
+  {
+    "label": "SARANDI",
+    "value": "4126256"
+  },
+  {
+    "label": "SAUDADE DO IGUACU",
+    "value": "4126272"
+  },
+  {
+    "label": "SENGES",
+    "value": "4126306"
+  },
+  {
+    "label": "SERRANOPOLIS DO IGUACU",
+    "value": "4126355"
+  },
+  {
+    "label": "SERTANEJA",
+    "value": "4126405"
+  },
+  {
+    "label": "SERTANOPOLIS",
+    "value": "4126504"
+  },
+  {
+    "label": "SIQUEIRA CAMPOS",
+    "value": "4126603"
+  },
+  {
+    "label": "SULINA",
+    "value": "4126652"
+  },
+  {
+    "label": "TAMARANA",
+    "value": "4126678"
+  },
+  {
+    "label": "TAMBOARA",
+    "value": "4126702"
+  },
+  {
+    "label": "TAPEJARA",
+    "value": "4126801"
+  },
+  {
+    "label": "TAPIRA",
+    "value": "4126900"
+  },
+  {
+    "label": "TEIXEIRA SOARES",
+    "value": "4127007"
+  },
+  {
+    "label": "TELEMACO BORBA",
+    "value": "4127106"
+  },
+  {
+    "label": "TERRA BOA",
+    "value": "4127205"
+  },
+  {
+    "label": "TERRA RICA",
+    "value": "4127304"
+  },
+  {
+    "label": "TERRA ROXA",
+    "value": "4127403"
+  },
+  {
+    "label": "TIBAGI",
+    "value": "4127502"
+  },
+  {
+    "label": "TIJUCAS DO SUL",
+    "value": "4127601"
+  },
+  {
+    "label": "TOLEDO",
+    "value": "4127700"
+  },
+  {
+    "label": "TOMAZINA",
+    "value": "4127809"
+  },
+  {
+    "label": "TRES BARRAS DO PARANA",
+    "value": "4127858"
+  },
+  {
+    "label": "TUNAS DO PARANA",
+    "value": "4127882"
+  },
+  {
+    "label": "TUNEIRAS DO OESTE",
+    "value": "4127908"
+  },
+  {
+    "label": "TUPASSI",
+    "value": "4127957"
+  },
+  {
+    "label": "TURVO",
+    "value": "4127965"
+  },
+  {
+    "label": "UBIRATA",
+    "value": "4128005"
+  },
+  {
+    "label": "UMUARAMA",
+    "value": "4128104"
+  },
+  {
+    "label": "UNIAO DA VITORIA",
+    "value": "4128203"
+  },
+  {
+    "label": "UNIFLOR",
+    "value": "4128302"
+  },
+  {
+    "label": "URAI",
+    "value": "4128401"
+  },
+  {
+    "label": "VENTANIA",
+    "value": "4128534"
+  },
+  {
+    "label": "VERA CRUZ DO OESTE",
+    "value": "4128559"
+  },
+  {
+    "label": "VERE",
+    "value": "4128609"
+  },
+  {
+    "label": "VIRMOND",
+    "value": "4128658"
+  },
+  {
+    "label": "VITORINO",
+    "value": "4128708"
+  },
+  {
+    "label": "WENCESLAU BRAZ",
+    "value": "4128500"
+  },
+  {
+    "label": "XAMBRE",
+    "value": "4128807"
+  }
+]

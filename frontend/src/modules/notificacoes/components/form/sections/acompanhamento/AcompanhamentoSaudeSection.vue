@@ -3,10 +3,11 @@ import { computed, watch } from "vue";
 import FormSection from "@/shared/components/form/FormSection.vue";
 import FormGrid from "@/shared/components/form/FormGrid.vue";
 
+import { vNormalizeText } from "@/shared/utils/normalizarTexto";
+
 import { SIM_NAO_SEM_INFO_OPTIONS } from "@/modules/notificacoes/constants/respostasPadrao";
 
 // Placeholder temporário.
-// Depois você substitui pelo seu catálogo real.
 const PROCEDIMENTOS_VIOLENCIA_SEXUAL_OPTIONS = [
   "Profilaxia para IST",
   "Profilaxia para HIV",
@@ -46,7 +47,6 @@ watch(
 <template>
   <FormSection legend="Campo exclusivo e obrigatório para Unidades de Saúde">
     <div class="flex flex-col gap-4">
-      <!-- Identificação da unidade -->
       <div class="rounded-xl border border-surface-200 bg-surface-50 p-4">
         <div class="mb-4">
           <h4 class="text-sm font-semibold text-surface-800">
@@ -60,11 +60,8 @@ watch(
         <FormGrid>
           <div class="col-span-12 md:col-span-8">
             <FloatLabel variant="on">
-              <InputText
-                id="nome_unidade_notificadora"
-                v-model="modelValue.nome_unidade_notificadora"
-                fluid
-              />
+              <InputText id="nome_unidade_notificadora" v-model="modelValue.nome_unidade_notificadora"
+                v-normalize-text="'ALPHANUM'" fluid />
               <label for="nome_unidade_notificadora">
                 Nome da Unidade Notificadora
               </label>
@@ -73,11 +70,8 @@ watch(
 
           <div class="col-span-12 md:col-span-4">
             <FloatLabel variant="on">
-              <InputText
-                id="codigo_unidade_notificadora"
-                v-model="modelValue.codigo_unidade_notificadora"
-                fluid
-              />
+              <InputText id="codigo_unidade_notificadora" v-model="modelValue.codigo_unidade_notificadora"
+                v-normalize-text="'ALPHANUM'" fluid />
               <label for="codigo_unidade_notificadora">
                 Código da Unidade
               </label>
@@ -86,11 +80,7 @@ watch(
 
           <div class="col-span-12 md:col-span-8">
             <FloatLabel variant="on">
-              <InputText
-                id="unidade_saude"
-                v-model="modelValue.unidade_saude"
-                fluid
-              />
+              <InputText id="unidade_saude" v-model="modelValue.unidade_saude" v-normalize-text="'ALPHANUM'" fluid />
               <label for="unidade_saude">
                 Unidade de Saúde
               </label>
@@ -99,11 +89,7 @@ watch(
 
           <div class="col-span-12 md:col-span-4">
             <FloatLabel variant="on">
-              <InputText
-                id="codigo_cnes"
-                v-model="modelValue.codigo_cnes"
-                fluid
-              />
+              <InputText id="codigo_cnes" v-model="modelValue.codigo_cnes" v-normalize-text="'ALPHANUM'" fluid />
               <label for="codigo_cnes">
                 Código (CNES)
               </label>
@@ -112,7 +98,6 @@ watch(
         </FormGrid>
       </div>
 
-      <!-- Procedimentos realizados -->
       <div class="rounded-xl border border-surface-200 bg-surface-50 p-4">
         <div class="mb-4">
           <h4 class="text-sm font-semibold text-surface-800">
@@ -125,66 +110,46 @@ watch(
 
         <FormGrid>
           <div class="col-span-12">
-            <MultiSelect
-              v-model="modelValue.procedimentos_realizados"
-              :options="PROCEDIMENTOS_VIOLENCIA_SEXUAL_OPTIONS"
-              placeholder="Selecione os procedimentos realizados"
-              filter
-              display="chip"
-              fluid
-            />
+            <MultiSelect v-model="modelValue.procedimentos_saude_realizados" :options="PROCEDIMENTOS_VIOLENCIA_SEXUAL_OPTIONS"
+              placeholder="Selecione os procedimentos realizados" filter display="chip" fluid />
           </div>
         </FormGrid>
       </div>
 
-      <!-- Violência relacionada ao trabalho -->
       <div class="rounded-xl border border-surface-200 bg-surface-50 p-4">
         <div class="mb-4">
           <h4 class="text-sm font-semibold text-surface-800">
             Violência relacionada ao trabalho
           </h4>
           <p class="mt-1 text-sm text-surface-600">
-            Preencha este bloco quando houver suspeita ou confirmação de relação entre a violência e o contexto de trabalho.
+            Preencha este bloco quando houver suspeita ou confirmação de relação entre a violência e o contexto de
+            trabalho.
           </p>
         </div>
 
         <FormGrid>
           <div class="col-span-12 md:col-span-6">
-            <Select
-              v-model="modelValue.violencia_relacionada_trabalho"
-              :options="SIM_NAO_SEM_INFO_OPTIONS"
-              optionLabel="label"
-              optionValue="value"
-              placeholder="Violência relacionada ao trabalho?"
-              showClear
-              fluid
-            />
-          </div>
-
-          <div class="col-span-12 md:col-span-6">
-            <Select
-              v-model="modelValue.cat_emitida"
-              :options="CAT_OPTIONS"
-              optionLabel="label"
-              optionValue="value"
-              placeholder="Comunicação de Acidente no Trabalho (CAT) emitida?"
-              showClear
-              fluid
-              :disabled="!violenciaTrabalhoHabilitada"
-              :class="{ 'opacity-50': !violenciaTrabalhoHabilitada }"
-            />
+            <FloatLabel variant="on">
+              <Select id="violencia_relacionada_trabalho" v-model="modelValue.violencia_relacionada_trabalho"
+                :options="SIM_NAO_SEM_INFO_OPTIONS" optionLabel="label" optionValue="value" fluid />
+              <label for="violencia_relacionada_trabalho">Violência relacionada ao trabalho?</label>
+            </FloatLabel>
           </div>
 
           <div class="col-span-12 md:col-span-6">
             <FloatLabel variant="on">
-              <InputText
-                id="circunstancia_lesao_cid10"
-                v-model="modelValue.circunstancia_lesao_cid10"
-                maxlength="10"
-                fluid
-                :disabled="!violenciaTrabalhoHabilitada"
-                :class="{ 'opacity-50': !violenciaTrabalhoHabilitada }"
-              />
+              <Select id="cat_emitida" v-model="modelValue.cat_emitida" :options="CAT_OPTIONS" optionLabel="label"
+                optionValue="value" fluid :disabled="!violenciaTrabalhoHabilitada"
+                :class="{ 'opacity-50': !violenciaTrabalhoHabilitada }" />
+              <label for="cat_emitida">Comunicação de Acidente no Trabalho (CAT) emitida?</label>
+            </FloatLabel>
+          </div>
+
+          <div class="col-span-12 md:col-span-6">
+            <FloatLabel variant="on">
+              <InputText id="circunstancia_lesao_cid10" v-model="modelValue.circunstancia_lesao_cid10" maxlength="10"
+                fluid :disabled="!violenciaTrabalhoHabilitada"
+                :class="{ 'opacity-50': !violenciaTrabalhoHabilitada }" />
               <label for="circunstancia_lesao_cid10">
                 Circunstância da lesão (CID-10 / Cap. XX)
               </label>
@@ -193,17 +158,10 @@ watch(
 
           <div class="col-span-12 md:col-span-6">
             <FloatLabel variant="on">
-              <DatePicker
-                id="data_encerramento_trabalho"
-                v-model="modelValue.data_encerramento_trabalho"
-                dateFormat="dd/mm/yy"
-                showIcon
-                showButtonBar
-                fluid
-                :disabled="!violenciaTrabalhoHabilitada"
-                :class="{ 'opacity-50': !violenciaTrabalhoHabilitada }"
-              />
-              <label for="data_encerramento_trabalho">
+              <DatePicker id="data_encerramento_saude" v-model="modelValue.data_encerramento_saude"
+                dateFormat="dd/mm/yy" showIcon showButtonBar fluid :disabled="!violenciaTrabalhoHabilitada"
+                :class="{ 'opacity-50': !violenciaTrabalhoHabilitada }" />
+              <label for="data_encerramento_saude">
                 Data de encerramento
               </label>
             </FloatLabel>

@@ -1,0 +1,898 @@
+[
+  {
+    "label": "ACAUA",
+    "value": "2200053"
+  },
+  {
+    "label": "AGRICOLANDIA",
+    "value": "2200103"
+  },
+  {
+    "label": "AGUA BRANCA",
+    "value": "2200202"
+  },
+  {
+    "label": "ALAGOINHA DO PIAUI",
+    "value": "2200251"
+  },
+  {
+    "label": "ALEGRETE DO PIAUI",
+    "value": "2200277"
+  },
+  {
+    "label": "ALTO LONGA",
+    "value": "2200301"
+  },
+  {
+    "label": "ALTOS",
+    "value": "2200400"
+  },
+  {
+    "label": "ALVORADA DO GURGUEIA",
+    "value": "2200459"
+  },
+  {
+    "label": "AMARANTE",
+    "value": "2200509"
+  },
+  {
+    "label": "ANGICAL DO PIAUI",
+    "value": "2200608"
+  },
+  {
+    "label": "ANISIO DE ABREU",
+    "value": "2200707"
+  },
+  {
+    "label": "ANTONIO ALMEIDA",
+    "value": "2200806"
+  },
+  {
+    "label": "AROAZES",
+    "value": "2200905"
+  },
+  {
+    "label": "AROEIRAS DO ITAIM",
+    "value": "2200954"
+  },
+  {
+    "label": "ARRAIAL",
+    "value": "2201002"
+  },
+  {
+    "label": "ASSUNCAO DO PIAUI",
+    "value": "2201051"
+  },
+  {
+    "label": "AVELINO LOPES",
+    "value": "2201101"
+  },
+  {
+    "label": "BAIXA GRANDE DO RIBEIRO",
+    "value": "2201150"
+  },
+  {
+    "label": "BARRA D'ALCANTARA",
+    "value": "2201176"
+  },
+  {
+    "label": "BARRAS",
+    "value": "2201200"
+  },
+  {
+    "label": "BARREIRAS DO PIAUI",
+    "value": "2201309"
+  },
+  {
+    "label": "BARRO DURO",
+    "value": "2201408"
+  },
+  {
+    "label": "BATALHA",
+    "value": "2201507"
+  },
+  {
+    "label": "BELA VISTA DO PIAUI",
+    "value": "2201556"
+  },
+  {
+    "label": "BELEM DO PIAUI",
+    "value": "2201572"
+  },
+  {
+    "label": "BENEDITINOS",
+    "value": "2201606"
+  },
+  {
+    "label": "BERTOLINIA",
+    "value": "2201705"
+  },
+  {
+    "label": "BETANIA DO PIAUI",
+    "value": "2201739"
+  },
+  {
+    "label": "BOA HORA",
+    "value": "2201770"
+  },
+  {
+    "label": "BOCAINA",
+    "value": "2201804"
+  },
+  {
+    "label": "BOM JESUS",
+    "value": "2201903"
+  },
+  {
+    "label": "BOM PRINCIPIO DO PIAUI",
+    "value": "2201919"
+  },
+  {
+    "label": "BONFIM DO PIAUI",
+    "value": "2201929"
+  },
+  {
+    "label": "BOQUEIRAO DO PIAUI",
+    "value": "2201945"
+  },
+  {
+    "label": "BRASILEIRA",
+    "value": "2201960"
+  },
+  {
+    "label": "BREJO DO PIAUI",
+    "value": "2201988"
+  },
+  {
+    "label": "BURITI DOS LOPES",
+    "value": "2202000"
+  },
+  {
+    "label": "BURITI DOS MONTES",
+    "value": "2202026"
+  },
+  {
+    "label": "CABECEIRAS DO PIAUI",
+    "value": "2202059"
+  },
+  {
+    "label": "CAJAZEIRAS DO PIAUI",
+    "value": "2202075"
+  },
+  {
+    "label": "CAJUEIRO DA PRAIA",
+    "value": "2202083"
+  },
+  {
+    "label": "CALDEIRAO GRANDE DO PIAUI",
+    "value": "2202091"
+  },
+  {
+    "label": "CAMPINAS DO PIAUI",
+    "value": "2202109"
+  },
+  {
+    "label": "CAMPO ALEGRE DO FIDALGO",
+    "value": "2202117"
+  },
+  {
+    "label": "CAMPO GRANDE DO PIAUI",
+    "value": "2202133"
+  },
+  {
+    "label": "CAMPO LARGO DO PIAUI",
+    "value": "2202174"
+  },
+  {
+    "label": "CAMPO MAIOR",
+    "value": "2202208"
+  },
+  {
+    "label": "CANAVIEIRA",
+    "value": "2202251"
+  },
+  {
+    "label": "CANTO DO BURITI",
+    "value": "2202307"
+  },
+  {
+    "label": "CAPITAO DE CAMPOS",
+    "value": "2202406"
+  },
+  {
+    "label": "CAPITAO GERVASIO OLIVEIRA",
+    "value": "2202455"
+  },
+  {
+    "label": "CARACOL",
+    "value": "2202505"
+  },
+  {
+    "label": "CARAUBAS DO PIAUI",
+    "value": "2202539"
+  },
+  {
+    "label": "CARIDADE DO PIAUI",
+    "value": "2202554"
+  },
+  {
+    "label": "CASTELO DO PIAUI",
+    "value": "2202604"
+  },
+  {
+    "label": "CAXINGO",
+    "value": "2202653"
+  },
+  {
+    "label": "COCAL",
+    "value": "2202703"
+  },
+  {
+    "label": "COCAL DE TELHA",
+    "value": "2202711"
+  },
+  {
+    "label": "COCAL DOS ALVES",
+    "value": "2202729"
+  },
+  {
+    "label": "COIVARAS",
+    "value": "2202737"
+  },
+  {
+    "label": "COLONIA DO GURGUEIA",
+    "value": "2202752"
+  },
+  {
+    "label": "COLONIA DO PIAUI",
+    "value": "2202778"
+  },
+  {
+    "label": "CONCEICAO DO CANINDE",
+    "value": "2202802"
+  },
+  {
+    "label": "CORONEL JOSE DIAS",
+    "value": "2202851"
+  },
+  {
+    "label": "CORRENTE",
+    "value": "2202901"
+  },
+  {
+    "label": "CRISTALANDIA DO PIAUI",
+    "value": "2203008"
+  },
+  {
+    "label": "CRISTINO CASTRO",
+    "value": "2203107"
+  },
+  {
+    "label": "CURIMATA",
+    "value": "2203206"
+  },
+  {
+    "label": "CURRAIS",
+    "value": "2203230"
+  },
+  {
+    "label": "CURRAL NOVO DO PIAUI",
+    "value": "2203271"
+  },
+  {
+    "label": "CURRALINHOS",
+    "value": "2203255"
+  },
+  {
+    "label": "DEMERVAL LOBAO",
+    "value": "2203305"
+  },
+  {
+    "label": "DIRCEU ARCOVERDE",
+    "value": "2203354"
+  },
+  {
+    "label": "DOM EXPEDITO LOPES",
+    "value": "2203404"
+  },
+  {
+    "label": "DOM INOCENCIO",
+    "value": "2203453"
+  },
+  {
+    "label": "DOMINGOS MOURAO",
+    "value": "2203420"
+  },
+  {
+    "label": "ELESBAO VELOSO",
+    "value": "2203503"
+  },
+  {
+    "label": "ELISEU MARTINS",
+    "value": "2203602"
+  },
+  {
+    "label": "ESPERANTINA",
+    "value": "2203701"
+  },
+  {
+    "label": "FARTURA DO PIAUI",
+    "value": "2203750"
+  },
+  {
+    "label": "FLORES DO PIAUI",
+    "value": "2203800"
+  },
+  {
+    "label": "FLORESTA DO PIAUI",
+    "value": "2203859"
+  },
+  {
+    "label": "FLORIANO",
+    "value": "2203909"
+  },
+  {
+    "label": "FRANCINOPOLIS",
+    "value": "2204006"
+  },
+  {
+    "label": "FRANCISCO AYRES",
+    "value": "2204105"
+  },
+  {
+    "label": "FRANCISCO MACEDO",
+    "value": "2204154"
+  },
+  {
+    "label": "FRANCISCO SANTOS",
+    "value": "2204204"
+  },
+  {
+    "label": "FRONTEIRAS",
+    "value": "2204303"
+  },
+  {
+    "label": "GEMINIANO",
+    "value": "2204352"
+  },
+  {
+    "label": "GILBUES",
+    "value": "2204402"
+  },
+  {
+    "label": "GUADALUPE",
+    "value": "2204501"
+  },
+  {
+    "label": "GUARIBAS",
+    "value": "2204550"
+  },
+  {
+    "label": "HUGO NAPOLEAO",
+    "value": "2204600"
+  },
+  {
+    "label": "ILHA GRANDE",
+    "value": "2204659"
+  },
+  {
+    "label": "INHUMA",
+    "value": "2204709"
+  },
+  {
+    "label": "IPIRANGA DO PIAUI",
+    "value": "2204808"
+  },
+  {
+    "label": "ISAIAS COELHO",
+    "value": "2204907"
+  },
+  {
+    "label": "ITAINOPOLIS",
+    "value": "2205003"
+  },
+  {
+    "label": "ITAUEIRA",
+    "value": "2205102"
+  },
+  {
+    "label": "JACOBINA DO PIAUI",
+    "value": "2205151"
+  },
+  {
+    "label": "JAICOS",
+    "value": "2205201"
+  },
+  {
+    "label": "JARDIM DO MULATO",
+    "value": "2205250"
+  },
+  {
+    "label": "JATOBA DO PIAUI",
+    "value": "2205276"
+  },
+  {
+    "label": "JERUMENHA",
+    "value": "2205300"
+  },
+  {
+    "label": "JOAO COSTA",
+    "value": "2205359"
+  },
+  {
+    "label": "JOAQUIM PIRES",
+    "value": "2205409"
+  },
+  {
+    "label": "JOCA MARQUES",
+    "value": "2205458"
+  },
+  {
+    "label": "JOSE DE FREITAS",
+    "value": "2205508"
+  },
+  {
+    "label": "JUAZEIRO DO PIAUI",
+    "value": "2205516"
+  },
+  {
+    "label": "JULIO BORGES",
+    "value": "2205524"
+  },
+  {
+    "label": "JUREMA",
+    "value": "2205532"
+  },
+  {
+    "label": "LAGOA ALEGRE",
+    "value": "2205557"
+  },
+  {
+    "label": "LAGOA DE SAO FRANCISCO",
+    "value": "2205573"
+  },
+  {
+    "label": "LAGOA DO BARRO DO PIAUI",
+    "value": "2205565"
+  },
+  {
+    "label": "LAGOA DO PIAUI",
+    "value": "2205581"
+  },
+  {
+    "label": "LAGOA DO SITIO",
+    "value": "2205599"
+  },
+  {
+    "label": "LAGOINHA DO PIAUI",
+    "value": "2205540"
+  },
+  {
+    "label": "LANDRI SALES",
+    "value": "2205607"
+  },
+  {
+    "label": "LUIS CORREIA",
+    "value": "2205706"
+  },
+  {
+    "label": "LUZILANDIA",
+    "value": "2205805"
+  },
+  {
+    "label": "MADEIRO",
+    "value": "2205854"
+  },
+  {
+    "label": "MANOEL EMIDIO",
+    "value": "2205904"
+  },
+  {
+    "label": "MARCOLANDIA",
+    "value": "2205953"
+  },
+  {
+    "label": "MARCOS PARENTE",
+    "value": "2206001"
+  },
+  {
+    "label": "MASSAPE DO PIAUI",
+    "value": "2206050"
+  },
+  {
+    "label": "MATIAS OLIMPIO",
+    "value": "2206100"
+  },
+  {
+    "label": "MIGUEL ALVES",
+    "value": "2206209"
+  },
+  {
+    "label": "MIGUEL LEAO",
+    "value": "2206308"
+  },
+  {
+    "label": "MILTON BRANDAO",
+    "value": "2206357"
+  },
+  {
+    "label": "MONSENHOR GIL",
+    "value": "2206407"
+  },
+  {
+    "label": "MONSENHOR HIPOLITO",
+    "value": "2206506"
+  },
+  {
+    "label": "MONTE ALEGRE DO PIAUI",
+    "value": "2206605"
+  },
+  {
+    "label": "MORRO CABECA NO TEMPO",
+    "value": "2206654"
+  },
+  {
+    "label": "MORRO DO CHAPEU DO PIAUI",
+    "value": "2206670"
+  },
+  {
+    "label": "MURICI DOS PORTELAS",
+    "value": "2206696"
+  },
+  {
+    "label": "NAZARE DO PIAUI",
+    "value": "2206704"
+  },
+  {
+    "label": "NAZARIA",
+    "value": "2206720"
+  },
+  {
+    "label": "NOSSA SENHORA DE NAZARE",
+    "value": "2206753"
+  },
+  {
+    "label": "NOSSA SENHORA DOS REMEDIOS",
+    "value": "2206803"
+  },
+  {
+    "label": "NOVA SANTA RITA",
+    "value": "2207959"
+  },
+  {
+    "label": "NOVO ORIENTE DO PIAUI",
+    "value": "2206902"
+  },
+  {
+    "label": "NOVO SANTO ANTONIO",
+    "value": "2206951"
+  },
+  {
+    "label": "OEIRAS",
+    "value": "2207009"
+  },
+  {
+    "label": "OLHO D'AGUA DO PIAUI",
+    "value": "2207108"
+  },
+  {
+    "label": "PADRE MARCOS",
+    "value": "2207207"
+  },
+  {
+    "label": "PAES LANDIM",
+    "value": "2207306"
+  },
+  {
+    "label": "PAJEU DO PIAUI",
+    "value": "2207355"
+  },
+  {
+    "label": "PALMEIRA DO PIAUI",
+    "value": "2207405"
+  },
+  {
+    "label": "PALMEIRAIS",
+    "value": "2207504"
+  },
+  {
+    "label": "PAQUETA",
+    "value": "2207553"
+  },
+  {
+    "label": "PARNAGUA",
+    "value": "2207603"
+  },
+  {
+    "label": "PARNAIBA",
+    "value": "2207702"
+  },
+  {
+    "label": "PASSAGEM FRANCA DO PIAUI",
+    "value": "2207751"
+  },
+  {
+    "label": "PATOS DO PIAUI",
+    "value": "2207777"
+  },
+  {
+    "label": "PAU D'ARCO DO PIAUI",
+    "value": "2207793"
+  },
+  {
+    "label": "PAULISTANA",
+    "value": "2207801"
+  },
+  {
+    "label": "PAVUSSU",
+    "value": "2207850"
+  },
+  {
+    "label": "PEDRO II",
+    "value": "2207900"
+  },
+  {
+    "label": "PEDRO LAURENTINO",
+    "value": "2207934"
+  },
+  {
+    "label": "PICOS",
+    "value": "2208007"
+  },
+  {
+    "label": "PIMENTEIRAS",
+    "value": "2208106"
+  },
+  {
+    "label": "PIO IX",
+    "value": "2208205"
+  },
+  {
+    "label": "PIRACURUCA",
+    "value": "2208304"
+  },
+  {
+    "label": "PIRIPIRI",
+    "value": "2208403"
+  },
+  {
+    "label": "PORTO",
+    "value": "2208502"
+  },
+  {
+    "label": "PORTO ALEGRE DO PIAUI",
+    "value": "2208551"
+  },
+  {
+    "label": "PRATA DO PIAUI",
+    "value": "2208601"
+  },
+  {
+    "label": "QUEIMADA NOVA",
+    "value": "2208650"
+  },
+  {
+    "label": "REDENCAO DO GURGUEIA",
+    "value": "2208700"
+  },
+  {
+    "label": "REGENERACAO",
+    "value": "2208809"
+  },
+  {
+    "label": "RIACHO FRIO",
+    "value": "2208858"
+  },
+  {
+    "label": "RIBEIRA DO PIAUI",
+    "value": "2208874"
+  },
+  {
+    "label": "RIBEIRO GONCALVES",
+    "value": "2208908"
+  },
+  {
+    "label": "RIO GRANDE DO PIAUI",
+    "value": "2209005"
+  },
+  {
+    "label": "SANTA CRUZ DO PIAUI",
+    "value": "2209104"
+  },
+  {
+    "label": "SANTA CRUZ DOS MILAGRES",
+    "value": "2209153"
+  },
+  {
+    "label": "SANTA FILOMENA",
+    "value": "2209203"
+  },
+  {
+    "label": "SANTA LUZ",
+    "value": "2209302"
+  },
+  {
+    "label": "SANTA ROSA DO PIAUI",
+    "value": "2209377"
+  },
+  {
+    "label": "SANTANA DO PIAUI",
+    "value": "2209351"
+  },
+  {
+    "label": "SANTO ANTONIO DE LISBOA",
+    "value": "2209401"
+  },
+  {
+    "label": "SANTO ANTONIO DOS MILAGRES",
+    "value": "2209450"
+  },
+  {
+    "label": "SANTO INACIO DO PIAUI",
+    "value": "2209500"
+  },
+  {
+    "label": "SAO BRAZ DO PIAUI",
+    "value": "2209559"
+  },
+  {
+    "label": "SAO FELIX DO PIAUI",
+    "value": "2209609"
+  },
+  {
+    "label": "SAO FRANCISCO DE ASSIS DO PIAUI",
+    "value": "2209658"
+  },
+  {
+    "label": "SAO FRANCISCO DO PIAUI",
+    "value": "2209708"
+  },
+  {
+    "label": "SAO GONCALO DO GURGUEIA",
+    "value": "2209757"
+  },
+  {
+    "label": "SAO GONCALO DO PIAUI",
+    "value": "2209807"
+  },
+  {
+    "label": "SAO JOAO DA CANABRAVA",
+    "value": "2209856"
+  },
+  {
+    "label": "SAO JOAO DA FRONTEIRA",
+    "value": "2209872"
+  },
+  {
+    "label": "SAO JOAO DA SERRA",
+    "value": "2209906"
+  },
+  {
+    "label": "SAO JOAO DA VARJOTA",
+    "value": "2209955"
+  },
+  {
+    "label": "SAO JOAO DO ARRAIAL",
+    "value": "2209971"
+  },
+  {
+    "label": "SAO JOAO DO PIAUI",
+    "value": "2210003"
+  },
+  {
+    "label": "SAO JOSE DO DIVINO",
+    "value": "2210052"
+  },
+  {
+    "label": "SAO JOSE DO PEIXE",
+    "value": "2210102"
+  },
+  {
+    "label": "SAO JOSE DO PIAUI",
+    "value": "2210201"
+  },
+  {
+    "label": "SAO JULIAO",
+    "value": "2210300"
+  },
+  {
+    "label": "SAO LOURENCO DO PIAUI",
+    "value": "2210359"
+  },
+  {
+    "label": "SAO LUIS DO PIAUI",
+    "value": "2210375"
+  },
+  {
+    "label": "SAO MIGUEL DA BAIXA GRANDE",
+    "value": "2210383"
+  },
+  {
+    "label": "SAO MIGUEL DO FIDALGO",
+    "value": "2210391"
+  },
+  {
+    "label": "SAO MIGUEL DO TAPUIO",
+    "value": "2210409"
+  },
+  {
+    "label": "SAO PEDRO DO PIAUI",
+    "value": "2210508"
+  },
+  {
+    "label": "SAO RAIMUNDO NONATO",
+    "value": "2210607"
+  },
+  {
+    "label": "SEBASTIAO BARROS",
+    "value": "2210623"
+  },
+  {
+    "label": "SEBASTIAO LEAL",
+    "value": "2210631"
+  },
+  {
+    "label": "SIGEFREDO PACHECO",
+    "value": "2210656"
+  },
+  {
+    "label": "SIMOES",
+    "value": "2210706"
+  },
+  {
+    "label": "SIMPLICIO MENDES",
+    "value": "2210805"
+  },
+  {
+    "label": "SOCORRO DO PIAUI",
+    "value": "2210904"
+  },
+  {
+    "label": "SUSSUAPARA",
+    "value": "2210938"
+  },
+  {
+    "label": "TAMBORIL DO PIAUI",
+    "value": "2210953"
+  },
+  {
+    "label": "TANQUE DO PIAUI",
+    "value": "2210979"
+  },
+  {
+    "label": "TERESINA",
+    "value": "2211001"
+  },
+  {
+    "label": "UNIAO",
+    "value": "2211100"
+  },
+  {
+    "label": "URUCUI",
+    "value": "2211209"
+  },
+  {
+    "label": "VALENCA DO PIAUI",
+    "value": "2211308"
+  },
+  {
+    "label": "VARZEA BRANCA",
+    "value": "2211357"
+  },
+  {
+    "label": "VARZEA GRANDE",
+    "value": "2211407"
+  },
+  {
+    "label": "VERA MENDES",
+    "value": "2211506"
+  },
+  {
+    "label": "VILA NOVA DO PIAUI",
+    "value": "2211605"
+  },
+  {
+    "label": "WALL FERRAZ",
+    "value": "2211704"
+  }
+]

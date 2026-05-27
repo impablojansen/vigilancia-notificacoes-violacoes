@@ -6,7 +6,7 @@ const modelValue = defineModel({ type: Object, required: true });
 </script>
 
 <template>
-  <FormSection legend="Encaminhamentos">
+  <FormSection legend="Encaminhamentos realizados">
     <MultiSelect
       v-model="modelValue.encaminhamentos"
       :options="ENCAMINHAMENTOS_OPTIONS"

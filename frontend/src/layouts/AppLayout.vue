@@ -5,11 +5,6 @@ const isMobileMenuOpen = ref(false);
 
 const navItems = [
   {
-    label: "Nova notificação",
-    to: "/notificacoes/nova",
-    icon: "pi pi-plus-circle",
-  },
-  {
     label: "Pessoas",
     to: "/pessoas",
     icon: "pi pi-user",
