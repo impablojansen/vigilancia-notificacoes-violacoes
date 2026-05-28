@@ -2,24 +2,11 @@
 import { watch } from "vue";
 import FormSection from "@/shared/components/form/FormSection.vue";
 import FormGrid from "@/shared/components/form/FormGrid.vue";
-import { GPTES_OPTIONS } from "@/modules/pessoas/constants/gptes";
+
+import { OPCOES_PADRAO } from "@/shared/constants/opcoesPadrao";
+import { GPTES_OPTIONS } from "@/modules/pessoas/constants/perfilPessoa";
 
 const modelValue = defineModel({ type: Object, required: true });
-
-// const GESTANTE_OPTIONS = [
-//   { label: "Não", value: "NAO" },
-//   { label: "1º Trimestre", value: "TRIMESTRE_1" },
-//   { label: "2º Trimestre", value: "TRIMESTRE_2" },
-//   { label: "3º Trimestre", value: "TRIMESTRE_3" },
-//   { label: "Idade Gestacional Ignorada", value: "IDADE_GESTACIONAL_IGN" },  
-//   { label: "Sem informação", value: "SEM_INFORMACAO" },
-// ];
-
-const SIM_NAO_SEM_INFO_OPTIONS = [
-  { label: "Sim", value: "SIM" },
-  { label: "Não", value: "NAO" },
-  { label: "Sem informação", value: "SEM_INFORMACAO" },
-];
 
 watch(
   () => modelValue.value.is_migrante,
@@ -72,8 +59,8 @@ watch(
 
       <div class="col-span-12 md:col-span-6">
         <FloatLabel variant="on">
-          <Select id="recebe_bpc" v-model="modelValue.recebe_bpc" :options="SIM_NAO_SEM_INFO_OPTIONS"
-            optionLabel="label" optionValue="value" fluid />
+          <Select id="recebe_bpc" v-model="modelValue.recebe_bpc" :options="OPCOES_PADRAO" optionLabel="label"
+            optionValue="value" fluid />
           <label for="recebe_bpc">Recebe BPC?</label>
         </FloatLabel>
       </div>
@@ -81,7 +68,7 @@ watch(
       <div class="col-span-12 md:col-span-6">
         <FloatLabel variant="on">
           <Select id="participa_transferencia_renda" v-model="modelValue.participa_transferencia_renda"
-            :options="SIM_NAO_SEM_INFO_OPTIONS" optionLabel="label" optionValue="value" fluid />
+            :options="OPCOES_PADRAO" optionLabel="label" optionValue="value" fluid />
           <label for="participa_transferencia_renda">
             Participa de Programas de Transferência de Renda?
           </label>

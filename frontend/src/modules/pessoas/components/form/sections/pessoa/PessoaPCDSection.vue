@@ -2,11 +2,14 @@
 import { computed, watch } from "vue";
 import FormSection from "@/shared/components/form/FormSection.vue";
 import FormGrid from "@/shared/components/form/FormGrid.vue";
-import {
-  STATUS_CONDICAO_OPTIONS,
-  GRUPO_CONDICAO_OPTIONS,
-  SUBTIPOS_POR_GRUPO,
-} from "@/modules/pessoas/constants/condicoes";
+
+import { STATUS_CONDICAO_OPTIONS, GRUPO_CONDICAO_OPTIONS, SUBTIPOS_POR_GRUPO } from "@/modules/pessoas/constants/DeficienciaTranstorno";
+
+// import {
+//   STATUS_CONDICAO_OPTIONS,
+//   GRUPO_CONDICAO_OPTIONS,
+//   SUBTIPOS_POR_GRUPO,
+// } from "@/modules/pessoas/constants/condicoes";
 
 import type { PessoaCondicoesFormModel } from "@/modules/pessoas/types/pessoa.types";
 

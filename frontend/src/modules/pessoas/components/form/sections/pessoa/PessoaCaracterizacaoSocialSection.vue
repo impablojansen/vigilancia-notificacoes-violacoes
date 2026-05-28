@@ -2,12 +2,14 @@
 import FormSection from "@/shared/components/form/FormSection.vue";
 import FormGrid from "@/shared/components/form/FormGrid.vue";
 
-import { SEXO_OPTIONS } from "@/modules/pessoas/constants/sexo";
-import { RACA_COR_ETNIA_OPTIONS } from "@/modules/pessoas/constants/racaCorEtnia";
-import { ESTADO_CIVIL_OPTIONS } from "@/modules/pessoas/constants/estadoCivil";
-import { GRAU_INSTRUCAO_OPTIONS } from "@/modules/pessoas/constants/grauInstrucao";
-import { ORIENTACAO_SEXUAL_OPTIONS } from "@/modules/pessoas/constants/orientacaoSexual";
-import { IDENTIDADE_GENERO_OPTIONS } from "@/modules/pessoas/constants/identidadeGenero";
+import {
+  SEXO_PESSOA_OPTIONS,
+  RACA_COR_ETNIA_OPTIONS,
+  ESTADO_CIVIL_OPTIONS,
+  GRAU_INSTRUCAO_OPTIONS,
+  IDENTIDADE_GENERO_OPTIONS,
+  ORIENTACAO_SEXUAL_OPTIONS
+} from "@/modules/pessoas/constants/perfilPessoa";
 
 const modelValue = defineModel({ type: Object, required: true });
 </script>
@@ -17,7 +19,7 @@ const modelValue = defineModel({ type: Object, required: true });
     <FormGrid>
       <div class="col-span-12 md:col-span-3">
         <FloatLabel variant="on">
-          <Select id="sexo" v-model="modelValue.sexo" :options="SEXO_OPTIONS" optionLabel="label" optionValue="value"
+          <Select id="sexo" v-model="modelValue.sexo" :options="SEXO_PESSOA_OPTIONS" optionLabel="label" optionValue="value"
             fluid />
           <label for="sexo">Sexo</label>
         </FloatLabel>
