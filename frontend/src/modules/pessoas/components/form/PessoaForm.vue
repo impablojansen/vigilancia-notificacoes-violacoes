@@ -1,8 +1,6 @@
 
-
 <script setup lang="ts">
 import { ref, watch } from "vue";
-import { useRouter } from "vue-router";
 import { useToast } from "primevue/usetoast";
 
 import PessoaIdentificacaoSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaIdentificacaoSection.vue";
@@ -11,46 +9,60 @@ import PessoaResidenciaSection from "@/modules/pessoas/components/form/sections/
 import PessoaCaracterizacaoSocialSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaCaracterizacaoSocialSection.vue";
 import PessoaPCDSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaPCDSection.vue";
 
-import { usePessoaForm } from "@/modules/pessoas/composables/usePessoaForm";
+import type {
+  PessoaFormData,
+} from "@/modules/pessoas/types/pessoa.types";
 
 import {
   validarPessoa,
   type ErrosPessoa,
 } from "@/modules/pessoas/validation/validarPessoa";
 
-const router = useRouter();
-const toast = useToast();
+// A view fornece o estado do formulário.
+const modelValue = defineModel<PessoaFormData>({
+  required: true,
+});
 
-const { formData } = usePessoaForm();
+// Permite reutilizar o formulário posteriormente
+// no cadastro e na edição.
+withDefaults(
+  defineProps<{
+    submitLabel?: string;
+  }>(),
+  {
+    submitLabel: "Validar cadastro",
+  }
+);
+
+const emit = defineEmits<{
+  valid: [dados: PessoaFormData];
+  cancel: [];
+}>();
+
+const toast = useToast();
 
 const erros = ref<ErrosPessoa>({});
 const tentouValidar = ref(false);
 
-// Após a primeira tentativa de validação,
-// os erros são atualizados conforme o usuário
-// corrige os campos do formulário.
+// Após a primeira tentativa, os erros são
+// atualizados conforme os campos são corrigidos.
 watch(
-  formData,
+  modelValue,
   () => {
     if (tentouValidar.value) {
-      erros.value = validarPessoa(formData.value);
+      erros.value = validarPessoa(modelValue.value);
     }
   },
   { deep: true }
 );
 
-function handleCancelar() {
-  router.push("/pessoas");
-}
-
 function handleValidar() {
   tentouValidar.value = true;
 
-  erros.value = validarPessoa(formData.value);
+  erros.value = validarPessoa(modelValue.value);
 
   const quantidadeErros = Object.keys(erros.value).length;
 
-  // Evita acumular notificações a cada tentativa.
   toast.removeGroup("pessoa");
 
   if (quantidadeErros > 0) {
@@ -60,27 +72,22 @@ function handleValidar() {
       summary: "Cadastro incompleto",
       detail:
         `Foram identificados ${quantidadeErros} campos ` +
-        "que precisam de correção.",
+        "ou grupos de informações que precisam de correção.",
       life: 5000,
     });
 
     return;
   }
 
-  // Formulário válido.
-  // A persistência será implementada futuramente.
-  toast.add({
-    group: "pessoa",
-    severity: "success",
-    summary: "Validação concluída",
-    detail:
-      "As informações passaram pela validação. " +
-      "O cadastro ainda não foi salvo.",
-    life: 4000,
-  });
+  // Não cadastra nem navega.
+  // Entrega os dados validados à view responsável.
+  emit("valid", modelValue.value);
+}
+
+function handleCancelar() {
+  emit("cancel");
 }
 </script>
-
 
 <template>
   <form
@@ -93,27 +100,27 @@ function handleValidar() {
     </h3>
 
     <PessoaIdentificacaoSection
-      v-model="formData"
+      v-model="modelValue"
       :errors="erros"
     />
 
     <PessoaDocumentacaoSection
-      v-model="formData"
+      v-model="modelValue"
       :errors="erros"
     />
 
     <PessoaResidenciaSection
-      v-model="formData"
+      v-model="modelValue"
       :errors="erros"
     />
 
     <PessoaCaracterizacaoSocialSection
-      v-model="formData"
+      v-model="modelValue"
       :errors="erros"
     />
 
     <PessoaPCDSection
-      v-model="formData"
+      v-model="modelValue"
       :errors="erros"
     />
 
@@ -132,7 +139,7 @@ function handleValidar() {
 
       <Button
         type="submit"
-        label="Validar cadastro"
+        :label="submitLabel"
         icon="pi pi-check"
       />
     </div>

@@ -6,7 +6,7 @@ import AuthLayout from "@/layouts/AuthLayout.vue";
 import LoginView from "@/modules/auth/views/LoginView.vue";
 import NotificacaoCreateView from "@/modules/notificacoes/views/NotificacaoCreateView.vue";
 import PessoasListView from "@/modules/pessoas/views/PessoasListView.vue";
-import PessoaFormView from "@/modules/pessoas/components/form/PessoaForm.vue";
+import PessoaCreateView from "@/modules/pessoas/views/PessoaCreateView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
 
 function emConstrucao(titulo: string, descricao: string) {
@@ -38,7 +38,7 @@ const routes: RouteRecordRaw[] = [
     children: [
       {
         path: "",
-        redirect: { name: "notificacao-create" },
+        redirect: { name: "pessoas-list" },
       },
       {
         path: "notificacoes",
@@ -69,12 +69,15 @@ const routes: RouteRecordRaw[] = [
           {
             path: "nova",
             name: "pessoas-create",
-            component: PessoaFormView,            
+            component: PessoaCreateView,            
           },
           {
             path: ":id/editar",
             name: "pessoas-edit",
-            component: PessoasListView,
+            component: emConstrucao(
+              "Edição de pessoa",
+              "A edição de cadastros será implementada em uma próxima etapa."
+            ),
           },
         ],
       },
