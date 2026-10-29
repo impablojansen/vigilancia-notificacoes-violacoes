@@ -5,6 +5,14 @@ import { computed, ref, watch } from "vue";
 import FormSection from "@/shared/components/form/FormSection.vue";
 import FormGrid from "@/shared/components/form/FormGrid.vue";
 
+import type {
+    ErrosPessoa,
+  } from "@/modules/pessoas/validation/validarPessoa";
+
+  defineProps<{
+    errors: ErrosPessoa;
+}>();
+
 import {
   STATUS_CONDICAO_OPTIONS,
   GRUPO_CONDICAO_OPTIONS,
@@ -176,8 +184,18 @@ function nomeSubtipo(
           optionLabel="label"
           optionValue="value"
           placeholder="Selecione uma resposta"
+          :invalid="!!errors.possui_condicao_deficiencia_transtorno"
+          aria-describedby="erro-status-condicao"
           class="w-full md:max-w-md"
         />
+
+        <small
+          v-if="errors.possui_condicao_deficiencia_transtorno"
+          id="erro-status-condicao"
+          class="text-sm text-red-600"
+        >
+          {{ errors.possui_condicao_deficiencia_transtorno }}
+        </small>
       </div>
 
       <div
@@ -259,6 +277,8 @@ function nomeSubtipo(
             ({{ modelValue.condicoes.length }})
           </h4>
 
+          
+
           <div
             v-if="modelValue.condicoes.length === 0"
             class="rounded-lg border border-surface-200
@@ -266,6 +286,14 @@ function nomeSubtipo(
           >
             Nenhuma condição adicionada.
           </div>
+
+          <small
+  v-if="errors.condicoes"
+  role="alert"
+  class="block text-sm text-red-600"
+>
+  {{ errors.condicoes }}
+</small>
 
           <div
             v-for="(condicao, index) in modelValue.condicoes"

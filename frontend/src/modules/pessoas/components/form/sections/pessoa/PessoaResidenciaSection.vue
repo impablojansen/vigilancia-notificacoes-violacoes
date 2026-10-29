@@ -7,6 +7,14 @@ import FormGrid from "@/shared/components/form/FormGrid.vue";
 import { vNormalizeText } from "@/shared/utils/normalizarTexto";
 import { useLocalizacao } from "@/shared/composables/useLocalizacao";
 
+import type {
+    ErrosPessoa,
+  } from "@/modules/pessoas/validation/validarPessoa";
+
+  defineProps<{
+    errors: ErrosPessoa;
+}>();
+
 const modelValue = defineModel({ type: Object, required: true });
 
 const zonas = [
@@ -80,27 +88,48 @@ watch(
       <div class="col-span-12 md:col-span-4">
         <FloatLabel variant="on">
           <Select id="pais_residencia" v-model="modelValue.pais_residencia" :options="paisesOptions" optionLabel="label"
-            optionValue="value" filter fluid />
+            optionValue="value" :invalid="!!errors.pais_residencia" aria-describedby="erro-pais" filter fluid />
           <label for="pais_residencia">País</label>
         </FloatLabel>
+        <small
+          v-if="errors.pais_residencia"
+          id="erro-pais"
+          class="mt-1 block text-sm text-red-600"
+        >
+          {{ errors.pais_residencia }}
+        </small>
       </div>
 
       <div class="col-span-12 md:col-span-4">
         <FloatLabel variant="on">
           <Select id="uf_residencia" v-model="modelValue.uf_residencia" :options="ufsBrasilOptions" optionLabel="label"
-            optionValue="value" filter fluid :disabled="!paisEhBrasil" :class="{ 'opacity-50': !paisEhBrasil }" />
+            optionValue="value" filter :invalid="!!errors.uf_residencia" aria-describedby="erro-uf" fluid :disabled="!paisEhBrasil" :class="{ 'opacity-50': !paisEhBrasil }" />
           <label for="uf_residencia">UF</label>
         </FloatLabel>
+        <small
+          v-if="errors.uf_residencia"
+          id="erro-uf"
+          class="mt-1 block text-sm text-red-600"
+        >
+          {{ errors.uf_residencia }}
+        </small>
       </div>
 
       <div class="col-span-12 md:col-span-4">
         <FloatLabel variant="on">
           <Select id="municipio_residencia" v-model="modelValue.municipio_residencia" :options="municipiosDisponiveis"
-            optionLabel="label" optionValue="value" filter fluid :loading="carregandoMunicipios"
+            optionLabel="label" optionValue="value" filter :invalid="!!errors.municipio_residencia" aria-describedby="erro-municipio" fluid :loading="carregandoMunicipios"
             :disabled="!paisEhBrasil || !modelValue.uf_residencia"
             :class="{ 'opacity-50': !paisEhBrasil || !modelValue.uf_residencia }" />
           <label for="municipio_residencia">Município de Residência</label>
         </FloatLabel>
+        <small
+          v-if="errors.municipio_residencia"
+          id="erro-municipio"
+          class="mt-1 block text-sm text-red-600"
+        >
+          {{ errors.municipio_residencia }}
+        </small>
       </div>
 
       <div class="col-span-12 md:col-span-4">
@@ -133,7 +162,7 @@ watch(
 
       <div class="col-span-12 md:col-span-4">
         <FloatLabel variant="on">
-          <InputText id="numero" v-model="modelValue.numero" :useGrouping="false" fluid />
+          <InputText id="numero" v-model="modelValue.numero" v-normalize-text="'ALPHANUM'" :useGrouping="false" fluid />
           <label for="numero">Número</label>
         </FloatLabel>
       </div>

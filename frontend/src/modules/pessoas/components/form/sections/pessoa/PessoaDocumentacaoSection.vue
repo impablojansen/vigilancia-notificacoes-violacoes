@@ -2,6 +2,14 @@
 import FormSection from "@/shared/components/form/FormSection.vue";
 import FormGrid from "@/shared/components/form/FormGrid.vue";
 
+import type {
+  ErrosPessoa,
+} from "@/modules/pessoas/validation/validarPessoa";
+
+defineProps<{
+  errors: ErrosPessoa;
+}>();
+
 import { vNormalizeText } from "@/shared/utils/normalizarTexto";
 
 const modelValue = defineModel({ type: Object, required: true });
@@ -12,10 +20,16 @@ const modelValue = defineModel({ type: Object, required: true });
     <FormGrid>
       <div class="col-span-12 md:col-span-3">
         <FloatLabel variant="on">
-          <InputMask id="cpf" v-model="modelValue.cpf" mask="999.999.999-99" fluid />
+          <InputMask id="cpf" v-model="modelValue.cpf" mask="999.999.999-99" :invalid="!!errors.cpf" aria-describedby="erro-cpf" fluid />
           <label for="cpf">CPF</label>
         </FloatLabel>
-
+        <small
+            v-if="errors.cpf"
+            id="erro-cpf"
+            class="mt-1 block text-sm text-red-600"
+          >
+            {{ errors.cpf }}
+        </small>
       </div>
 
       <div class="col-span-12 md:col-span-3">

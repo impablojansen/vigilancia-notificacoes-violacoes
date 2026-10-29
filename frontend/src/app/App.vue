@@ -3,5 +3,10 @@
 </script>
 
 <template>
+  <Toast 
+    position="top-center"
+    group="pessoa"
+  />
+
   <RouterView />
 </template>
