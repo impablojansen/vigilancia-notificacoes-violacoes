@@ -67,22 +67,6 @@ export interface PessoaCondicoesFormModel {
   condicoes: PessoaCondicaoItem[];
 }
 
-// Condições específicas e origem
-export interface PessoaCondicoesEspecificasData {
-  is_psr: boolean | null;
-
-  nacionalidade: string;
-  naturalidade: string;
-}
-
-// Marcadores sociais
-export interface PessoaMarcadoresSociaisData {
-  // null = informação não apurada
-  // [] = nenhum pertencimento identificado
-  // [1, 23] = pertencimentos identificados
-  grupo_populacional_gptes: number[] | null;
-}
-
 // Formulário completo da pessoa
 export interface PessoaFormData
   extends
@@ -90,6 +74,4 @@ export interface PessoaFormData
     PessoaDocumentosContatoData,
     PessoaEnderecoData,
     PessoaPerfilSociodemograficoData,
-    PessoaCondicoesFormModel,
-    PessoaCondicoesEspecificasData,
-    PessoaMarcadoresSociaisData {}
+    PessoaCondicoesFormModel{}

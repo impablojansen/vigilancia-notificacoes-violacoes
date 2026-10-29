@@ -49,14 +49,6 @@ function createInitialFormData(): PessoaFormData {
     // Deficiência / transtorno
     possui_condicao_deficiencia_transtorno: null,
     condicoes: [],
-
-    // Condições específicas
-    is_psr: null,
-    nacionalidade: "",
-    naturalidade: "",
-
-    // Marcadores sociais
-    grupo_populacional_gptes: null,
   };
 }
 

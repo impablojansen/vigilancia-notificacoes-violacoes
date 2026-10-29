@@ -5,7 +5,6 @@ import PessoaIdentificacaoSection from "@/modules/pessoas/components/form/sectio
 import PessoaDocumentacaoSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaDocumentacaoSection.vue";
 import PessoaCaracterizacaoSocialSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaCaracterizacaoSocialSection.vue";
 import PessoaPCDSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaPCDSection.vue";
-import PessoaCondicoesEspecificasSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaCondicoesEspecificasSection.vue";
 import PessoaResidenciaSection from "@/modules/pessoas/components/form/sections/pessoa/PessoaResidenciaSection.vue";
 
 import { usePessoaForm } from "@/modules/pessoas/composables/usePessoaForm";
@@ -37,7 +36,6 @@ function handleSalvar() {
     <PessoaResidenciaSection v-model="formData" />
     <PessoaCaracterizacaoSocialSection v-model="formData" />
     <PessoaPCDSection v-model="formData" />
-    <PessoaCondicoesEspecificasSection v-model="formData" />
 
     <div class="flex flex-col-reverse gap-3 pt-2 sm:flex-row sm:justify-end">
       <Button

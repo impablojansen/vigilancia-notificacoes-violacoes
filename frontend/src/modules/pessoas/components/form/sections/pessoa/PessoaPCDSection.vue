@@ -1,221 +1,307 @@
+
 <script setup lang="ts">
-import { computed, watch } from "vue";
+import { computed, ref, watch } from "vue";
+
 import FormSection from "@/shared/components/form/FormSection.vue";
 import FormGrid from "@/shared/components/form/FormGrid.vue";
 
-import { STATUS_CONDICAO_OPTIONS, GRUPO_CONDICAO_OPTIONS, SUBTIPOS_POR_GRUPO } from "@/modules/pessoas/constants/DeficienciaTranstorno";
+import {
+  STATUS_CONDICAO_OPTIONS,
+  GRUPO_CONDICAO_OPTIONS,
+  SUBTIPOS_POR_GRUPO,
+} from "@/modules/pessoas/constants/DeficienciaTranstorno";
 
-// import {
-//   STATUS_CONDICAO_OPTIONS,
-//   GRUPO_CONDICAO_OPTIONS,
-//   SUBTIPOS_POR_GRUPO,
-// } from "@/modules/pessoas/constants/condicoes";
-
-import type { PessoaCondicoesFormModel } from "@/modules/pessoas/types/pessoa.types";
+import type {
+  PessoaCondicoesFormModel,
+} from "@/modules/pessoas/types/pessoa.types";
 
 const modelValue = defineModel<PessoaCondicoesFormModel>({
   required: true,
 });
 
-const statusCondicaoOptions = STATUS_CONDICAO_OPTIONS.map((item) => ({
-  ...item,
-}));
+const novoGrupo = ref<number | null>(null);
+const novoSubtipo = ref<number | null>(null);
 
-const condicoes = computed(() => modelValue.value.condicoes ?? []);
+// Retorna os subtipos que ainda podem ser selecionados.
+function listarSubtiposDisponiveis(grupo: number) {
+  const opcoes = SUBTIPOS_POR_GRUPO[grupo] ?? [];
 
+  const utilizados = modelValue.value.condicoes
+    .filter(
+      (item) =>
+        item.grupo === grupo && item.subtipo !== null
+    )
+    .map((item) => item.subtipo as number);
+
+  // Quando o subtipo é desconhecido, não permitimos
+  // adicionar outros subtipos ao mesmo grupo.
+  if (utilizados.includes(0)) {
+    return [];
+  }
+
+  return opcoes.filter((opcao) => {
+    if (utilizados.includes(opcao.value)) {
+      return false;
+    }
+
+    // "Sem informação" não pode coexistir com
+    // subtipos conhecidos do mesmo grupo.
+    if (opcao.value === 0 && utilizados.length > 0) {
+      return false;
+    }
+
+    return true;
+  });
+}
+
+const gruposDisponiveis = computed(() =>
+  GRUPO_CONDICAO_OPTIONS.filter(
+    (grupo) => listarSubtiposDisponiveis(grupo.value).length > 0
+  )
+);
+
+const subtiposDisponiveis = computed(() => {
+  if (novoGrupo.value === null) {
+    return [];
+  }
+
+  return listarSubtiposDisponiveis(novoGrupo.value);
+});
+
+const podeAdicionar = computed(() => {
+  const grupo = novoGrupo.value;
+  const subtipo = novoSubtipo.value;
+
+  if (grupo === null || subtipo === null) {
+    return false;
+  }
+
+  return listarSubtiposDisponiveis(grupo).some(
+    (opcao) => opcao.value === subtipo
+  );
+});
+
+// Ao trocar o grupo, reinicia o subtipo.
+// Se houver somente uma opção, seleciona-a.
+watch(novoGrupo, (grupo) => {
+  novoSubtipo.value = null;
+
+  if (grupo === null) {
+    return;
+  }
+
+  const opcoes = listarSubtiposDisponiveis(grupo);
+
+  if (opcoes.length === 1) {
+    novoSubtipo.value = opcoes[0]!.value;
+  }
+});
+
+// As condições deixam de ser aplicáveis quando
+// a resposta principal não é SIM.
 watch(
   () => modelValue.value.possui_condicao_deficiencia_transtorno,
-  (val) => {
-    if (val !== "SIM") {
+  (status) => {
+    if (status !== "SIM") {
       modelValue.value.condicoes = [];
-    } else if (!Array.isArray(modelValue.value.condicoes)) {
-      modelValue.value.condicoes = [];
+      novoGrupo.value = null;
+      novoSubtipo.value = null;
     }
   },
   { immediate: true }
 );
 
-function getSubtiposPorGrupo(grupo: string | null) {
-  if (!grupo) return [];
-  return SUBTIPOS_POR_GRUPO[grupo] ?? [];
-}
-
-function combinacoesSelecionadas(excetoIndex: number) {
-  return condicoes.value
-    .map((item, index) =>
-      index !== excetoIndex && item.grupo && item.subtipo
-        ? `${item.grupo}::${item.subtipo}`
-        : null
-    )
-    .filter((valor): valor is string => Boolean(valor));
-}
-
-function opcoesSubtipoDisponiveis(indexAtual: number, grupo: string | null) {
-  const opcoes = getSubtiposPorGrupo(grupo);
-  const selecionadas = combinacoesSelecionadas(indexAtual);
-
-  return opcoes.filter((option) => {
-    const chave = `${grupo}::${option.value}`;
-    return !selecionadas.includes(chave);
-  });
-}
-
-function opcoesGrupoDisponiveis(indexAtual: number) {
-  return GRUPO_CONDICAO_OPTIONS.filter((grupoOption) => {
-    const grupoAtualDaLinha = condicoes.value[indexAtual]?.grupo;
-
-    if (grupoAtualDaLinha === grupoOption.value) {
-      return true;
-    }
-
-    const subtiposDisponiveis = opcoesSubtipoDisponiveis(
-      indexAtual,
-      grupoOption.value
-    );
-
-    return subtiposDisponiveis.length > 0;
-  });
-}
-
-function existeAlgumaCondicaoDisponivel() {
-  return GRUPO_CONDICAO_OPTIONS.some((grupoOption) => {
-    const subtiposDoGrupo = getSubtiposPorGrupo(grupoOption.value);
-    const combinacoesUsadas = condicoes.value
-      .filter((item) => item.grupo === grupoOption.value && item.subtipo)
-      .map((item) => `${item.grupo}::${item.subtipo}`);
-
-    return subtiposDoGrupo.some((subtipo) => {
-      const chave = `${grupoOption.value}::${subtipo.value}`;
-      return !combinacoesUsadas.includes(chave);
-    });
-  });
-}
-
-const podeAdicionarCondicao = computed(() => {
-  if (modelValue.value.possui_condicao_deficiencia_transtorno !== "SIM") {
-    return false;
-  }
-
-  return existeAlgumaCondicaoDisponivel();
-});
-
 function adicionarCondicao() {
-  if (!Array.isArray(modelValue.value.condicoes)) {
-    modelValue.value.condicoes = [];
-  }
-
-  if (!existeAlgumaCondicaoDisponivel()) {
+  if (
+    !podeAdicionar.value ||
+    novoGrupo.value === null ||
+    novoSubtipo.value === null
+  ) {
     return;
   }
 
   modelValue.value.condicoes.push({
-    grupo: null,
-    subtipo: null,
+    grupo: novoGrupo.value,
+    subtipo: novoSubtipo.value,
   });
+
+  novoGrupo.value = null;
+  novoSubtipo.value = null;
 }
 
 function removerCondicao(index: number) {
   modelValue.value.condicoes.splice(index, 1);
 }
 
-function onGrupoChange(index: number) {
-  const item = modelValue.value.condicoes[index];
-
-  if (!item) {
-    return;
-  }
-
-  const grupo = item.grupo ?? null;
-  const opcoesDisponiveis = opcoesSubtipoDisponiveis(index, grupo);
-  const primeiraOpcao = opcoesDisponiveis[0];
-
-  if (opcoesDisponiveis.length === 1 && primeiraOpcao) {
-    item.subtipo = primeiraOpcao.value;
-    return;
-  }
-
-  if (opcoesDisponiveis.length === 0) {
-    item.subtipo = null;
-    item.grupo = null;
-    return;
-  }
-
-  item.subtipo = null;
-}
-
-function labelGrupo(grupo: string | null) {
-  if (!grupo) return "";
+function nomeGrupo(grupo: number | null): string {
   return (
-    GRUPO_CONDICAO_OPTIONS.find((item) => item.value === grupo)?.label ?? grupo
+    GRUPO_CONDICAO_OPTIONS.find(
+      (opcao) => opcao.value === grupo
+    )?.label ?? "GRUPO NÃO IDENTIFICADO"
   );
 }
 
-function labelSubtipo(grupo: string | null, subtipo: string | null) {
-  if (!grupo || !subtipo) return "";
+function nomeSubtipo(
+  grupo: number | null,
+  subtipo: number | null
+): string {
+  if (grupo === null || subtipo === null) {
+    return "CONDIÇÃO NÃO INFORMADA";
+  }
+
   return (
-    SUBTIPOS_POR_GRUPO[grupo]?.find((item) => item.value === subtipo)?.label ??
-    subtipo
+    SUBTIPOS_POR_GRUPO[grupo]?.find(
+      (opcao) => opcao.value === subtipo
+    )?.label ?? "CONDIÇÃO NÃO IDENTIFICADA"
   );
 }
 </script>
 
 <template>
   <FormSection legend="Deficiência / Transtorno">
-    <FormGrid>
-      <div class="col-span-12 md:col-span-12">
-        <label class="block mb-2">
-          Indique abaixo se a pessoa possui alguma deficiência, transtorno ou outra condição relevante?
-          <br> Em caso afirmativo, é necessário clicar em <strong>"Adicionar condição"</strong>
-          e selecionar o tipo de deficiência, transtorno ou outra condição específica.<br>
-          É possível adicionar mais de uma deficiência ou transtorno.
+    <div class="flex flex-col gap-5">
+      <div class="flex flex-col gap-2">
+        <label
+          for="possui_condicao"
+          class="text-sm font-medium text-surface-700"
+        >
+          A pessoa possui deficiência, transtorno
+          ou outra condição relevante?
         </label>
-        <Select v-model="modelValue.possui_condicao_deficiencia_transtorno" :options="statusCondicaoOptions"
-          optionLabel="label" optionValue="value" placeholder="Selecione" fluid />
+
+        <Select
+          id="possui_condicao"
+          v-model="modelValue.possui_condicao_deficiencia_transtorno"
+          :options="STATUS_CONDICAO_OPTIONS"
+          optionLabel="label"
+          optionValue="value"
+          placeholder="Selecione uma resposta"
+          class="w-full md:max-w-md"
+        />
       </div>
 
-      <div v-if="modelValue.possui_condicao_deficiencia_transtorno === 'SIM'" class="col-span-12">
-        <div class="flex items-center justify-between mb-3">
-          <div class="font-medium">Condições informadas</div>
-          <Button label="Adicionar condição" icon="pi pi-plus" size="small" outlined :disabled="!podeAdicionarCondicao"
-            @click="adicionarCondicao" />
-        </div>
+      <div
+        v-if="
+          modelValue.possui_condicao_deficiencia_transtorno
+          === 'SIM'
+        "
+        class="flex flex-col gap-4"
+      >
+        <div class="rounded-xl border border-surface-200 p-4">
+          <div class="mb-4">
+            <h4 class="text-sm font-semibold text-surface-800">
+              Adicionar condição
+            </h4>
 
-        <div v-if="!condicoes.length" class="border rounded-lg p-4 text-sm text-surface-600">
-          Nenhuma condição adicionada até o momento.
-        </div>
-
-        <div v-for="(condicao, index) in condicoes" :key="index" class="border rounded-lg p-4 mb-4">
-          <div class="flex items-center justify-between mb-3">
-            <div class="text-sm text-surface-600">
-              <span v-if="condicao.grupo && condicao.subtipo">
-                {{ labelGrupo(condicao.grupo) }} —
-                {{ labelSubtipo(condicao.grupo, condicao.subtipo) }}
-              </span>
-              <span v-else>
-                Condição {{ index + 1 }}
-              </span>
-            </div>
-
-            <Button icon="pi pi-trash" severity="danger" text rounded aria-label="Remover condição"
-              @click="removerCondicao(index)" />
+            <p class="mt-1 text-sm text-surface-500">
+              Selecione o grupo e a condição correspondente.
+              É possível registrar mais de uma condição.
+            </p>
           </div>
 
           <FormGrid>
             <div class="col-span-12 md:col-span-5">
-              <label class="block mb-2">Grupo</label>
-              <Select v-model="condicao.grupo" :options="opcoesGrupoDisponiveis(index)" optionLabel="label"
-                optionValue="value" placeholder="Selecione o grupo" fluid @change="onGrupoChange(index)" />
+              <label
+                for="grupo_condicao"
+                class="mb-2 block text-sm font-medium"
+              >
+                Grupo
+              </label>
+
+              <Select
+                id="grupo_condicao"
+                v-model="novoGrupo"
+                :options="gruposDisponiveis"
+                optionLabel="label"
+                optionValue="value"
+                placeholder="Selecione o grupo"
+                filter
+                fluid
+              />
             </div>
 
             <div class="col-span-12 md:col-span-7">
-              <label class="block mb-2">Condição</label>
-              <Select v-model="condicao.subtipo" :options="opcoesSubtipoDisponiveis(index, condicao.grupo)"
-                optionLabel="label" optionValue="value" placeholder="Selecione a condição" :disabled="!condicao.grupo"
-                :class="{ 'opacity-50': !condicao.grupo }" filter fluid />
+              <label
+                for="subtipo_condicao"
+                class="mb-2 block text-sm font-medium"
+              >
+                Condição
+              </label>
+
+              <Select
+                id="subtipo_condicao"
+                v-model="novoSubtipo"
+                :options="subtiposDisponiveis"
+                optionLabel="label"
+                optionValue="value"
+                placeholder="Selecione a condição"
+                :disabled="novoGrupo === null"
+                filter
+                fluid
+              />
             </div>
           </FormGrid>
+
+          <div class="mt-4 flex justify-end">
+            <Button
+              type="button"
+              label="Adicionar condição"
+              icon="pi pi-plus"
+              :disabled="!podeAdicionar"
+              @click="adicionarCondicao"
+            />
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-3">
+          <h4 class="text-sm font-semibold text-surface-800">
+            Condições registradas
+            ({{ modelValue.condicoes.length }})
+          </h4>
+
+          <div
+            v-if="modelValue.condicoes.length === 0"
+            class="rounded-lg border border-surface-200
+                   p-4 text-sm text-surface-500"
+          >
+            Nenhuma condição adicionada.
+          </div>
+
+          <div
+            v-for="(condicao, index) in modelValue.condicoes"
+            :key="`${condicao.grupo}-${condicao.subtipo}`"
+            class="flex flex-col gap-3 rounded-lg border
+                   border-surface-200 p-4
+                   sm:flex-row sm:items-center
+                   sm:justify-between"
+          >
+            <div class="min-w-0">
+              <div class="text-xs text-surface-500">
+                {{ nomeGrupo(condicao.grupo) }}
+              </div>
+
+              <div class="mt-1 text-sm font-medium">
+                {{
+                  nomeSubtipo(
+                    condicao.grupo,
+                    condicao.subtipo
+                  )
+                }}
+              </div>
+            </div>
+
+            <Button
+              type="button"
+              icon="pi pi-trash"
+              label="Remover"
+              severity="danger"
+              text
+              size="small"
+              @click="removerCondicao(index)"
+            />
+          </div>
         </div>
       </div>
-    </FormGrid>
+    </div>
   </FormSection>
 </template>

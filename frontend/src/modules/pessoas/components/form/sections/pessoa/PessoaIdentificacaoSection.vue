@@ -34,8 +34,6 @@ const modelValue = defineModel({ type: Object, required: true });
         </FloatLabel>
       </div>
 
-
-
       <div class="col-span-12 md:col-span-6">
         <FloatLabel variant="on">
           <InputText id="nome_mae" v-model="modelValue.nome_mae" v-normalize-text="'ALPHA'" fluid />
