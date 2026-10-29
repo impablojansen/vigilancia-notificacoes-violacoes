@@ -1,13 +1,19 @@
+
 import { ref } from "vue";
-import type { PessoaFormData } from "@/modules/pessoas/types/pessoa.types";
+
+import type {
+  PessoaFormData,
+} from "@/modules/pessoas/types/pessoa.types";
 
 function createInitialFormData(): PessoaFormData {
   return {
+    // Identificação
     nome_pessoa: "",
     nome_social: "",
     nome_mae: "",
     data_nascimento: null,
 
+    // Documentação e contato
     cpf: "",
     nis: "",
     cartao_sus: "",
@@ -16,9 +22,11 @@ function createInitialFormData(): PessoaFormData {
     telefone: "",
     email: "",
 
+    // Residência
     pais_residencia: "BR",
     uf_residencia: "CE",
-    municipio_residencia: "2303501",
+    municipio_residencia: "",
+
     distrito: "",
     bairro: "",
     logradouro: "",
@@ -27,31 +35,35 @@ function createInitialFormData(): PessoaFormData {
     ponto_referencia: "",
     cep: "",
     zona_residencia: null,
-    
-    sexo: "",
-    raca_cor_etnia: "",
-    estado_civil: "",
-    grau_instrucao: "",
-    identidade_genero: "",
-    orientacao_sexual: "",
+
+    // Caracterização social
+    sexo: null,
+    raca_cor_etnia: null,
+    estado_civil: null,
+    grau_instrucao: null,
+    identidade_genero: null,
+    orientacao_sexual: null,
+
     ocupacao: "",
 
-    is_psr: false,
-    is_migrante: false,
+    // Deficiência / transtorno
+    possui_condicao_deficiencia_transtorno: null,
+    condicoes: [],
+
+    // Condições específicas
+    is_psr: null,
     nacionalidade: "",
     naturalidade: "",
 
-    possui_condicao_deficiencia_transtorno: "NAO",
-    condicoes: [],
-
-    grupo_populacional_gptes: "",
-    recebe_bpc: "NAO",
-    participa_transferencia_renda: "NAO",
+    // Marcadores sociais
+    grupo_populacional_gptes: null,
   };
 }
 
 export function usePessoaForm() {
-  const formData = ref<PessoaFormData>(createInitialFormData());
+  const formData = ref<PessoaFormData>(
+    createInitialFormData()
+  );
 
   function resetForm() {
     formData.value = createInitialFormData();

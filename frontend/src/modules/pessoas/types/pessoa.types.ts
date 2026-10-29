@@ -1,24 +1,22 @@
-export type SimNaoSemInformacao = "SIM" | "NAO" | "SEM_INFORMACAO";
+export type SimNaoSemInformacao =
+  | "SIM"
+  | "NAO"
+  | "SEM_INFORMACAO";
 
-export type StatusCondicao = SimNaoSemInformacao;
+// Campo de seleção numérica ainda não respondido = null.
+export type CodigoOpcao = number | null;
 
-export interface PessoaCondicaoItem {
-  grupo: string | null;
-  subtipo: string | null;
-}
+export type StatusCondicao = SimNaoSemInformacao | null;
 
-export interface PessoaCondicoesFormModel {
-  possui_condicao_deficiencia_transtorno: StatusCondicao;
-  condicoes: PessoaCondicaoItem[];
-}
-
+// Identificação
 export interface PessoaIdentificacaoData {
   nome_pessoa: string;
   nome_social: string;
   nome_mae: string;
-  data_nascimento: string | null;
+  data_nascimento: Date | null;
 }
 
+// Documentação e contato
 export interface PessoaDocumentosContatoData {
   cpf: string;
   nis: string;
@@ -29,20 +27,12 @@ export interface PessoaDocumentosContatoData {
   email: string;
 }
 
-export interface PessoaPerfilSociodemograficoData {
-  sexo: string;
-  raca_cor_etnia: string;
-  estado_civil: string;
-  grau_instrucao: string ;
-  identidade_genero: string;
-  orientacao_sexual: string;
-  ocupacao: string;
-}
-
+// Residência
 export interface PessoaEnderecoData {
   pais_residencia: string;
   uf_residencia: string;
   municipio_residencia: string;
+
   distrito: string;
   bairro: string;
   logradouro: string;
@@ -50,28 +40,56 @@ export interface PessoaEnderecoData {
   complemento: string;
   ponto_referencia: string;
   cep: string;
+
   zona_residencia: string | null;
 }
 
-export interface PessoaMigracaoOrigemData {
-  is_psr: boolean;
-  is_migrante: boolean;
+// Caracterização social
+export interface PessoaPerfilSociodemograficoData {
+  sexo: CodigoOpcao;
+  raca_cor_etnia: CodigoOpcao;
+  estado_civil: CodigoOpcao;
+  grau_instrucao: CodigoOpcao;
+  identidade_genero: CodigoOpcao;
+  orientacao_sexual: CodigoOpcao;
+
+  ocupacao: string;
+}
+
+// Deficiência, transtorno ou outra condição
+export interface PessoaCondicaoItem {
+  grupo: CodigoOpcao;
+  subtipo: CodigoOpcao;
+}
+
+export interface PessoaCondicoesFormModel {
+  possui_condicao_deficiencia_transtorno: StatusCondicao;
+  condicoes: PessoaCondicaoItem[];
+}
+
+// Condições específicas e origem
+export interface PessoaCondicoesEspecificasData {
+  is_psr: boolean | null;
+
   nacionalidade: string;
   naturalidade: string;
 }
 
-
+// Marcadores sociais
 export interface PessoaMarcadoresSociaisData {
-  grupo_populacional_gptes: string;
-  recebe_bpc: SimNaoSemInformacao;
-  participa_transferencia_renda: SimNaoSemInformacao;
+  // null = informação não apurada
+  // [] = nenhum pertencimento identificado
+  // [1, 23] = pertencimentos identificados
+  grupo_populacional_gptes: number[] | null;
 }
 
+// Formulário completo da pessoa
 export interface PessoaFormData
-  extends PessoaIdentificacaoData,
+  extends
+    PessoaIdentificacaoData,
     PessoaDocumentosContatoData,
-    PessoaPerfilSociodemograficoData,
     PessoaEnderecoData,
-    PessoaMigracaoOrigemData,
+    PessoaPerfilSociodemograficoData,
     PessoaCondicoesFormModel,
+    PessoaCondicoesEspecificasData,
     PessoaMarcadoresSociaisData {}

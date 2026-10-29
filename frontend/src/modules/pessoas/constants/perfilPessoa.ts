@@ -7,7 +7,7 @@ export const SEXO_PESSOA_OPTIONS = [
 
 export const RACA_COR_ETNIA_OPTIONS = [
     { label: "BRANCO", value: 1 },
-    { label: "NEGRO", value: 2 },
+    { label: "PRETO", value: 2 },
     { label: "PARDO", value: 3 },
     { label: "INDIGENA", value: 4 },
     { label: "AMARELO", value: 5 },
