@@ -2,7 +2,10 @@
 </script>
 
 <template>
-  <div class="grid grid-cols-12 gap-4">
+  <div
+    class="grid min-w-0 grid-cols-12 gap-4
+           [&>*]:min-w-0"
+  >
     <slot />
   </div>
 </template>

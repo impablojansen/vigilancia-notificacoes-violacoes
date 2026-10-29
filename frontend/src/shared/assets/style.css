@@ -1,1 +1,43 @@
+
 @import "tailwindcss";
+
+/* Contêineres de formulários */
+.p-fieldset,
+.p-fieldset-content {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Selects devem respeitar a largura disponível */
+.p-select {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Textos selecionados muito extensos */
+.p-select-label {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 640px) {
+  /* Impede que a lista ultrapasse
+     demasiadamente a largura da tela */
+  .p-select-overlay {
+    max-width: calc(100vw - 1.5rem);
+  }
+
+  /* Permite que opções extensas quebrem linha */
+  .p-select-overlay .p-select-option {
+    white-space: normal;
+  }
+
+  .p-select-overlay .p-select-option-label {
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+}

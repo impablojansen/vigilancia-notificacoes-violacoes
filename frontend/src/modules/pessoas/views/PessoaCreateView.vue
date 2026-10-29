@@ -143,8 +143,8 @@ function registrarPessoa(dados: PessoaFormData) {
         :options="opcoesDestino"
         optionLabel="label"
         optionValue="value"
-        class="w-full sm:max-w-sm"
-      />
+        class="w-full min-w-0 sm:max-w-sm"
+        />
     </div>
 
     <!-- Formulário independente da navegação -->
